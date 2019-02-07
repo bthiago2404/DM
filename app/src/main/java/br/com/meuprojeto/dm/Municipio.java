@@ -51,4 +51,6 @@ public class Municipio {
     public void setExcluido(boolean excluido) {
         this.excluido = excluido;
     }
+
+    // Acrescentei comentario apenas para validar conhecimentos adiquiridos em repositorios
 }
