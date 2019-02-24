@@ -3,35 +3,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item
+        android:id="@+id/txt_inicio"
+        android:title="@string/menu_inicio">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_inicio"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/btn_inicio" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/txt_meus_peidos"
+        android:title="@string/menu_meus_pedidos">
+        <menu>
+            <item
+                android:id="@+id/nav_carrinho"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_carrinho" />
+            <item
+                android:id="@+id/nav_promocoes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_promocoes" />
+            <item
+                android:id="@+id/nav_meus_pedidos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_meus_pedidos" />
+            <item
+                android:id="@+id/nav_departamentos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_departamentos" />
+            <item
+                android:id="@+id/nav_tipo_entrega"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_tipo_entrega" />
+            <item
+                android:id="@+id/nav_lista_compras"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_lista_compra" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/txt_onde_estamos"
+        android:title="@string/menu_onde_estamos">
+        <menu>
+            <item
+                android:id="@+id/nav_mapa_lojas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_mapa_lojas" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/txt_outros"
+        android:title="@string/menu_outros">
+        <menu>
+            <item
+                android:id="@+id/nav_solicite_loja"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_solicite_loja" />
+            <item
+                android:id="@+id/nav_central_atendimento"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_central_atendimento" />
+            <item
+                android:id="@+id/nav_politica_privacidade"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_politica_privacidade" />
+            <item
+                android:id="@+id/nav_configuracoes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/btn_configuracoes" />
         </menu>
     </item>
 

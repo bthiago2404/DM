@@ -1,9 +1,33 @@
 <resources>
-    <string name="app_name">Delivery Mercados</string>
+    <string name="app_name"> Delivery Mercados </string>
+
+    // Parte das Strings que não sei pra onde vai. Rssr
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    // Fim dessa parte suspeita. Rsrs
+
+    <string name="action_settings">Configurações</string>
+    <string name="btn_login_logout">Login / Logout </string>
+    <string name="btn_meus_dados">Meus Dados</string>
+    <string name="btn_inicio">Inicio</string>
+    <string name="btn_carrinho">Carrinho</string>
+    <string name="btn_promocoes">Promoções</string>
+    <string name="btn_meus_pedidos">Meus Pedidos</string>
+    <string name="btn_departamentos">Departamentos</string>
+    <string name="btn_tipo_entrega">Tipo de Entrega</string>
+    <string name="btn_lista_compra">Lista de Compras</string>
+    <string name="btn_mapa_lojas">Mapa de Lojas</string>
+    <string name="btn_solicite_loja">Solicite sua Loja Teste</string>
+    <string name="btn_central_atendimento">Central de Atendimentos</string>
+    <string name="btn_politica_privacidade">Politica de Privacidade</string>
+    <string name="btn_configuracoes">Configurações</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_meus_pedidos">Meus Pedidos</string>
+    <string name="menu_onde_estamos">Onde Estamos?</string>
+    <string name="menu_outros">Outros</string>
+
 </resources>

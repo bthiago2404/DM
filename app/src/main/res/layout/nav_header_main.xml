@@ -20,17 +20,18 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:srcCompat="@mipmap/ic_launcher_round" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/nav_header_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <Button
+        android:id="@+id/btn_login_logout"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:text="@string/btn_login_logout"
+        android:textSize="12sp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nav_header_subtitle" />
+    <Button
+        android:id="@+id/btn_meus_dados"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:text="@string/btn_meus_dados"
+        android:textSize="12sp" />
 
 </LinearLayout>

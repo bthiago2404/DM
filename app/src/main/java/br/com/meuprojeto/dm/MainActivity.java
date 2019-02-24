@@ -80,17 +80,29 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_inicio) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_carrinho) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_promocoes) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_meus_pedidos) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_departamentos) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_tipo_entrega) {
+
+        } else if (id == R.id.nav_lista_compras) {
+
+        } else if (id == R.id.nav_mapa_lojas) {
+
+        } else if (id == R.id.nav_solicite_loja) {
+
+        } else if (id == R.id.nav_central_atendimento) {
+
+        } else if (id == R.id.nav_politica_privacidade) {
+
+        } else if (id == R.id.nav_configuracoes) {
 
         }
 
