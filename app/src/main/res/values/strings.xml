@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name"> Delivery Mercados </string>
 
     // Parte das Strings que não sei pra onde vai. Rssr
@@ -10,6 +11,7 @@
     // Fim dessa parte suspeita. Rsrs
 
     <string name="action_settings">Configurações</string>
+
     <string name="btn_login_logout">Login / Logout </string>
     <string name="btn_meus_dados">Meus Dados</string>
     <string name="btn_inicio">Inicio</string>
