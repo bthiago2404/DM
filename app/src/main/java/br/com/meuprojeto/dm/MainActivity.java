@@ -112,4 +112,11 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    // Inicio das interações entre telas:
+    public void localizacao(View view) {
+        Intent irTelaLocalizacao = new Intent(getApplicationContext(), LocalizacaoActivity.class);
+        startActivity(irTelaLocalizacao);
+    }
+
+
 }
