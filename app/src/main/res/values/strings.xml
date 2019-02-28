@@ -30,4 +30,7 @@
     <string name="menu_onde_estamos">Onde Estamos?</string>
     <string name="menu_outros">Outros</string>
 
+    <string name="txt_on">Online</string>
+    <string name="txt_off">Offline</string>
+
 </resources>
