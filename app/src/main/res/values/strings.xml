@@ -33,4 +33,6 @@
     <string name="txt_on">Online</string>
     <string name="txt_off">Offline</string>
 
+    <string name="txt_exemplo">ESSA SERÁ UMA PAGINA ONDE HAVERÁ PROPAGANDAS OU ANUNCIOS.</string>
+
 </resources>
