@@ -10,6 +10,7 @@
 
     <string name="action_settings">Configurações</string>
 
+    // Strings do menu lateral.
     <string name="btn_login_logout">Login / Logout </string>
     <string name="btn_meus_dados">Meus Dados</string>
     <string name="btn_inicio">Inicio</string>
@@ -25,14 +26,22 @@
     <string name="btn_politica_privacidade">Politica de Privacidade</string>
     <string name="btn_configuracoes">Configurações</string>
 
+    // Strings do menu lateral.
     <string name="menu_inicio">Inicio</string>
     <string name="menu_meus_pedidos">Meus Pedidos</string>
     <string name="menu_onde_estamos">Onde Estamos?</string>
     <string name="menu_outros">Outros</string>
 
+    // Strings da tela principal
     <string name="txt_on">Online</string>
     <string name="txt_off">Offline</string>
 
+    // Strings da tela anuncio.
     <string name="txt_exemplo">ESSA SERÁ UMA PAGINA ONDE HAVERÁ PROPAGANDAS OU ANUNCIOS.</string>
+
+    // Strings da tela localização.
+    <string name="txt_cep">CEP</string>
+
+
 
 </resources>

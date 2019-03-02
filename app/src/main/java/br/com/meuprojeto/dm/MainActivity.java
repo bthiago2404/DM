@@ -114,9 +114,15 @@ public class MainActivity extends AppCompatActivity
 
     // Inicio das interações entre telas:
     public void anuncio(View view) {
-        Intent irTelaLocalizacao = new Intent(getApplicationContext(), AnuncioActivity.class);
+        Intent irTelaAnuncio = new Intent(getApplicationContext(), AnuncioActivity.class);
+        startActivity(irTelaAnuncio);
+    }
+
+    public void localizacao(View view) {
+        Intent irTelaLocalizacao = new Intent(getApplicationContext(), LocalizacaoActivity.class);
         startActivity(irTelaLocalizacao);
     }
+
 
 
 }
