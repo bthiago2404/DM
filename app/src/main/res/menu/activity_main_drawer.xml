@@ -10,7 +10,7 @@
         <menu>
             <item
                 android:id="@+id/nav_inicio"
-                android:icon="@drawable/icons_inicio"
+                android:icon="@drawable/icons8_shop_64"
                 android:title="@string/btn_inicio" />
         </menu>
 
@@ -22,27 +22,27 @@
         <menu>
             <item
                 android:id="@+id/nav_carrinho"
-                android:icon="@drawable/icons_carrinho2"
+                android:icon="@drawable/icons8_shopping_cart_64"
                 android:title="@string/btn_carrinho" />
             <item
                 android:id="@+id/nav_promocoes"
-                android:icon="@drawable/icons_desconto"
+                android:icon="@drawable/icons8_discount_64"
                 android:title="@string/btn_promocoes" />
             <item
                 android:id="@+id/nav_meus_pedidos"
-                android:icon="@drawable/icons_pedido"
+                android:icon="@drawable/icons8_ingredients_64"
                 android:title="@string/btn_meus_pedidos" />
             <item
                 android:id="@+id/nav_departamentos"
-                android:icon="@drawable/icons_listnumerica"
+                android:icon="@drawable/icons8_food_as_resources_64"
                 android:title="@string/btn_departamentos" />
             <item
                 android:id="@+id/nav_tipo_entrega"
-                android:icon="@drawable/icons_moto"
+                android:icon="@drawable/icons8_deliver_food_64"
                 android:title="@string/btn_tipo_entrega" />
             <item
                 android:id="@+id/nav_lista_compras"
-                android:icon="@drawable/icons_listacompra"
+                android:icon="@drawable/icons8_checklist_64"
                 android:title="@string/btn_lista_compra" />
         </menu>
 
@@ -54,7 +54,7 @@
         <menu>
             <item
                 android:id="@+id/nav_mapa_lojas"
-                android:icon="@drawable/icons_mapa"
+                android:icon="@drawable/icons8_europe_64"
                 android:title="@string/btn_mapa_lojas" />
         </menu>
     </item>
@@ -65,19 +65,19 @@
         <menu>
             <item
                 android:id="@+id/nav_solicite_loja"
-                android:icon="@drawable/icons_parceria"
+                android:icon="@drawable/icons8_handshake_64"
                 android:title="@string/btn_solicite_loja" />
             <item
                 android:id="@+id/nav_central_atendimento"
-                android:icon="@drawable/icons_telefone"
+                android:icon="@drawable/icons8_online_support_64"
                 android:title="@string/btn_central_atendimento" />
             <item
                 android:id="@+id/nav_politica_privacidade"
-                android:icon="@drawable/icons_lock"
+                android:icon="@drawable/icons8_agreement_64"
                 android:title="@string/btn_politica_privacidade" />
             <item
                 android:id="@+id/nav_configuracoes"
-                android:icon="@drawable/icons_config"
+                android:icon="@drawable/icons8_settings_64"
                 android:title="@string/btn_configuracoes" />
         </menu>
     </item>
