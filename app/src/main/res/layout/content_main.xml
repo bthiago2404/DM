@@ -9,6 +9,71 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_como_funciona"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/icons8_question_mark_64"
+        android:onClick="comoFunciona"
+        app:layout_constraintEnd_toStartOf="@+id/btn_list_compra"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+    <Button
+        android:id="@+id/btn_list_compra"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/icons8_checklist_64"
+        android:onClick="listaCompras"
+        app:layout_constraintEnd_toStartOf="@+id/btn_meus_pedidos"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_como_funciona"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+    <Button
+        android:id="@+id/btn_meus_pedidos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/icons8_ingredients_64"
+        android:onClick="meusPedidos"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mapa_lojas"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_list_compra"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+    <Button
+        android:id="@+id/btn_mapa_lojas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/icons8_europe_64"
+        android:onClick="localizacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_meus_pedidos"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -240,70 +305,5 @@
 
         </LinearLayout>
     </ScrollView>
-
-
-    <ImageView
-        android:id="@+id/image_logo"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:contentDescription="@string/nav_header_desc"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
-
-    <Button
-        android:id="@+id/btn_como_funciona"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/icons8_question_mark_64"
-        android:onClick="comoFunciona"
-        app:layout_constraintEnd_toStartOf="@+id/btn_list_compra"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
-
-    <Button
-        android:id="@+id/btn_list_compra"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/icons8_checklist_64"
-        android:onClick="listaCompras"
-        app:layout_constraintEnd_toStartOf="@+id/btn_meus_pedidos"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_como_funciona"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
-
-    <Button
-        android:id="@+id/btn_meus_pedidos"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/icons8_ingredients_64"
-        app:layout_constraintEnd_toStartOf="@+id/btn_mapa_lojas"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_list_compra"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
-
-    <Button
-        android:id="@+id/btn_mapa_lojas"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/icons8_europe_64"
-        android:onClick="localizacao"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_meus_pedidos"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
 
 </android.support.constraint.ConstraintLayout>

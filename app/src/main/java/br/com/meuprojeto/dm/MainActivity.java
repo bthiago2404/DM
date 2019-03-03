@@ -133,6 +133,12 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaListaCompras);
     }
 
+    public void meusPedidos(View view) {
+        Intent irTelaMeusPedidos = new Intent(getApplicationContext(), MeusPedidosActivity.class);
+        startActivity(irTelaMeusPedidos);
+    }
+
+
 
 
 }
