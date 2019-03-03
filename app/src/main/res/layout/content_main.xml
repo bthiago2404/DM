@@ -277,6 +277,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/icons8_checklist_64"
+        android:onClick="listaCompras"
         app:layout_constraintEnd_toStartOf="@+id/btn_meus_pedidos"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_como_funciona"

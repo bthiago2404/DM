@@ -66,4 +66,21 @@
         inceptos lectus velit aliquam justo velit erat vivamus quis rhoncus himenaeos.
         Hendrerit sit aenean porta, vel vestibulum. </string>
 
+    // Strings da tela Lista de Compras.
+    <string name="txt_ola">Olá</string>
+    <string name="txt_nome_usuario">Cliente</string>
+    <string name="txt_lista1">Lista 01</string>
+    <string name="txt_lista2">Lista 02</string>
+    <string name="txt_lista3">Lista 03</string>
+    <string name="txt_lista4">Lista 04</string>
+    <string name="txt_quant_itens">Quantidade de Itens:</string>
+    <string name="txt_itens">24</string>
+    <string name="txt_mercados_disponiveis">Mercados Disponiveis:</string>
+    <string name="txt_mercados">5</string>
+    <string name="txt_valor_alto">Valor Mais Alto:</string>
+    <string name="txt_alto">R$ 320,00</string>
+    <string name="txt_valor_baixo">Valor Mais Baixo:</string>
+    <string name="txt_baixo">R$ 295,00</string>
+    <string name="txt_ir_carrinho">Ir para o carrinho ;)</string>
+
 </resources>

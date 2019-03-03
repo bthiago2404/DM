@@ -128,6 +128,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaComoFunciona);
     }
 
+    public void listaCompras(View view) {
+        Intent irTelaListaCompras = new Intent(getApplicationContext(), ListaComprasActivity.class);
+        startActivity(irTelaListaCompras);
+    }
+
 
 
 }
