@@ -69,6 +69,7 @@
     // Strings da tela Lista de Compras.
     <string name="txt_ola">Olá</string>
     <string name="txt_nome_usuario">Cliente</string>
+    <string name="txt_selecione_lista">Selecione uma Lista.</string>
     <string name="txt_lista1">Lista 01</string>
     <string name="txt_lista2">Lista 02</string>
     <string name="txt_lista3">Lista 03</string>
