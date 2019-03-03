@@ -123,4 +123,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaLocalizacao);
     }
 
+    public void comoFunciona(View view) {
+        Intent irTelaComoFunciona = new Intent(getApplicationContext(), ComoFuncionaActivity.class);
+        startActivity(irTelaComoFunciona);
+    }
+
+
+
 }

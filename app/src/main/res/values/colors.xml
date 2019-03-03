@@ -6,7 +6,6 @@
     <color name="colorPrimaryDark">#271830</color>
     <color name="colorAccent">#352245</color>
     <color name="capa">#DC352245</color>
-    <color name="letrasBotao">#F86942</color>
     <color name="fundoBotao">#00F86942</color>
 
 </resources>

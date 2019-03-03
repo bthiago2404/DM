@@ -32,16 +32,38 @@
     <string name="menu_onde_estamos">Onde Estamos?</string>
     <string name="menu_outros">Outros</string>
 
-    // Strings da tela principal
+    // Strings da tela Principal
     <string name="txt_on">Online</string>
     <string name="txt_off">Offline</string>
 
-    // Strings da tela anuncio.
-    <string name="txt_exemplo">ESSA SERÁ UMA PAGINA ONDE HAVERÁ PROPAGANDAS OU ANUNCIOS.</string>
+    // Strings da tela Anuncio.
+    <string name="txt_exemplo0">ESSA SERÁ UMA PAGINA ONDE HAVERÁ PROPAGANDAS OU ANUNCIOS.</string>
 
-    // Strings da tela localização.
+    // Strings da tela Localização.
     <string name="txt_cep">CEP</string>
 
-
+    // Strings da tela Como Funciona.
+    <string name="txt_como_funciona">Como Funciona Nossa Plataforma?</string>
+    <string name="txt_exemplo1">Vestibulum placerat aenean rutrum dictum vitae quisque lobortis,
+        aliquam quis molestie metus adipiscing sem lacinia, sem litora condimentum libero lorem hac.
+        id sit cras accumsan posuere id curae ultrices commodo tincidunt sodales,
+        orci elementum sociosqu mi gravida quisque lobortis elit blandit,
+        cras conubia sit aliquet proin sociosqu mattis varius torquent.
+        netus ligula luctus neque cubilia hendrerit ligula id,
+        magna aenean consectetur sagittis nulla ut, ligula congue dolor platea eget tempus.
+        fames sit convallis facilisis tellus dui fermentum dictumst etiam amet varius nullam habitasse,
+        inceptos lectus velit aliquam justo velit erat vivamus quis rhoncus himenaeos.
+        Hendrerit sit aenean porta, vel vestibulum. </string>
+    <string name="txt_perguntas">Perguntas Frequentes:</string>
+    <string name="txt_exemplo2">Vestibulum placerat aenean rutrum dictum vitae quisque lobortis,
+        aliquam quis molestie metus adipiscing sem lacinia, sem litora condimentum libero lorem hac.
+        id sit cras accumsan posuere id curae ultrices commodo tincidunt sodales,
+        orci elementum sociosqu mi gravida quisque lobortis elit blandit,
+        cras conubia sit aliquet proin sociosqu mattis varius torquent.
+        netus ligula luctus neque cubilia hendrerit ligula id,
+        magna aenean consectetur sagittis nulla ut, ligula congue dolor platea eget tempus.
+        fames sit convallis facilisis tellus dui fermentum dictumst etiam amet varius nullam habitasse,
+        inceptos lectus velit aliquam justo velit erat vivamus quis rhoncus himenaeos.
+        Hendrerit sit aenean porta, vel vestibulum. </string>
 
 </resources>
