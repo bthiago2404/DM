@@ -101,6 +101,12 @@
     <string name="txt_pagamento">Dinheiro</string>
     <string name="txt_entrega">Delivery</string>
 
+    // Strings da tela Loja Selecionada.
+    <string name="txt_mais_vendidos">Mais Vendidos</string>
+    <string name="txt_ver_mais">Ver Mais</string>
+    <string name="txt_hortifruti">HORTIFRÚTI</string>
+    <string name="txt_mercearia">MERCEARIA</string>
+
 
 
 </resources>

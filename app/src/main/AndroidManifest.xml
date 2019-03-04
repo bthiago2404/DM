@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MeusPedidosActivity"></activity>
+        <activity android:name=".LojaSelecionadaActivity"></activity>
+        <activity android:name=".MapaLojasActivity" />
+        <activity android:name=".MeusPedidosActivity" />
         <activity android:name=".ListaComprasActivity" />
         <activity android:name=".ComoFuncionaActivity" />
         <activity android:name=".LocalizacaoActivity" />

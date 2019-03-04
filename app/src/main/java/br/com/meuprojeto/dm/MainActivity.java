@@ -138,6 +138,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaMeusPedidos);
     }
 
+    public void lojaSelecionada(View view) {
+        Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
+        startActivity(irTelaLojaSelecionada);
+    }
+
 
 
 

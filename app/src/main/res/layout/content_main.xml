@@ -122,7 +122,8 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="40dp"
-                        android:background="@drawable/icons_loja" />
+                        android:background="@drawable/icons_loja"
+                        android:onClick="lojaSelecionada" />
 
                     <Button
                         android:id="@+id/button28"
@@ -130,7 +131,8 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="40dp"
-                        android:background="@drawable/icons_loja" />
+                        android:background="@drawable/icons_loja"
+                        android:onClick="lojaSelecionada" />
                 </TableRow>
 
                 <TableRow
@@ -144,7 +146,8 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="40dp"
-                        android:background="@drawable/icons_loja" />
+                        android:background="@drawable/icons_loja"
+                        android:onClick="lojaSelecionada" />
 
                     <Button
                         android:id="@+id/button30"
@@ -152,7 +155,8 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_margin="40dp"
-                        android:background="@drawable/icons_loja" />
+                        android:background="@drawable/icons_loja"
+                        android:onClick="lojaSelecionada" />
                 </TableRow>
 
                 <TableRow
