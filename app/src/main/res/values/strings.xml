@@ -107,6 +107,9 @@
     <string name="txt_hortifruti">HORTIFRÚTI</string>
     <string name="txt_mercearia">MERCEARIA</string>
 
+    // Strings da tela de Login.
+    <string name="txt_login">Login</string>
+    <string name="txt_novo_usuario">Novo Usuario</string>
 
 
 </resources>
