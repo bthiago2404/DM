@@ -123,6 +123,9 @@
     <string name="txt_tarde">Tarde</string>
     <string name="txt_noite">Noite</string>
 
+    // Strings da tela Meu Carrinho.
+    <string name="txt_conferir_pedido">Confira seu pedido:</string>
+
 
 
 </resources>
