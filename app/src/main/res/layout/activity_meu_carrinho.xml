@@ -83,13 +83,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_item1" />
 
-                <TextView
-                    android:id="@+id/textView71"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button45"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_subtracao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_subtracao" />
 
                 <TextView
                     android:id="@+id/textView72"
@@ -98,13 +96,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
-                <TextView
-                    android:id="@+id/textView73"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button46"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_adicao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_adicao" />
             </TableRow>
 
             <TableRow
@@ -119,13 +115,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_item2" />
 
-                <TextView
-                    android:id="@+id/textView75"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button47"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_subtracao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_subtracao" />
 
                 <TextView
                     android:id="@+id/textView76"
@@ -134,13 +128,12 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
-                <TextView
-                    android:id="@+id/textView77"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button48"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_adicao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_adicao" />
+
             </TableRow>
 
             <TableRow
@@ -155,13 +148,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_item3" />
 
-                <TextView
-                    android:id="@+id/textView79"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button49"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_subtracao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_subtracao" />
 
                 <TextView
                     android:id="@+id/textView81"
@@ -170,13 +161,12 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
-                <TextView
-                    android:id="@+id/textView80"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button50"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_adicao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_adicao" />
+
             </TableRow>
 
             <TableRow
@@ -191,13 +181,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_item4" />
 
-                <TextView
-                    android:id="@+id/textView85"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button51"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_subtracao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_subtracao" />
 
                 <TextView
                     android:id="@+id/textView84"
@@ -206,13 +194,12 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
-                <TextView
-                    android:id="@+id/textView83"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button52"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_adicao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_adicao" />
+
             </TableRow>
 
             <TableRow
@@ -227,13 +214,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_item5" />
 
-                <TextView
-                    android:id="@+id/textView90"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button53"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_subtracao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_subtracao" />
 
                 <TextView
                     android:id="@+id/textView89"
@@ -242,13 +227,12 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
-                <TextView
-                    android:id="@+id/textView86"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button54"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_adicao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_adicao" />
+
             </TableRow>
 
             <TableRow
@@ -263,13 +247,11 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_item6" />
 
-                <TextView
-                    android:id="@+id/textView93"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button55"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_subtracao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_subtracao" />
 
                 <TextView
                     android:id="@+id/textView92"
@@ -278,13 +260,12 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
-                <TextView
-                    android:id="@+id/textView87"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/button56"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_adicao"
-                    android:textStyle="bold" />
+                    android:text="@string/txt_adicao" />
+
             </TableRow>
 
             <Space
@@ -309,6 +290,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
+
             </TableRow>
 
             <TableRow
