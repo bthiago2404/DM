@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name"> Delivery Mercados </string>
+    <string name="app_name"> DM </string>
 
     // Parte das Strings que não sei pra onde vai. Rssr
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -110,6 +110,19 @@
     // Strings da tela de Login.
     <string name="txt_login">Login</string>
     <string name="txt_novo_usuario">Novo Usuario</string>
+
+    // Strings da tela Meus Dados.
+    <string name="txt_confirme_dados">Confirme ou altere seus dados:</string>
+    <string name="txt_telefone">Telefone:</string>
+    <string name="txt_email">E-mail:</string>
+    <string name="txt_endereco">Endereço:</string>
+    <string name="txt_senha">Senha:</string>
+    <string name="tx_melhor_hora_entrega">Melhor horario para entrega:*</string>
+    <string name="txt_salvar">Salvar!</string>
+    <string name="txt_manha">Manhã</string>
+    <string name="txt_tarde">Tarde</string>
+    <string name="txt_noite">Noite</string>
+
 
 
 </resources>

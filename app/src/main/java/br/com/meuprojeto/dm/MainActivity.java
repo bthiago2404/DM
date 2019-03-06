@@ -143,6 +143,15 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaLojaSelecionada);
     }
 
+    public void login(View view) {
+        Intent irTelaLogin = new Intent(getApplicationContext(), LoginActivity.class);
+        startActivity(irTelaLogin);
+    }
+
+    public void meusDados(View view) {
+        Intent irTelaMeusDados = new Intent(getApplicationContext(), MeusDadosActivity.class);
+        startActivity(irTelaMeusDados);
+    }
 
 
 
