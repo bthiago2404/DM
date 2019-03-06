@@ -125,6 +125,16 @@
 
     // Strings da tela Meu Carrinho.
     <string name="txt_conferir_pedido">Confira seu pedido:</string>
+    <string name="txt_item1">Item 01:</string>
+    <string name="txt_item2">Item 02:</string>
+    <string name="txt_item3">Item 03:</string>
+    <string name="txt_item4">Item 04:</string>
+    <string name="txt_item5">Item 05:</string>
+    <string name="txt_item6">Item 06:</string>
+    <string name="txt_finalizar">Finalizar Pedido</string>
+    <string name="txt_adicao">+</string>
+    <string name="txt_subtracao">-</string>
+    <string name="txt_quantidade">0</string>
 
 
 
