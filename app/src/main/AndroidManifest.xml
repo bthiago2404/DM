@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".DepartamentosActivity"></activity>
+        <activity android:name=".ConfirmacaoPedidoActivity"></activity>
+        <activity android:name=".TipoEntregaActivity" />
+        <activity android:name=".DepartamentosActivity" />
         <activity android:name=".MeuCarrinhoActivity" />
         <activity android:name=".MeusDadosActivity" />
         <activity android:name=".LoginActivity" />

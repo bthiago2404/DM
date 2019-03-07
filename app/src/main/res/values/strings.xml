@@ -118,7 +118,7 @@
     <string name="txt_endereco">Endereço:</string>
     <string name="txt_senha">Senha:</string>
     <string name="tx_melhor_hora_entrega">Melhor horario para entrega:*</string>
-    <string name="txt_salvar">Salvar!</string>
+    <string name="txt_salvar">Salvar</string>
     <string name="txt_manha">Manhã</string>
     <string name="txt_tarde">Tarde</string>
     <string name="txt_noite">Noite</string>
@@ -135,6 +135,14 @@
     <string name="txt_adicao">+</string>
     <string name="txt_subtracao">-</string>
     <string name="txt_quantidade">0</string>
+
+    // String da tela Tipo de Entrega.
+    <string name="txt_buscar_loja">Buscar na Loja</string>
+
+    // String da tela Confirmação de Pedidos.
+    <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
+    <string name="txt_ok">Ok ;)</string>
+
 
 
 </resources>
