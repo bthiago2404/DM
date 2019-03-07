@@ -143,6 +143,14 @@
     <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
     <string name="txt_ok">Ok ;)</string>
 
+    // String da tela Solicitar loja teste.
+    <string name="txt_mensagem_parceiros">Olá, ficamos felizes com seu interesse!
+    Preencha os dados abaixo e aguarde retorno da nossa equipe!</string>
+    <string name="txt_confirmar">Confirmar</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="txt_cnpj">CNPJ:</string>
+    <string name="txt_telefone_fixo">Tel. Fixo:</string>
+    <string name="txt_celular">Celular</string>
 
 
 </resources>
