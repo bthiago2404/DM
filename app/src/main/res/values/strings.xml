@@ -136,14 +136,14 @@
     <string name="txt_subtracao">-</string>
     <string name="txt_quantidade">0</string>
 
-    // String da tela Tipo de Entrega.
+    // Strings da tela Tipo de Entrega.
     <string name="txt_buscar_loja">Buscar na Loja</string>
 
-    // String da tela Confirmação de Pedidos.
+    // Strings da tela Confirmação de Pedidos.
     <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
     <string name="txt_ok">Ok ;)</string>
 
-    // String da tela Solicitar loja teste.
+    // Strings da tela Solicitar loja teste.
     <string name="txt_mensagem_parceiros">Olá, ficamos felizes com seu interesse!
     Preencha os dados abaixo e aguarde retorno da nossa equipe!</string>
     <string name="txt_confirmar">Confirmar</string>
@@ -151,6 +151,11 @@
     <string name="txt_cnpj">CNPJ:</string>
     <string name="txt_telefone_fixo">Tel. Fixo:</string>
     <string name="txt_celular">Celular</string>
+
+    // Strings da tela Central de Atendimento.
+    <string name="txt_entre_em_contato">Entre em contato através dos canais de atendimento abaixo:</string>
+    <string name="txt_contato_email">sac@deliverymercados.com.br</string>
+    <string name="txt_contato_telefone">(83) 3066-0000</string>
 
 
 </resources>
