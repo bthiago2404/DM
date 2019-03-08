@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".CentralAtendimentoActivity"></activity>
+        <activity android:name=".PoliticaPrivacidadeActivity"></activity>
+        <activity android:name=".CentralAtendimentoActivity" />
         <activity android:name=".SolicitarLojaTesteActivity" />
         <activity android:name=".ConfirmacaoPedidoActivity" />
         <activity android:name=".TipoEntregaActivity" />

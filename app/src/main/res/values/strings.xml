@@ -157,5 +157,10 @@
     <string name="txt_contato_email">sac@deliverymercados.com.br</string>
     <string name="txt_contato_telefone">(83) 3066-0000</string>
 
+    // Strings da tela Politica de Privacidade.
+    <string name="txt_politica_uso">Politica de Uso:</string>
+    <string name="txt_politica_dados">Politica de Dados:</string>
+
+
 
 </resources>
