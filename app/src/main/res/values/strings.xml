@@ -165,7 +165,15 @@
     <string name="txt_notificacao">Notificações</string>
     <string name="txt_avaliar_aplicativo">Avalie o nosso Aplicativo</string>
     <string name="txt_relatar_erro">Relatar problemas no app</string>
+
+    // Observações sobre controle de versão:
+    // Coloquei a versão do aplicativo em 3 digitos...
+    // o primeiro digito é referente a versão do codigo fonte
+    // o segundo digito é referente a versão do layout
+    // o terceiro digito é referente a versão da base de dados.
     <string name="txt_versão">Versão 1.1.1</string>
+
+
 
 
 </resources>
