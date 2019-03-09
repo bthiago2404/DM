@@ -155,11 +155,17 @@
     // Strings da tela Central de Atendimento.
     <string name="txt_entre_em_contato">Entre em contato através dos canais de atendimento abaixo:</string>
     <string name="txt_contato_email">sac@deliverymercados.com.br</string>
-    <string name="txt_contato_telefone">(83) 3066-0000</string>
+    <string name="txt_contato_telefone">(83) 30660000</string>
 
     // Strings da tela Politica de Privacidade.
     <string name="txt_politica_uso">Politica de Uso:</string>
     <string name="txt_politica_dados">Politica de Dados:</string>
+
+    // Strings da tela Configurações
+    <string name="txt_notificacao">Notificações</string>
+    <string name="txt_avaliar_aplicativo">Avalie o nosso Aplicativo</string>
+    <string name="txt_relatar_erro">Relatar problemas no app</string>
+    <string name="txt_versão">Versão 1.1.1</string>
 
 
 </resources>
