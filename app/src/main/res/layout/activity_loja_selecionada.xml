@@ -111,7 +111,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
+                        android:background="@drawable/icons8_paid_64"
+                        android:onClick="produto" />
 
                     <Button
                         android:id="@+id/button11"
@@ -120,7 +121,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
+                        android:background="@drawable/icons8_sell_stock_64"
+                        android:onClick="produto" />
 
                     <Button
                         android:id="@+id/button12"
@@ -129,7 +131,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
+                        android:background="@drawable/icons8_paid_64"
+                        android:onClick="produto" />
 
                     <Button
                         android:id="@+id/button13"
@@ -231,7 +234,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
+                        android:background="@drawable/icons8_paid_64"
+                        android:onClick="produto" />
 
                     <Button
                         android:id="@+id/button17"
@@ -240,7 +244,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
+                        android:background="@drawable/icons8_sell_stock_64"
+                        android:onClick="produto" />
 
                     <Button
                         android:id="@+id/button18"
@@ -249,7 +254,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
                         android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
+                        android:background="@drawable/icons8_paid_64"
+                        android:onClick="produto" />
 
                     <Button
                         android:id="@+id/button19"
