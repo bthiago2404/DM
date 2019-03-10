@@ -173,6 +173,9 @@
     // o terceiro digito é referente a versão da base de dados.
     <string name="txt_versão">Versão 1.1.1</string>
 
+    <string name="txt_resultado_busca">Resultado da Busca:</string>
+    <string name="txt_sugeridos">Produtos Sugeridos</string>
+
 
 
 </resources>

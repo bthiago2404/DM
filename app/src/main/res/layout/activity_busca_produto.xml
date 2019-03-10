@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.meuprojeto.dm.LojaSelecionadaActivity">
+    tools:context="br.com.meuprojeto.dm.BuscaProdutoActivity">
 
     <ImageView
         android:id="@+id/image_logo"
@@ -85,15 +84,15 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/banner_promocao" />
-
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/txt_resultado_busca" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -171,49 +170,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp" />
 
-            <TableRow
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center">
-
-                <Button
-                    android:id="@+id/button6"
-                    style="@style/Widget.AppCompat.Button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/common_google_signin_btn_icon_dark" />
-
-                <Button
-                    android:id="@+id/button7"
-                    style="@style/Widget.AppCompat.Button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/common_google_signin_btn_icon_dark" />
-
-                <Button
-                    android:id="@+id/button8"
-                    style="@style/Widget.AppCompat.Button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/common_google_signin_btn_icon_dark" />
-            </TableRow>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="30dp" />
-
-            <Button
-                android:id="@+id/button30"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/banner_massas" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
+                android:text="@string/txt_sugeridos" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -291,97 +252,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="20dp" />
 
-            <Button
-                android:id="@+id/butto11"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/banner_cafe" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/button22"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
-
-                    <Button
-                        android:id="@+id/button23"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
-
-                    <Button
-                        android:id="@+id/button24"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
-
-                    <Button
-                        android:id="@+id/button25"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
-
-                    <Button
-                        android:id="@+id/button26"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
-
-                    <Button
-                        android:id="@+id/button27"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
-
-                </LinearLayout>
-            </HorizontalScrollView>
-
-            <Button
-                android:id="@+id/button29"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="@string/txt_ver_mais" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
 
         </LinearLayout>
 
 
     </ScrollView>
-
 
 </android.support.constraint.ConstraintLayout>
