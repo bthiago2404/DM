@@ -177,5 +177,17 @@
     <string name="txt_sugeridos">Produtos Sugeridos</string>
 
 
+    // Strings da tela Produtos.
+    <string name="txt_nome_produto">Feijão Preto 1kg</string>
+    <string name="txt_preco_produto">R$ 4,75</string>
+    <string name="txt_caracteristica_produto">Caracteristicas do Produto:</string>
+    <string name="txt_caracteristica">Esse é um texto de teste apenas para servir de exemplo
+        de como será quando tiver o que informar aqui...</string>
+    <string name="txt_embalagem_produto">Tipo de Embalagem:</string>
+    <string name="txt_embalagem">Pacote com 1kg</string>
+    <string name="txt_grupo_produto">Grupo:</string>
+    <string name="txt_grupo">Esse produto faz parte do grupo de produtos de teste</string>
+
+
 
 </resources>
