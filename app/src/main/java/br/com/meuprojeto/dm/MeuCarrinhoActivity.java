@@ -13,6 +13,8 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_meu_carrinho);
     }
 
+    // Interação entre a tela MEU CARRINHO e a tela CONFIRMAÇÃO DE PEDIDO
+    // através do botão FINALIZAR PEDIDO.
     public void meuCarrinho(View view) {
         Intent irTelaConfirmacaoPedido = new Intent(getApplicationContext(), ConfirmacaoPedidoActivity.class);
         startActivity(irTelaConfirmacaoPedido);

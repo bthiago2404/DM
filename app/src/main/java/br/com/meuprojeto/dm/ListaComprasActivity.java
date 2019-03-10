@@ -13,6 +13,8 @@ public class ListaComprasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_compras);
     }
 
+    // Interação entre a tela LISTA DE COMPRAS e a tela MEU CARRINHO
+    // através do botão IR PARA O CARRINHO
     public void meuCarrinho(View view) {
         Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
         startActivity(irTelaMeuCarrinho);

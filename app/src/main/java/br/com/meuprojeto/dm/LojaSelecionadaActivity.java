@@ -13,6 +13,8 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_loja_selecionada);
     }
 
+    // Interação entre a tela LOJA SELECIONADA e a tela PRODUTO
+    // através do botão que exibe o icone do produto.
     public void produto(View view) {
         Intent irTelaProdutos = new Intent(getApplicationContext(), ProdutoActivity.class);
         startActivity(irTelaProdutos);
