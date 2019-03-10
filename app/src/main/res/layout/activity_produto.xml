@@ -70,7 +70,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="@string/txt_caracteristica" />
+                    android:text="@string/txt_caracteristica"
+                    android:textStyle="italic" />
 
                 <TextView
                     android:id="@+id/textView102"
@@ -85,7 +86,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="@string/txt_embalagem" />
+                    android:text="@string/txt_embalagem"
+                    android:textStyle="italic" />
 
                 <TextView
                     android:id="@+id/textView104"
@@ -100,7 +102,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="@string/txt_grupo" />
+                    android:text="@string/txt_grupo"
+                    android:textStyle="italic" />
 
                 <Space
                     android:layout_width="match_parent"
