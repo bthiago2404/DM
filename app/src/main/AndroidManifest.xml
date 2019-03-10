@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".VerMaisActivity"></activity>
         <activity android:name=".NovoUsuarioActivity" />
         <activity android:name=".ProdutoActivity" />
         <activity android:name=".BuscaProdutoActivity" />

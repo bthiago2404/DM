@@ -188,5 +188,9 @@
     <string name="txt_grupo_produto">Grupo:</string>
     <string name="txt_grupo">Esse produto faz parte do grupo de produtos de teste</string>
 
+    // Strings da tela Ver Mais.
+    <string name="txt_prudots">Produtos</string>
+
+
 
 </resources>
