@@ -6,79 +6,83 @@
 
     <item
         android:id="@+id/txt_inicio"
-        android:title="@string/menu_inicio">
+        android:title="@string/txt_inicio">
         <menu>
             <item
                 android:id="@+id/nav_inicio"
                 android:icon="@drawable/icons8_shop_64"
-                android:title="@string/btn_inicio" />
+                android:title="@string/txt_inicio" />
         </menu>
 
     </item>
 
     <item
-        android:id="@+id/txt_meus_peidos"
-        android:title="@string/menu_meus_pedidos">
+        android:id="@+id/txt_meus_pedidos"
+        android:title="@string/txt_meus_pedidos">
         <menu>
             <item
                 android:id="@+id/nav_carrinho"
                 android:icon="@drawable/icons8_shopping_cart_64"
-                android:title="@string/btn_carrinho" />
+                android:title="@string/txt_carrinho" />
             <item
                 android:id="@+id/nav_promocoes"
                 android:icon="@drawable/icons8_discount_64"
-                android:title="@string/btn_promocoes" />
+                android:title="@string/txt_promocoes" />
             <item
                 android:id="@+id/nav_meus_pedidos"
                 android:icon="@drawable/icons8_ingredients_64"
-                android:title="@string/btn_meus_pedidos" />
+                android:title="@string/txt_meus_pedidos" />
             <item
                 android:id="@+id/nav_departamentos"
                 android:icon="@drawable/icons8_food_as_resources_64"
-                android:title="@string/btn_departamentos" />
+                android:title="@string/txt_departamentos" />
             <item
                 android:id="@+id/nav_tipo_entrega"
                 android:icon="@drawable/icons8_deliver_food_64"
-                android:title="@string/btn_tipo_entrega" />
+                android:title="@string/txt_tipo_entrega" />
             <item
                 android:id="@+id/nav_lista_compras"
                 android:icon="@drawable/icons8_checklist_64"
-                android:title="@string/btn_lista_compra" />
+                android:title="@string/txt_lista_compra" />
         </menu>
 
     </item>
 
     <item
-        android:id="@+id/txt_onde_estamos"
-        android:title="@string/menu_onde_estamos">
+        android:id="@+id/txt_ficou_com_duvida"
+        android:title="@string/txt_ficou_com_duvida">
         <menu>
             <item
                 android:id="@+id/nav_mapa_lojas"
                 android:icon="@drawable/icons8_europe_64"
-                android:title="@string/btn_mapa_lojas" />
+                android:title="@string/txt_mapa_lojas" />
+            <item
+                android:id="@+id/nav_como_funciona"
+                android:icon="@drawable/icons8_question_mark_64"
+                android:title="@string/txt_como_func" />
         </menu>
     </item>
 
     <item
         android:id="@+id/txt_outros"
-        android:title="@string/menu_outros">
+        android:title="@string/txt_outros">
         <menu>
             <item
                 android:id="@+id/nav_solicite_loja"
                 android:icon="@drawable/icons8_handshake_64"
-                android:title="@string/btn_solicite_loja" />
+                android:title="@string/txt_solicite_loja" />
             <item
                 android:id="@+id/nav_central_atendimento"
                 android:icon="@drawable/icons8_online_support_64"
-                android:title="@string/btn_central_atendimento" />
+                android:title="@string/txt_central_atendimento" />
             <item
                 android:id="@+id/nav_politica_privacidade"
                 android:icon="@drawable/icons8_agreement_64"
-                android:title="@string/btn_politica_privacidade" />
+                android:title="@string/txt_politica_privacidade" />
             <item
                 android:id="@+id/nav_configuracoes"
                 android:icon="@drawable/icons8_settings_64"
-                android:title="@string/btn_configuracoes" />
+                android:title="@string/txt_configuracoes" />
         </menu>
     </item>
 

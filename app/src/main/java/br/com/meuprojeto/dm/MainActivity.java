@@ -101,6 +101,8 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_mapa_lojas) {
 
+        } else if (id == R.id.nav_como_funciona) {
+
         } else if (id == R.id.nav_solicite_loja) {
 
         } else if (id == R.id.nav_central_atendimento) {
@@ -120,26 +122,6 @@ public class MainActivity extends AppCompatActivity
     public void anuncio(View view) {
         Intent irTelaAnuncio = new Intent(getApplicationContext(), AnuncioActivity.class);
         startActivity(irTelaAnuncio);
-    }
-
-    public void localizacao(View view) {
-        Intent irTelaLocalizacao = new Intent(getApplicationContext(), LocalizacaoActivity.class);
-        startActivity(irTelaLocalizacao);
-    }
-
-    public void comoFunciona(View view) {
-        Intent irTelaComoFunciona = new Intent(getApplicationContext(), ComoFuncionaActivity.class);
-        startActivity(irTelaComoFunciona);
-    }
-
-    public void listaCompras(View view) {
-        Intent irTelaListaCompras = new Intent(getApplicationContext(), ListaComprasActivity.class);
-        startActivity(irTelaListaCompras);
-    }
-
-    public void meusPedidos(View view) {
-        Intent irTelaMeusPedidos = new Intent(getApplicationContext(), MeusPedidosActivity.class);
-        startActivity(irTelaMeusPedidos);
     }
 
     public void lojaSelecionada(View view) {

@@ -23,7 +23,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
 
                 <Button
                     android:id="@+id/button68"
@@ -120,7 +121,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/btn_carrinho" />
+                        android:text="@string/txt_carrinho" />
 
                     <Button
                         android:id="@+id/button70"
@@ -128,7 +129,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/btn_lista_compra" />
+                        android:text="@string/txt_lista_compra" />
                 </TableRow>
 
                 <Space

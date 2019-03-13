@@ -11,30 +11,30 @@
     <string name="action_settings">Configurações</string>
 
     // Strings do menu lateral.
-    <string name="btn_login_logout">Login / Cadastro </string>
-    <string name="btn_meus_dados">Meus Dados</string>
-    <string name="btn_inicio">Inicio</string>
-    <string name="btn_carrinho">Carrinho</string>
-    <string name="btn_promocoes">Promoções</string>
-    <string name="btn_meus_pedidos">Meus Pedidos</string>
-    <string name="btn_departamentos">Departamentos</string>
-    <string name="btn_tipo_entrega">Tipo de Entrega</string>
-    <string name="btn_lista_compra">Lista de Compras</string>
-    <string name="btn_mapa_lojas">Mapa de Lojas</string>
-    <string name="btn_solicite_loja">Solicite sua Loja Teste</string>
-    <string name="btn_central_atendimento">Central de Atendimentos</string>
-    <string name="btn_politica_privacidade">Politica de Privacidade</string>
-    <string name="btn_configuracoes">Configurações</string>
+    <string name="txt_login_logout">Login / Cadastro </string>
+    <string name="txt_meus_dados">Meus Dados</string>
+    <string name="txt_inicio">Inicio</string>
+    <string name="txt_carrinho">Carrinho</string>
+    <string name="txt_promocoes">Promoções</string>
+    <string name="txt_meus_pedidos">Meus Pedidos</string>
+    <string name="txt_departamentos">Departamentos</string>
+    <string name="txt_tipo_entrega">Tipo de Entrega</string>
+    <string name="txt_lista_compra">Lista de Compras</string>
+    <string name="txt_mapa_lojas">Mapa de Lojas</string>
+    <string name="txt_como_func">Como Funciona</string>
+    <string name="txt_solicite_loja">Solicite sua Loja Teste</string>
+    <string name="txt_central_atendimento">Central de Atendimentos</string>
+    <string name="txt_politica_privacidade">Politica de Privacidade</string>
+    <string name="txt_configuracoes">Configurações</string>
 
     // Strings do menu lateral.
-    <string name="menu_inicio">Inicio</string>
-    <string name="menu_meus_pedidos">Meus Pedidos</string>
-    <string name="menu_onde_estamos">Onde Estamos?</string>
-    <string name="menu_outros">Outros</string>
+    <string name="txt_ficou_com_duvida">Ficou com Duvida?</string>
+    <string name="txt_outros">Outros</string>
 
     // Strings da tela Principal
     <string name="txt_on">Online</string>
     <string name="txt_off">Offline</string>
+    <string name="txt_pesquisar_produto">Pesquisar Comércios</string>
 
     // Strings da tela Anuncio.
     <string name="txt_exemplo0">ESSA SERÁ UMA PAGINA ONDE HAVERÁ PROPAGANDAS OU ANUNCIOS.</string>
@@ -95,7 +95,6 @@
     <string name="txt_valor_compra">Valor:</string>
     <string name="txt_data_compra">Data da Compra:</string>
     <string name="txt_forma_pagamento">Forma de Pagamento:</string>
-    <string name="txt_tipo_entrega">Tipo de Entrega:</string>
     <string name="txt_valor">R$ 100,00</string>
     <string name="txt_data">01/12/2019</string>
     <string name="txt_pagamento">Dinheiro</string>
@@ -141,7 +140,7 @@
 
     // Strings da tela Confirmação de Pedidos.
     <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
-    <string name="txt_ok">Ok ;)</string>
+    <string name="txt_ok">OK ;)</string>
 
     // Strings da tela Solicitar loja teste.
     <string name="txt_mensagem_parceiros">Olá, ficamos felizes com seu interesse!
@@ -182,14 +181,14 @@
     <string name="txt_preco_produto">R$ 4,75</string>
     <string name="txt_caracteristica_produto">Caracteristicas do Produto:</string>
     <string name="txt_caracteristica">Esse é um texto de teste apenas para servir de exemplo
-        de como será quando tiver o que informar aqui...</string>
+        de como será quando tiver o que informar aqui…</string>
     <string name="txt_embalagem_produto">Tipo de Embalagem:</string>
     <string name="txt_embalagem">Pacote com 1kg</string>
     <string name="txt_grupo_produto">Grupo:</string>
     <string name="txt_grupo">Esse produto faz parte do grupo de produtos de teste</string>
 
     // Strings da tela Ver Mais.
-    <string name="txt_prudots">Produtos</string>
+    <string name="txt_produtos">Produtos</string>
 
 
 
