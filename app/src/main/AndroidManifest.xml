@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".VerMaisActivity"></activity>
+        <activity
+            android:name=".VerMaisActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NovoUsuarioActivity"
             android:screenOrientation="portrait" />
