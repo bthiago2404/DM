@@ -88,15 +88,28 @@
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="506dp" />
 
-            <TextView
-                android:id="@+id/txt_online"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/txt_on"
-                android:textAppearance="@style/TextAppearance.AppCompat"
-                tools:layout_editor_absoluteX="92dp"
-                tools:layout_editor_absoluteY="486dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/txt_online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/txt_comercios_abertos"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    tools:layout_editor_absoluteX="92dp"
+                    tools:layout_editor_absoluteY="486dp" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:text="@string/txt_quantidade_abertos"
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+            </TableRow>
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -195,15 +208,28 @@
                 </TableRow>
             </TableLayout>
 
-            <TextView
-                android:id="@+id/txt_offline"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/txt_off"
-                android:textAppearance="@style/TextAppearance.AppCompat"
-                tools:layout_editor_absoluteX="35dp"
-                tools:layout_editor_absoluteY="62dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/txt_offline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/txt_comercios_fechados"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    tools:layout_editor_absoluteX="35dp"
+                    tools:layout_editor_absoluteY="62dp" />
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/txt_quantidade_fechados"
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+            </TableRow>
 
             <TableLayout
                 android:layout_width="match_parent"

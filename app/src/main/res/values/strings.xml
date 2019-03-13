@@ -8,7 +8,7 @@
     <string name="nav_header_desc">Navigation header</string>
     // Fim dessa parte suspeita. Rsrs
 
-    <string name="action_settings">Configurações</string>
+    <string name="action_settings">Ativar GPS</string>
 
     // Strings do menu lateral.
     <string name="txt_login_logout">Login / Cadastro </string>
@@ -32,8 +32,10 @@
     <string name="txt_outros">Outros</string>
 
     // Strings da tela Principal
-    <string name="txt_on">Online</string>
-    <string name="txt_off">Offline</string>
+    <string name="txt_comercios_abertos">Comércios abertos agora:</string>
+    <string name="txt_comercios_fechados">Comércios fechados agora:</string>
+    <string name="txt_quantidade_abertos">98</string>
+    <string name="txt_quantidade_fechados">75</string>
     <string name="txt_pesquisar_produto">Pesquisar Comércios</string>
 
     // Strings da tela Anuncio.
