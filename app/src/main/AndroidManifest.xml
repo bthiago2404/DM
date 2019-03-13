@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="br.com.meuprojeto.dm">
@@ -12,48 +11,67 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".VerMaisActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".NovoUsuarioActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ProdutoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".BuscaProdutoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ConfiguracoesActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".PoliticaPrivacidadeActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".CentralAtendimentoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".SolicitarLojaTesteActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ConfirmacaoPedidoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".TipoEntregaActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".DepartamentosActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MeuCarrinhoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MeusDadosActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".LoginActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".LojaSelecionadaActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MapaLojasActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MeusPedidosActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ListaComprasActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ComoFuncionaActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".LocalizacaoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".AnuncioActivity"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".VerMaisActivity"></activity>
+        <activity
+            android:name=".NovoUsuarioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProdutoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BuscaProdutoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConfiguracoesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PoliticaPrivacidadeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CentralAtendimentoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SolicitarLojaTesteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConfirmacaoPedidoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TipoEntregaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DepartamentosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MeuCarrinhoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MeusDadosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LojaSelecionadaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapaLojasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MeusPedidosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListaComprasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ComoFuncionaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LocalizacaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnuncioActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
