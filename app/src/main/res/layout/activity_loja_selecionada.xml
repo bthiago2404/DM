@@ -301,7 +301,7 @@
                 android:id="@+id/butto11"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/banner_cafe" />
+                android:background="@drawable/banner_vinhos" />
 
             <Space
                 android:layout_width="match_parent"

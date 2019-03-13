@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/image_logo"
-        android:layout_width="220dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:contentDescription="@string/nav_header_desc"
@@ -83,7 +83,7 @@
                 android:id="@+id/btn_banner"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/banner_sejabemvindo"
+                android:background="@drawable/banner_seja_bem_vindo"
                 android:onClick="anuncio"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="506dp" />
