@@ -24,10 +24,12 @@
                 android:id="@+id/nav_carrinho"
                 android:icon="@drawable/icons8_shopping_cart_64"
                 android:title="@string/txt_carrinho" />
+            <!--
             <item
                 android:id="@+id/nav_promocoes"
                 android:icon="@drawable/icons8_discount_64"
                 android:title="@string/txt_promocoes" />
+            -->
             <item
                 android:id="@+id/nav_meus_pedidos"
                 android:icon="@drawable/icons8_ingredients_64"

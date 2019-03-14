@@ -2,8 +2,6 @@ package br.com.meuprojeto.dm;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -23,19 +21,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        // Trecho do codigo que era referente á um botão que tinha no canto
-        // inferior direito da tela inicial. Sem serventia!
-        /*
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -89,27 +74,63 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_carrinho) {
 
-        } else if (id == R.id.nav_promocoes) {
+            Intent meuCarrinho = new Intent(MainActivity.this, MeuCarrinhoActivity.class);
+            startActivity(meuCarrinho);
 
-        } else if (id == R.id.nav_meus_pedidos) {
+        } /* else if (id == R.id.nav_promocoes) {
+
+            // Falta fazer a tela promoções.
+            // Não sei se farei!
+
+        } */ else if (id == R.id.nav_meus_pedidos) {
+
+            Intent meusPedidos = new Intent(MainActivity.this, MeusPedidosActivity.class);
+            startActivity(meusPedidos);
 
         } else if (id == R.id.nav_departamentos) {
 
+            Intent departamentos = new Intent(MainActivity.this, DepartamentosActivity.class);
+            startActivity(departamentos);
+
         } else if (id == R.id.nav_tipo_entrega) {
+
+            Intent tipoEntrega = new Intent( MainActivity.this, TipoEntregaActivity.class);
+            startActivity(tipoEntrega);
 
         } else if (id == R.id.nav_lista_compras) {
 
+            Intent listaCompras = new Intent(MainActivity.this, ListaComprasActivity.class);
+            startActivity(listaCompras);
+
         } else if (id == R.id.nav_mapa_lojas) {
+
+            Intent mapalojas = new Intent(MainActivity.this, MapaLojasActivity.class);
+            startActivity(mapalojas);
 
         } else if (id == R.id.nav_como_funciona) {
 
+            Intent comoFunciona = new Intent(MainActivity.this, ComoFuncionaActivity.class);
+            startActivity(comoFunciona);
+
         } else if (id == R.id.nav_solicite_loja) {
+
+            Intent soliciteLoja = new Intent(MainActivity.this, SolicitarLojaTesteActivity.class);
+            startActivity(soliciteLoja);
 
         } else if (id == R.id.nav_central_atendimento) {
 
+            Intent centralAtendimentos = new Intent(MainActivity.this, CentralAtendimentoActivity.class);
+            startActivity(centralAtendimentos);
+
         } else if (id == R.id.nav_politica_privacidade) {
 
+            Intent policitaPrivacidade = new Intent(MainActivity.this, PoliticaPrivacidadeActivity.class);
+            startActivity(policitaPrivacidade);
+
         } else if (id == R.id.nav_configuracoes) {
+
+            Intent configurações = new Intent(MainActivity.this, ConfiguracoesActivity.class);
+            startActivity(configurações);
 
         }
 
