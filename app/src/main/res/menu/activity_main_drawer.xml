@@ -54,10 +54,12 @@
         android:id="@+id/txt_ficou_com_duvida"
         android:title="@string/txt_ficou_com_duvida">
         <menu>
+            <!--
             <item
                 android:id="@+id/nav_mapa_lojas"
                 android:icon="@drawable/icons8_europe_64"
                 android:title="@string/txt_mapa_lojas" />
+            -->
             <item
                 android:id="@+id/nav_como_funciona"
                 android:icon="@drawable/icons8_question_mark_64"

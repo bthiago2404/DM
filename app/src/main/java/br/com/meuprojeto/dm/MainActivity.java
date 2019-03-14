@@ -102,12 +102,12 @@ public class MainActivity extends AppCompatActivity
             Intent listaCompras = new Intent(MainActivity.this, ListaComprasActivity.class);
             startActivity(listaCompras);
 
-        } else if (id == R.id.nav_mapa_lojas) {
+        } /* else if (id == R.id.nav_mapa_lojas) {
 
             Intent mapalojas = new Intent(MainActivity.this, MapaLojasActivity.class);
             startActivity(mapalojas);
 
-        } else if (id == R.id.nav_como_funciona) {
+        } */ else if (id == R.id.nav_como_funciona) {
 
             Intent comoFunciona = new Intent(MainActivity.this, ComoFuncionaActivity.class);
             startActivity(comoFunciona);
@@ -159,7 +159,5 @@ public class MainActivity extends AppCompatActivity
         Intent irTelaMeusDados = new Intent(getApplicationContext(), MeusDadosActivity.class);
         startActivity(irTelaMeusDados);
     }
-
-
 
 }
