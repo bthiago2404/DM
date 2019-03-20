@@ -2,10 +2,10 @@
 
 <resources>
 
-    <color name="colorPrimary">#352245</color>
-    <color name="colorPrimaryDark">#271830</color>
-    <color name="colorAccent">#352245</color>
-    <color name="capa">#D2352245</color>
+    <color name="colorPrimaryDark">#0A0235</color>
+    <color name="colorPrimary">#E60A0235</color>
+    <color name="colorAccent">#CC0A0235</color>
+    <color name="capa">#B30A0235</color>
     <color name="fundoBotao">#00F86942</color>
 
 </resources>
