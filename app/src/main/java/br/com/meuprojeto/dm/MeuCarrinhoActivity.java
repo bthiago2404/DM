@@ -9,18 +9,24 @@ import android.widget.TextView;
 
 public class MeuCarrinhoActivity extends AppCompatActivity {
 
+    /* Trecho do codigo referente a logica dos botões de somar e subtrair.
+    Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
+
     private Button acrescentar;
     private Button subtrair;
     private TextView quantidade;
     private int i;
-
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meu_carrinho);
 
-        /*
+        /* Trecho do codigo referente a logica dos botões de somar e subtrair.
+         esse trecho é responsavel por apontar os valores das 3 variaveis citadas acima
+         para cada View da tela MeuCarrinho.
+
         acrescentar = findViewById(R.id.btnAcrescentar);
         subtrair = findViewById(R.id.btnSubtrair);
         quantidade = findViewById(R.id.txtResultado);
@@ -35,9 +41,9 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         startActivity(irTelaConfirmacaoPedido);
     }
 
-    // Esse trecho de codigo é referente a logica de acrescentar produtos
-    // na tela meu carrinho.  VOU DEIXAR INATIVO POIS ESSA TELA VAI SER POR MEIO DE WEBSERVICES.
-    /*
+    /* Trecho do codigo referente a logica dos botões de somar e subtrair.
+    Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
+
     public void acrescentarItens(View view) {
         i = i + 1;
         String numero2 = String.valueOf(i);
@@ -52,6 +58,3 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
     */
 
 }
-//SAULO TESTE
-//teste
-// teste
