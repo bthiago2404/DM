@@ -20,9 +20,11 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meu_carrinho);
 
+        /*
         acrescentar = findViewById(R.id.btnAcrescentar);
         subtrair = findViewById(R.id.btnSubtrair);
         quantidade = findViewById(R.id.txtResultado);
+        */
 
     }
 
@@ -33,6 +35,9 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         startActivity(irTelaConfirmacaoPedido);
     }
 
+    // Esse trecho de codigo é referente a logica de acrescentar produtos
+    // na tela meu carrinho.  VOU DEIXAR INATIVO POIS ESSA TELA VAI SER POR MEIO DE WEBSERVICES.
+    /*
     public void acrescentarItens(View view) {
         i = i + 1;
         String numero2 = String.valueOf(i);
@@ -44,5 +49,6 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         String numero2 = String.valueOf(i);
         quantidade.setText(numero2);
     }
+    */
 
 }
