@@ -84,22 +84,24 @@
                     android:text="@string/txt_item1" />
 
                 <Button
-                    android:id="@+id/button45"
-                    android:layout_width="40dp"
+                    android:id="@+id/btnSubtrair"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
+                    android:onClick="subtrairItens"
                     android:text="@string/txt_subtracao" />
 
                 <TextView
-                    android:id="@+id/textView72"
+                    android:id="@+id/txtResultado"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade" />
 
                 <Button
-                    android:id="@+id/button46"
-                    android:layout_width="40dp"
+                    android:id="@+id/btnAcrescentar"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
+                    android:onClick="acrescentarItens"
                     android:text="@string/txt_adicao" />
 
                 <TextView
@@ -125,7 +127,7 @@
 
                 <Button
                     android:id="@+id/button47"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_subtracao" />
 
@@ -138,7 +140,7 @@
 
                 <Button
                     android:id="@+id/button48"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_adicao" />
 
@@ -165,7 +167,7 @@
 
                 <Button
                     android:id="@+id/button49"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_subtracao" />
 
@@ -178,7 +180,7 @@
 
                 <Button
                     android:id="@+id/button50"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_adicao" />
 
@@ -205,7 +207,7 @@
 
                 <Button
                     android:id="@+id/button51"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_subtracao" />
 
@@ -218,7 +220,7 @@
 
                 <Button
                     android:id="@+id/button52"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_adicao" />
 
@@ -245,7 +247,7 @@
 
                 <Button
                     android:id="@+id/button53"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_subtracao" />
 
@@ -258,7 +260,7 @@
 
                 <Button
                     android:id="@+id/button54"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_adicao" />
 
@@ -285,7 +287,7 @@
 
                 <Button
                     android:id="@+id/button55"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_subtracao" />
 
@@ -298,7 +300,7 @@
 
                 <Button
                     android:id="@+id/button56"
-                    android:layout_width="40dp"
+                    android:layout_width="35dp"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_adicao" />
 
