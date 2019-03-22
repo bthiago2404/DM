@@ -7,5 +7,7 @@
     <color name="colorAccent">#352245</color>
     <color name="capa">#D2352245</color>
     <color name="fundoBotao">#00F86942</color>
+    <color name="letras_roxo">#352245</color>
+    <color name="letras_laranja">#F86942</color>
 
 </resources>

@@ -30,7 +30,7 @@
                     android:id="@+id/button68"
                     android:layout_width="260dp"
                     android:layout_height="260dp"
-                    android:background="@drawable/icons8_doggy_bag_64" />
+                    android:background="@drawable/side_nav_bar" />
 
                 <TableRow
                     android:layout_width="match_parent"
