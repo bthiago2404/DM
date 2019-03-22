@@ -142,7 +142,7 @@
 
     // Strings da tela Confirmação de Pedidos.
     <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
-    <string name="txt_ok">OK ;)</string>
+    <string name="txt_ok">OK</string>
 
     // Strings da tela Solicitar loja teste.
     <string name="txt_mensagem_parceiros">Olá, ficamos felizes com seu interesse!
