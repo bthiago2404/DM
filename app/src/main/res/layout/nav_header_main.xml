@@ -28,19 +28,19 @@
 
     <Button
         android:id="@+id/btn_login_logout"
-        android:layout_width="120dp"
-        android:layout_height="34dp"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
         android:background="@color/fundoBotao"
         android:onClick="login"
         android:text="@string/txt_login_logout"
-        android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
-        android:textStyle="italic"
         android:typeface="normal" />
 
     <Button
         android:id="@+id/btn_meus_dados"
+        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:background="@color/fundoBotao"

@@ -213,7 +213,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="@string/txt_login_senha"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
                 </TableRow>
 
                 <TableRow
@@ -226,7 +226,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="@string/txt_nova_senha"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
                 </TableRow>
 
                 <TableRow
@@ -239,7 +239,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="@string/txt_confirmar_senha"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
                 </TableRow>
 
             </TableLayout>
@@ -306,7 +306,8 @@
                     style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_salvar" />
+                    android:text="@string/txt_salvar"
+                    android:textColor="@color/letras_roxo" />
 
             </LinearLayout>
 

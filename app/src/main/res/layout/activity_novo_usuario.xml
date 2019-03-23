@@ -148,6 +148,7 @@
 
                     <EditText
                         android:id="@+id/editText10"
+                        style="@style/Widget.AppCompat.EditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -161,6 +162,7 @@
 
                     <EditText
                         android:id="@+id/editText12"
+                        style="@style/Widget.AppCompat.EditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -193,11 +195,12 @@
 
                     <EditText
                         android:id="@+id/editText13"
+                        style="@style/Widget.AppCompat.EditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="@string/txt_login_senha"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
                 </TableRow>
 
                 <TableRow
@@ -206,11 +209,12 @@
 
                     <EditText
                         android:id="@+id/editText15"
+                        style="@style/Widget.AppCompat.EditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="@string/txt_confirmar_senha"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPassword" />
                 </TableRow>
 
             </TableLayout>
@@ -277,7 +281,8 @@
                     style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_salvar" />
+                    android:text="@string/txt_salvar"
+                    android:textColor="@color/letras_roxo" />
 
             </LinearLayout>
 

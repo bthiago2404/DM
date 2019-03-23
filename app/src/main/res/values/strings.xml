@@ -11,7 +11,7 @@
     <string name="action_settings">Ativar GPS</string>
 
     // Strings do menu lateral.
-    <string name="txt_login_logout">Login / Cadastro </string>
+    <string name="txt_login_logout">Login/Cadastro </string>
     <string name="txt_meus_dados">Meus Dados</string>
     <string name="txt_inicio">Inicio</string>
     <string name="txt_carrinho">Carrinho</string>
