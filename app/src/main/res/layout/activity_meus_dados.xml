@@ -7,29 +7,14 @@
     android:layout_height="match_parent"
     tools:context="br.com.meuprojeto.dm.MeusDadosActivity">
 
-    <ImageView
-        android:id="@+id/image_logo"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:contentDescription="@string/nav_header_desc"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_logo">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,30 +29,220 @@
                     android:id="@+id/textView23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="5dp"
                     android:text="@string/txt_ola"
+                    android:textColor="@color/letras_roxo"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/txt_nome_usuario" />
+                    android:layout_margin="5dp"
+                    android:text="@string/txt_nome_usuario"
+                    android:textColor="@color/letras_laranja" />
             </TableRow>
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:text="@string/txt_confirme_dados"
+                android:textColor="@color/letras_roxo"
                 android:textStyle="bold" />
 
-            <Space
+            <View
+                android:id="@+id/divider"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp" />
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText16"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_informe_nick"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/txt_contatos"
+                        android:textColor="@color/letras_roxo"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText6"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_informe_telefone"
+                        android:inputType="phone" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText5"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_informe_email"
+                        android:inputType="textEmailAddress" />
+                </TableRow>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/txt_endereco"
+                        android:textColor="@color/letras_roxo"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText7"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_rua"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_bairro"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_numero_casa"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/txt_alterar_senha"
+                        android:textColor="@color/letras_roxo"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_login_senha"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_nova_senha"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editText15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_confirmar_senha"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+            </TableLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -75,75 +250,10 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView63"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_telefone" />
-
-                <EditText
-                    android:id="@+id/editText6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="phone" />
-
-                <TextView
-                    android:id="@+id/textView64"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_email" />
-
-                <EditText
-                    android:id="@+id/editText5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textEmailAddress" />
-
-                <TextView
-                    android:id="@+id/textView65"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_endereco" />
-
-                <EditText
-                    android:id="@+id/editText7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <TextView
-                    android:id="@+id/textView66"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_login" />
-
-                <EditText
-                    android:id="@+id/editText8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <TextView
-                    android:id="@+id/textView67"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_senha" />
-
-                <EditText
-                    android:id="@+id/editText9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPassword" />
-
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="20dp" />
+                    android:layout_margin="10dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -154,14 +264,11 @@
                         android:id="@+id/textView68"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
                         android:text="@string/tx_melhor_hora_entrega"
+                        android:textColor="@color/letras_roxo"
                         android:textStyle="bold" />
                 </LinearLayout>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -173,39 +280,33 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_manha" />
+                        android:text="@string/txt_manha"
+                        android:textColor="@color/letras_roxo" />
 
                     <CheckBox
                         android:id="@+id/checkBox5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_tarde" />
+                        android:text="@string/txt_tarde"
+                        android:textColor="@color/letras_roxo" />
 
                     <CheckBox
                         android:id="@+id/checkBox6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_noite" />
+                        android:text="@string/txt_noite"
+                        android:textColor="@color/letras_roxo" />
 
                 </TableRow>
 
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp" />
-
                 <Button
                     android:id="@+id/button43"
+                    style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_salvar" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp" />
 
             </LinearLayout>
 

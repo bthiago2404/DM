@@ -27,6 +27,7 @@
 
     <EditText
         android:id="@+id/lbl_cep"
+        style="@style/Widget.AppCompat.EditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -35,24 +36,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
+        android:hint="@string/txt_informar_cep"
         android:inputType="number"
         android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
-
-    <Button
-        android:id="@+id/btn_confirmar_cep"
-        android:layout_width="67dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="@drawable/icons8_location_64"
-        android:onClick="mapaLojas"
-        app:layout_constraintEnd_toEndOf="@+id/lbl_cep"
-        app:layout_constraintStart_toStartOf="@+id/lbl_cep"
-        app:layout_constraintTop_toBottomOf="@+id/lbl_cep" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline5"
@@ -60,5 +49,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.35" />
+
+    <Button
+        android:id="@+id/button45"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/txt_ok"
+        app:layout_constraintEnd_toEndOf="@+id/lbl_cep"
+        app:layout_constraintStart_toStartOf="@+id/lbl_cep"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_cep" />
 
 </android.support.constraint.ConstraintLayout>
