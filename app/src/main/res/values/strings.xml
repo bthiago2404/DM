@@ -43,6 +43,7 @@
 
     // Strings da tela Localização.
     <string name="txt_cep">CEP</string>
+    <string name="txt_informar_cep">Informe seu CEP</string>
 
     // Strings da tela Como Funciona.
     <string name="txt_como_funciona">Como Funciona Nossa Plataforma?</string>
@@ -110,14 +111,24 @@
 
     // Strings da tela de Login.
     <string name="txt_login">Login</string>
-    <string name="txt_novo_usuario">Novo Usuario</string>
+    <string name="txt_novo_usuario">Cadastrar</string>
+    <string name="txt_login_usuario">Digite seu E-mail</string>
+    <string name="txt_login_senha">Digite sua Senha</string>
 
     // Strings da tela Meus Dados.
+    <string name="txt_informe_nick">Informe seu nick</string>
     <string name="txt_confirme_dados">Confirme ou altere seus dados:</string>
-    <string name="txt_telefone">Telefone:</string>
-    <string name="txt_email">E-mail:</string>
+    <string name="txt_contatos">Contato:</string>
+    <string name="txt_informe_telefone">Informe seu Telefone</string>
+    <string name="txt_informe_email">Informe seu E-mail</string>
     <string name="txt_endereco">Endereço:</string>
-    <string name="txt_senha">Senha:</string>
+    <string name="txt_rua">Rua</string>
+    <string name="txt_bairro">Bairro</string>
+    <string name="txt_numero_casa">Nº</string>
+    <string name="txt_alterar_senha">Altere sua Senha:</string>
+    <string name="txt_senha_atual">Senha</string>
+    <string name="txt_nova_senha">Nova Senha</string>
+    <string name="txt_confirmar_senha">Confirme sua Senha</string>
     <string name="tx_melhor_hora_entrega">Melhor horario para entrega:*</string>
     <string name="txt_salvar">Salvar</string>
     <string name="txt_manha">Manhã</string>
@@ -142,6 +153,7 @@
 
     // Strings da tela Confirmação de Pedidos.
     <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
+    <string name="txt_entrar">Entrar</string>
     <string name="txt_ok">OK</string>
 
     // Strings da tela Solicitar loja teste.
@@ -155,8 +167,8 @@
 
     // Strings da tela Central de Atendimento.
     <string name="txt_entre_em_contato">Entre em contato através dos canais de atendimento abaixo:</string>
-    <string name="txt_contato_email">sac@deliverymercados.com.br</string>
-    <string name="txt_contato_telefone">(83) 30660000</string>
+    <string name="txt_contato_email">deliverymercados@gmail.com</string>
+    <string name="txt_contato_telefone">(83) 9 9969 6093</string>
 
     // Strings da tela Politica de Privacidade.
     <string name="txt_politica_uso">Politica de Uso:</string>
@@ -172,7 +184,7 @@
     // o primeiro digito é referente a versão do codigo fonte
     // o segundo digito é referente a versão do layout
     // o terceiro digito é referente a versão da base de dados.
-    <string name="txt_versão">Versão 0.0.2</string>
+    <string name="txt_versao">Versão 0.0.1</string>
 
     <string name="txt_resultado_busca">Resultado da Busca:</string>
     <string name="txt_sugeridos">Produtos Sugeridos</string>
@@ -191,6 +203,94 @@
 
     // Strings da tela Ver Mais.
     <string name="txt_produtos">Produtos</string>
-
+    
+    // Strings da tela Politica de Privacidade.
+    <string name="txt_p1">Politica de privacidade</string>
+    <string name="txt_p2">Estamos comprometidos com a conscientização de nossos clientes em relação as suas
+        informações coletadas e utilizadas para proporcionar uma melhor experiencia de navegação.
+        Por isso, apresentamos nossa politica de privacidade, que tem por objetivo esclarecer o uso
+        dessas informações. Ao acessar este aplicativo você aceita as práticas descritas nesta política
+        de privacidade.</string>
+    <string name="txt_p3">1.	Utilização das informações:</string>
+    <string name="txt_p4">  As informações captadas por esse aplicativo são utilizadas com a finalidade de: </string>
+    <string name="txt_p5">1.1.	Viabilizar o fornecimento de produtos ou serviços solicitados no aplicativo;</string>
+    <string name="txt_p6">1.2.	Identificar o perfil, desejos ou necessidades dos clientes afim de aprimorar os produtos e/ou serviços oferecidos pela empresa;</string>
+    <string name="txt_p7">1.3.	Enviar informativos sobre produtos ou serviços que interessem a seus clientes;</string>
+    <string name="txt_p8">1.4.	 Divulgar alterações, inovações ou promoções sobre os produtos e serviços da loja e de seus parceiros.</string>
+    <string name="txt_p9">2.	Compartilhamento de informações:</string>
+    <string name="txt_p10">A segurança e o sigilo das informações muito importantes para o nosso negócio.
+        Porém, a viabilidade de certos serviços pelos nossos parceiros só ocorre com o
+        compartilhamento de algumas dessas informações, o que fazemos com
+        responsabilidade e seguindo todos os parâmetros registrados nessa POLITICA DE
+        PRIVACIDADE. Abaixo, citamos os casos onde o compartilhamento de informações se
+        faz necessário, com os quais o usuário declara estar ciente e concordar;</string>
+    <string name="txt_p11">2.1.	Fornecedores: Empresas fornecedoras e terceiros trabalham com a loja para aprimorar
+        nosso negócio. São exemplos os serviços logísticos dos pedidos, envio de e-mail,
+        analise base de dados, criação de ações de marketing e processamento das transações
+        por cartões de credito. Muitos desses serviços só são possíveis com o
+        compartilhamento de informações de nossos clientes, porém, é importante reforçar
+        que seu uso está autorizado apenas para as finalidades contratadas.</string>
+    <string name="txt_p12">2.2.	Lojistas parceiros da loja: Caso de ocorrer uma parceira com lojas e empresas terceiras
+        para utilização do serviço de marketplace. Caso você tenha realizado a compra de
+        produtos de algumas dessas empresas, informaremos seus dados pessoais, dados da
+        compra e endereço de entrega para que eles possam processar o pedido e realizar a
+        entrega. </string>
+    <string name="txt_p13">2.3.	Parceiros: A loja pode compartilhar seus dados pessoais e cadastrais, informações de navegação e dados de
+        compras efetuados em nossos canais com seus Parceiros
+        comerciais e financeiros, que prestem serviços ou ofereçam produtos relacionados,
+        estritamente em parceria com a loja ou que possam ser do seu interesse.</string>
+    <string name="txt_p14">2.4.	Novos negócios: No continuo desenvolvimento do nosso negócio, processos de
+        aquisição e fusão de empresas subsidiarias e outros negócios podem ocorrer. Nessa
+        transferência de negócios, informações dos respectivos clientes também são
+        transferidas, mas ainda assim, será mantida a politica de privacidade, e a informação
+        será mantida dentro do ambiente da loja.</string>
+    <string name="txt_p15">2.5.	REQUISIÇÃO JUDICIAL: A loja pode compartilhar dados pessoais em caso de requisição
+        judicial. </string>
+    <string name="txt_p16">2.6.	Com autorização do cliente: Em demais casos, havendo a necessidade de
+        compartilhamento das informações, enviaremos uma notificação solicitando sua
+        aprovação ou reprovação.</string>
+    <string name="txt_p17">3.	Segurança da informação:</string>
+    <string name="txt_p18">Todas as transações de pagamento, com cartão de credito ou não, são executadas com
+        a tecnologia SSL (Secure Socket Layer), garantindo que todos os dados pessoais do
+        cliente, tais como, endereço de entrega, dados de cartão de credito e histórico de
+        pedidos, jamais sejam divulgados indevidamente. Além disso, essa tecnologia visa
+        impedir que as informações sejam transmitidas ou acessadas por terceiros.
+        Ainda visando garantir a confidencialidade de nossos clientes, todas as informações do
+        cadastro são armazenados com criptografia de ultima geração.
+</string>
+    <string name="txt_p19">4.	Coleta de Dados:</string>
+    <string name="txt_p20">Para melhorarmos continuamente a experiência de navegação e aprimoramos a oferta
+        de produtos e serviços da loja e de suas empresas parceiras, coletamos informações
+        importantes de nossos clientes.
+        Informações cadastrais: alguns de nossos serviços exigem que o cliente tenha um
+        cadastro único com uma conta de usuário. Ao se cadastrar, coletamos seu nome, e-mail,
+        endereço de entrega e cobrança, telefone de contato, CPF, data de nascimento,
+</string>
+    <string name="txt_p21">sexo, entre outros dados de identificação ou necessários para cadastro. Além das
+        informações cadastrais, podemos coletar outras informações quando o cliente se
+        cadastra ou usa nosso aplicativo, tais como preferencias de produtos, dados de
+        compras em nossos canais, entre outros dados. O cliente pode optar por não fornecer
+        algumas informações, desde que não sejam necessárias para a prestação do serviço ou
+        aquisição dos produtos, mas é provável que a sua experiência de navegação na loja
+        não conte com todos os recursos oferecidos.</string>
+    <string name="txt_p22">5.	Autorização complementar para fins de coleta de dados:</string>
+    <string name="txt_p23">Ao aceitar a nossa Politica de Privacidade você declara que leu e nos autoriza a coletar,
+        utilizar e tratar os seus dados cadastrais, pessoais (nome, e-mail, endereço, telefone,
+        CPF, data de nascimento e sexo) e do seu dispositivo móvel (e-mail cadastrado,
+        aplicativos instalados, histórico de navegação, calendário, ligações efetuadas e
+        recebidas, rolo de câmera, contatos, uso de dados, marca, fabricante, numero do
+        telefone, IMEI, IMSI, endereço MAC de todas as interfaces da rede, endereço OP,
+        localização, SMS, WIFI), nos termos da lei, bem como o compartilhamento com
+        parceiros especializados para geração de perfis, de forma identificada, quando
+        utilizados em nossos produtos e serviços com a finalidade de subsidiar analises de risco
+        de credito, para a concessão de credito, o seu acompanhamento e cobrança, para a
+        realização de negócios e prevenção a fraude ou de forma anonimizada, quando
+        utilizados para o desenvolvimento e aprimoramento de modelos de perfis de credito
+        desses parceiros.</string>
+    <string name="txt_p24">Estou ciente de que poderei ter livre acesso a esses dados a qualquer momento. Caso
+        não estejam corretos ou se não corresponderem à verdade, tenho ciência de que
+        poderei pedir a sua atualização, retificação, modificação, o seu cancelamento,
+        gratuitamente, mediante requerimento escrito enviado para
+        contato@deliverymercados.com.br.</string>
 
 </resources>
