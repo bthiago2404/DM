@@ -140,6 +140,11 @@
                     android:textColor="@color/letras_roxo" />
             </TableRow>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+
             <View
                 android:id="@+id/divider1"
                 android:layout_width="match_parent"
