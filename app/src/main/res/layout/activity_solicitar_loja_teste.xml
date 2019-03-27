@@ -38,24 +38,24 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/txt_mensagem_parceiros"
+                    android:textColor="@color/letras_roxo"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-                <TableRow
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/textView23"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/txt_mensagem_parceiros"
-                        android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
-
-                </TableRow>
 
                 <View
                     android:id="@+id/divider"
@@ -153,16 +153,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <EditText
+                        android:id="@+id/editText10"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_bairro"
+                        android:inputType="textPersonName" />
                 </TableRow>
-
-                <EditText
-                    android:id="@+id/editText10"
-                    style="@style/Widget.AppCompat.EditText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="@string/txt_bairro"
-                    android:inputType="textPersonName" />
 
                 <TableRow
                     android:layout_width="match_parent"
