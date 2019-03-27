@@ -57,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="@string/txt_ok"
+        android:textColor="@color/letras_roxo"
         app:layout_constraintEnd_toEndOf="@+id/lbl_cep"
         app:layout_constraintStart_toStartOf="@+id/lbl_cep"
         app:layout_constraintTop_toBottomOf="@+id/lbl_cep" />

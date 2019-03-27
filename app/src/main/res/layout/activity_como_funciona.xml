@@ -26,7 +26,7 @@
                 android:id="@+id/txt_como_funciona"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:text="@string/txt_como_funciona"
                 android:textColor="@color/letras_laranja"
                 android:textStyle="bold" />
@@ -35,7 +35,6 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
                 android:text="@string/txt_exemplo1"
                 android:textColor="@color/letras_roxo"
                 android:textStyle="italic" />
@@ -44,7 +43,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:text="@string/txt_perguntas"
                 android:textColor="@color/letras_laranja"
                 android:textStyle="bold" />
@@ -53,7 +52,6 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
                 android:text="@string/txt_exemplo2"
                 android:textColor="@color/letras_roxo"
                 android:textStyle="italic" />

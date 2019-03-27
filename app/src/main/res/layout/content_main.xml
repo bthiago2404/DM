@@ -89,6 +89,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_comercios_abertos"
                     android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/letras_roxo"
                     tools:layout_editor_absoluteX="92dp"
                     tools:layout_editor_absoluteY="486dp" />
 
@@ -98,7 +99,8 @@
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade_abertos"
-                    android:textAppearance="@style/TextAppearance.AppCompat" />
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/letras_roxo" />
             </TableRow>
 
             <TableLayout
@@ -209,6 +211,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_comercios_fechados"
                     android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/letras_roxo"
                     tools:layout_editor_absoluteX="35dp"
                     tools:layout_editor_absoluteY="62dp" />
 
@@ -218,7 +221,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_quantidade_fechados"
-                    android:textAppearance="@style/TextAppearance.AppCompat" />
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/letras_roxo" />
             </TableRow>
 
             <TableLayout

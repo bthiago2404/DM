@@ -31,8 +31,9 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="5dp"
                     android:text="@string/txt_ola"
+                    android:textColor="@color/letras_roxo"
                     android:textStyle="bold"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="150dp" />
@@ -41,8 +42,9 @@
                     android:id="@+id/textView14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="5dp"
                     android:text="@string/txt_nome_usuario"
+                    android:textColor="@color/letras_laranja"
                     android:textStyle="italic"
                     tools:layout_editor_absoluteX="85dp"
                     tools:layout_editor_absoluteY="150dp" />
@@ -56,8 +58,9 @@
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="5dp"
                     android:text="@string/txt_selecione_lista"
+                    android:textColor="@color/letras_roxo"
                     android:textStyle="bold"
                     tools:layout_editor_absoluteX="15dp"
                     tools:layout_editor_absoluteY="186dp" />
@@ -68,24 +71,33 @@
                 android:layout_height="wrap_content"
                 tools:layout_editor_absoluteY="226dp">
 
+                <View
+                    android:id="@+id/divider0"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="?android:attr/listDivider" />
+
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center">
 
-                    <RadioButton
-                        android:id="@+id/radioButton7"
-                        android:layout_width="wrap_content"
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="106dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:text="@string/txt_lista1" />
+                        android:layout_margin="10dp"
+                        android:text="@string/txt_lista1"
+                        android:textColor="@color/letras_roxo" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton8"
+                    <CheckBox
+                        android:id="@+id/checkBox2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:text="@string/txt_lista3" />
+                        android:layout_margin="10dp"
+                        android:text="@string/txt_lista2"
+                        android:textColor="@color/letras_roxo" />
+
                 </TableRow>
 
                 <TableRow
@@ -93,21 +105,55 @@
                     android:layout_height="match_parent"
                     android:gravity="center">
 
-                    <RadioButton
-                        android:id="@+id/radioButton9"
-                        android:layout_width="wrap_content"
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="96dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:text="@string/txt_lista2" />
+                        android:layout_margin="10dp"
+                        android:text="@string/txt_lista3"
+                        android:textColor="@color/letras_roxo" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton10"
+                    <CheckBox
+                        android:id="@+id/checkBox7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:text="@string/txt_lista4" />
+                        android:layout_margin="10dp"
+                        android:text="@string/txt_lista4"
+                        android:textColor="@color/letras_roxo" />
 
                 </TableRow>
+
+
+            </TableLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button89"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_ok"
+                    android:textColor="@color/letras_roxo" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -118,14 +164,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_quant_itens" />
+                        android:text="@string/txt_quant_itens"
+                        android:textColor="@color/letras_roxo" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_itens" />
+                        android:text="@string/txt_itens"
+                        android:textColor="@color/letras_roxo" />
                 </TableRow>
 
                 <TableRow
@@ -137,14 +185,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_mercados_disponiveis" />
+                        android:text="@string/txt_mercados_disponiveis"
+                        android:textColor="@color/letras_roxo" />
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_mercados" />
+                        android:text="@string/txt_mercados"
+                        android:textColor="@color/letras_roxo" />
                 </TableRow>
 
                 <TableRow
@@ -156,14 +206,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_valor_alto" />
+                        android:text="@string/txt_valor_alto"
+                        android:textColor="@color/letras_roxo" />
 
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_alto" />
+                        android:text="@string/txt_alto"
+                        android:textColor="@color/letras_roxo" />
                 </TableRow>
 
                 <TableRow
@@ -175,33 +227,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_valor_baixo" />
+                        android:text="@string/txt_valor_baixo"
+                        android:textColor="@color/letras_roxo" />
 
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_baixo" />
+                        android:text="@string/txt_baixo"
+                        android:textColor="@color/letras_roxo" />
                 </TableRow>
             </TableLayout>
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
+            <TableRow
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginBottom="16dp"
-                android:onClick="meuCarrinho"
-                android:text="@string/txt_ir_carrinho"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.909"
-                app:layout_constraintStart_toStartOf="parent" />
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:onClick="meuCarrinho"
+                    android:text="@string/txt_ir_carrinho"
+                    android:textColor="@color/letras_roxo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.909"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </TableRow>
+
         </LinearLayout>
 
     </ScrollView>

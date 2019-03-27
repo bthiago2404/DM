@@ -11,7 +11,7 @@
     <string name="action_settings">Ativar GPS</string>
 
     // Strings do menu lateral.
-    <string name="txt_login_logout">Login / Cadastro </string>
+    <string name="txt_login_logout">Login/Cadastro </string>
     <string name="txt_meus_dados">Meus Dados</string>
     <string name="txt_inicio">Inicio</string>
     <string name="txt_carrinho">Carrinho</string>
@@ -29,7 +29,6 @@
 
     // Strings do menu lateral.
     <string name="txt_ficou_com_duvida">Ficou com Duvida?</string>
-    <string name="txt_outros">Outros</string>
 
     // Strings da tela Principal
     <string name="txt_comercios_abertos">Comércios abertos agora:</string>
@@ -134,6 +133,7 @@
     <string name="txt_manha">Manhã</string>
     <string name="txt_tarde">Tarde</string>
     <string name="txt_noite">Noite</string>
+    <string name="txt_outros">Outros:</string>
 
     // Strings da tela Meu Carrinho.
     <string name="txt_conferir_pedido">Confira seu pedido:</string>
@@ -206,8 +206,8 @@
     
     // Strings da tela Politica de Privacidade.
     <string name="txt_p1">Politica de privacidade</string>
-    <string name="txt_p2">Estamos comprometidos com a conscientização de nossos clientes em relação as suas
-        informações coletadas e utilizadas para proporcionar uma melhor experiencia de navegação.
+    <string name="txt_p2">Estamos comprometidos com a conscientização de nossos clientes em relação
+        as suas informações coletadas e utilizadas para proporcionar uma melhor experiencia de navegação.
         Por isso, apresentamos nossa politica de privacidade, que tem por objetivo esclarecer o uso
         dessas informações. Ao acessar este aplicativo você aceita as práticas descritas nesta política
         de privacidade.</string>
