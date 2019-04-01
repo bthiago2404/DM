@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/txt_como_funciona"
+                android:text="@string/txt_c1"
                 android:textColor="@color/letras_laranja"
                 android:textStyle="bold" />
 
@@ -35,7 +35,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_exemplo1"
+                android:text="@string/txt_c2"
                 android:textColor="@color/letras_roxo"
                 android:textStyle="italic" />
 
@@ -44,17 +44,104 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/txt_perguntas"
+                android:text="@string/txt_c3"
                 android:textColor="@color/letras_laranja"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView133"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_exemplo2"
+                android:text="@string/txt_c4"
                 android:textColor="@color/letras_roxo"
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_c5"
+                android:textColor="@color/letras_laranja"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_c6"
+                android:textColor="@color/letras_roxo"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_c7"
+                android:textColor="@color/letras_laranja"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_c8"
+                android:textColor="@color/letras_roxo"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_c9"
+                android:textColor="@color/letras_laranja"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_c10"
+                android:textColor="@color/letras_roxo"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_c11"
+                android:textColor="@color/letras_laranja"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_c12"
+                android:textColor="@color/letras_roxo"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_c13"
+                android:textColor="@color/letras_laranja"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_c14"
+                android:textColor="@color/letras_roxo"
+                android:textStyle="italic" />
+
+
         </LinearLayout>
     </ScrollView>
 

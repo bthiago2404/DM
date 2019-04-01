@@ -44,30 +44,6 @@
     <string name="txt_cep">CEP</string>
     <string name="txt_informar_cep">Informe seu CEP</string>
 
-    // Strings da tela Como Funciona.
-    <string name="txt_como_funciona">Como Funciona Nossa Plataforma?</string>
-    <string name="txt_exemplo1">Vestibulum placerat aenean rutrum dictum vitae quisque lobortis,
-        aliquam quis molestie metus adipiscing sem lacinia, sem litora condimentum libero lorem hac.
-        id sit cras accumsan posuere id curae ultrices commodo tincidunt sodales,
-        orci elementum sociosqu mi gravida quisque lobortis elit blandit,
-        cras conubia sit aliquet proin sociosqu mattis varius torquent.
-        netus ligula luctus neque cubilia hendrerit ligula id,
-        magna aenean consectetur sagittis nulla ut, ligula congue dolor platea eget tempus.
-        fames sit convallis facilisis tellus dui fermentum dictumst etiam amet varius nullam habitasse,
-        inceptos lectus velit aliquam justo velit erat vivamus quis rhoncus himenaeos.
-        Hendrerit sit aenean porta, vel vestibulum. </string>
-    <string name="txt_perguntas">Perguntas Frequentes:</string>
-    <string name="txt_exemplo2">Vestibulum placerat aenean rutrum dictum vitae quisque lobortis,
-        aliquam quis molestie metus adipiscing sem lacinia, sem litora condimentum libero lorem hac.
-        id sit cras accumsan posuere id curae ultrices commodo tincidunt sodales,
-        orci elementum sociosqu mi gravida quisque lobortis elit blandit,
-        cras conubia sit aliquet proin sociosqu mattis varius torquent.
-        netus ligula luctus neque cubilia hendrerit ligula id,
-        magna aenean consectetur sagittis nulla ut, ligula congue dolor platea eget tempus.
-        fames sit convallis facilisis tellus dui fermentum dictumst etiam amet varius nullam habitasse,
-        inceptos lectus velit aliquam justo velit erat vivamus quis rhoncus himenaeos.
-        Hendrerit sit aenean porta, vel vestibulum. </string>
-
     // Strings da tela Lista de Compras.
     <string name="txt_ola">Olá</string>
     <string name="txt_nome_usuario">Cliente</string>
@@ -292,5 +268,34 @@
         poderei pedir a sua atualização, retificação, modificação, o seu cancelamento,
         gratuitamente, mediante requerimento escrito enviado para
         contato@deliverymercados.com.br.</string>
+
+    // Strings da tela Como Funciona.
+    <string name="txt_c1">O que é o Delivery Mercados?</string>
+    <string name="txt_c2">Delivery Mercados é uma plataforma de compras mensais voltado para o mais
+        variado publico. Temos como interesse principal oferecer tempo, comodidade e economia para
+        nossos clientes!</string>
+    <string name="txt_c3">Como funciona?</string>
+    <string name="txt_c4">No Delivery Mercados é tudo muito simples, você escolhe o mercado de sua
+        preferencia, seleciona os itens de sua feira, e pronto!</string>
+    <string name="txt_c5">Posso decidir retirar minhas compras no mercado?</string>
+    <string name="txt_c6">Sim, aqui no Delivery Mercados, você pode optar por receber sua mercadoria em casa ou
+        buscar suas compras prontas no mercado.</string>
+    <string name="txt_c7">Meios de pagamento?</string>
+    <string name="txt_c8">Os meios de pagamentos ficam por conta dos Mercados associados,
+        caso o mercado de sua preferencia trabalhe com pagamentos à vista e cartão, você terá
+        essas opções. Os pagamentos são feitos diretamente aos mercados.</string>
+    <string name="txt_c9">Tempo de entrega?</string>
+    <string name="txt_c10">Por se tratar de compras mensais e em sua grande maioria são muitos itens,
+        o mercado precisa de um tempo de aproximadamente 24h para separar seus produtos,
+        conferir e enviar para sua residência.</string>
+    <string name="txt_c11">E se eu receber produtos avariados?</string>
+    <string name="txt_c12">Em casos como este, sugerimos que entre em contato com o mercado que foi
+        feito a compra o quanto antes e que seja informado sobre o acontecimento na avaliação do
+        mercado.</string>
+    <string name="txt_c13">Como avaliar um Mercado?</string>
+    <string name="txt_c14">Sugerimos maturidade para avaliar os mercados, sempre é bom o uso de boas
+        praticas, como por exemplo: criticam construtivas e educadas. O avaliador de mercado não
+        está para punir, mas sim para ajudarmos a nossos Mercados favoritos se aperfeiçoarem e cada
+        vez mais ganharmos com isso.</string>
 
 </resources>
