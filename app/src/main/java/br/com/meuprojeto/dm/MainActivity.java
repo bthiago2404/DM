@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    // Botão superior direito foi desativado por falta de necessidade do mesmo.
+    // antes de ser desativado ele estava com a opção de ativar gps, porém não tinha sido configurado.
+    /*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+    */
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
