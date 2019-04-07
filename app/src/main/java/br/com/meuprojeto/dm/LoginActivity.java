@@ -2,9 +2,11 @@ package br.com.meuprojeto.dm;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -28,18 +30,24 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     // Metodo que será responsável pelo login no app.
-    /*
-    public void logar(){
+    public void logar(View view){
 
-        // Se o login estiver correto, mandar o usuário para a tela inicial logado.
-        // Se o login estiver errado, informar erro ao usuário.
-        if () {
+        if (tipoLogin.isChecked()) {
+
+            // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
+            // a tela de cadastro.
+            Toast.makeText(getApplicationContext(),"Você será direcionado para tela de cadastro", Toast.LENGTH_LONG).show();
 
         } else {
+
+            // Se o Switch estiver inativo o aplicativo tera que fazer uma consulta no banco
+            // de dados, se os dados digitados estiverem corretos ira retornar
+            // uma mensagem: "Acesso permitido" caso os dados estejam errados retornar
+            // uma mensagem: "Acesso negado".
+            Toast.makeText(getApplicationContext(),"Consultando dados", Toast.LENGTH_LONG).show();
 
         }
 
     }
-    */
 
 }
