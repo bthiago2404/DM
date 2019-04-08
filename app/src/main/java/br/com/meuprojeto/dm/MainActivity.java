@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    // Botão superior direito foi desativado por falta de necessidade do mesmo.
+    // antes de ser desativado ele estava com a opção de ativar gps, porém não tinha sido configurado.
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -49,9 +52,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    // Botão superior direito foi desativado por falta de necessidade do mesmo.
-    // antes de ser desativado ele estava com a opção de ativar gps, porém não tinha sido configurado.
-    /*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
