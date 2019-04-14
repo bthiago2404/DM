@@ -1,5 +1,6 @@
 package br.com.meuprojeto.dm;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // Apontando as variaveis para seus respctivos Views da tela login
+        // Apontando as variaveis para seus respctivos Views da tela login.
         login = findViewById(R.id.etLogin);
         senha = findViewById(R.id.etSenha);
         tipoLogin = findViewById(R.id.swTipoLogin);
@@ -38,12 +39,16 @@ public class LoginActivity extends AppCompatActivity {
             // a tela de cadastro.
             Toast.makeText(getApplicationContext(),"Você será direcionado para tela de cadastro", Toast.LENGTH_LONG).show();
 
+            Intent irTelaNovoUsuario = new Intent(getApplicationContext(), NovoUsuarioActivity.class);
+            startActivity(irTelaNovoUsuario);
+
         } else {
 
             // Se o Switch estiver inativo o aplicativo tera que fazer uma consulta no banco
             // de dados, se os dados digitados estiverem corretos ira retornar
-            // uma mensagem: "Acesso permitido" caso os dados estejam errados retornar
-            // uma mensagem: "Acesso negado".
+            // uma mensagem: "Acesso permitido" (por meio de um TOAST)
+            // caso os dados estejam errados retornar uma mensagem: "Acesso negado"
+            // (por meio de um ALERTDIALOG).
             Toast.makeText(getApplicationContext(),"Consultando dados", Toast.LENGTH_LONG).show();
 
         }
