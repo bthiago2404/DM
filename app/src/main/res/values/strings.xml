@@ -179,7 +179,7 @@
 
     // Strings da tela Ver Mais.
     <string name="txt_produtos">Produtos</string>
-    
+
     // Strings da tela Politica de Privacidade.
     <string name="txt_p1">Politica de privacidade</string>
     <string name="txt_p2">Estamos comprometidos com a conscientização de nossos clientes em relação
@@ -297,5 +297,14 @@
         praticas, como por exemplo: criticam construtivas e educadas. O avaliador de mercado não
         está para punir, mas sim para ajudarmos a nossos Mercados favoritos se aperfeiçoarem e cada
         vez mais ganharmos com isso.</string>
+
+    // Strings da tela Avaliação Estabelecimento.
+    <string name="txt_av_estabelecimento01">Com base na sua ultima experiencia no estabelecimento</string>
+    <string name="txt_estabelecimento">Estabelecimento X,</string>
+    <string name="txt_av_estabelecimento02">informe seu nivel de satisfação!</string>
+    <string name="txt_nota"> </string>
+    <string name="txt_obg_avaliacao">Agradecemos sua avaliação</string>
+
+
 
 </resources>
