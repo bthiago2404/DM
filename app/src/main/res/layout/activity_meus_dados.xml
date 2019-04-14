@@ -67,7 +67,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText16"
+                        android:id="@+id/etNome"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -91,8 +91,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_contatos"
-                        android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        android:textColor="@color/letras_roxo" />
 
                 </TableRow>
 
@@ -101,7 +100,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText6"
+                        android:id="@+id/etNumero"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -115,7 +114,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText5"
+                        android:id="@+id/etEmail"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -139,8 +138,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_endereco"
-                        android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        android:textColor="@color/letras_roxo" />
 
                 </TableRow>
 
@@ -149,7 +147,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText7"
+                        android:id="@+id/etRua"
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -163,7 +161,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText10"
+                        android:id="@+id/etBairro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -176,7 +174,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText12"
+                        android:id="@+id/etNum"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -199,8 +197,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_alterar_senha"
-                        android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        android:textColor="@color/letras_roxo" />
                 </TableRow>
 
                 <TableRow
@@ -208,7 +205,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText13"
+                        android:id="@+id/etSenha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -221,7 +218,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText14"
+                        android:id="@+id/etNovaSenha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -234,7 +231,7 @@
                     android:layout_height="match_parent">
 
                     <EditText
-                        android:id="@+id/editText15"
+                        android:id="@+id/etConfirmeNovaSenha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -266,8 +263,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/tx_melhor_hora_entrega"
-                        android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        android:textColor="@color/letras_roxo" />
                 </LinearLayout>
 
                 <TableRow
@@ -276,7 +272,7 @@
                     android:gravity="center">
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/cbManha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -284,7 +280,7 @@
                         android:textColor="@color/letras_roxo" />
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/cbTarde"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -292,7 +288,7 @@
                         android:textColor="@color/letras_roxo" />
 
                     <CheckBox
-                        android:id="@+id/checkBox6"
+                        android:id="@+id/cbNoite"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -302,7 +298,7 @@
                 </TableRow>
 
                 <Button
-                    android:id="@+id/button43"
+                    android:id="@+id/btnSalvar"
                     style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
