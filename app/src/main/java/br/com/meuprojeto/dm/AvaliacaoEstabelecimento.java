@@ -50,6 +50,6 @@ public class AvaliacaoEstabelecimento extends AppCompatActivity {
             }
         });
 
-
     }
+
 }
