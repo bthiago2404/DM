@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:background="@drawable/banner_seja_bem_vindo"
-                android:onClick="anuncio"
+                android:onClick="avaliacao"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="506dp" />
 

@@ -164,4 +164,9 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaMeusDados);
     }
 
+    public void avaliacao(View view) {
+        Intent irTelaAvaliacaoEstabelecimento = new Intent(getApplicationContext(), AvaliacaoEstabelecimento.class);
+        startActivity(irTelaAvaliacaoEstabelecimento);
+    }
+
 }
