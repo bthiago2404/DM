@@ -36,6 +36,37 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/txt_ola"
+                    android:textColor="@color/letras_roxo"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/txt_nome_usuario"
+                    android:textColor="@color/letras_laranja" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_informe_dados"
+                android:textColor="@color/letras_roxo"
+                android:textStyle="bold" />
+
             <View
                 android:id="@+id/divider"
                 android:layout_width="match_parent"

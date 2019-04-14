@@ -2,14 +2,16 @@
 
     <string name="app_name"> Delivery Mercados </string>
 
+    ==============================================================================================
     // Parte das Strings que não sei pra onde vai. Rssr
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
     // Fim dessa parte suspeita. Rsrs
 
-    <string name="action_settings">Ativar GPS</string>
-
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings do menu lateral.
     <string name="txt_login_logout">Login/Cadastro </string>
     <string name="txt_meus_dados">Meus Dados</string>
@@ -26,10 +28,11 @@
     <string name="txt_central_atendimento">Central de Atendimentos</string>
     <string name="txt_politica_privacidade">Politica de Privacidade</string>
     <string name="txt_configuracoes">Configurações</string>
-
-    // Strings do menu lateral.
     <string name="txt_ficou_com_duvida">Ficou com Duvida?</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Principal
     <string name="txt_comercios_abertos">Comércios abertos agora:</string>
     <string name="txt_comercios_fechados">Comércios fechados agora:</string>
@@ -37,13 +40,22 @@
     <string name="txt_quantidade_fechados">75</string>
     <string name="txt_pesquisar_produto">Pesquisar Comércios</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Anuncio.
     <string name="txt_exemplo0">ESSA SERÁ UMA PAGINA ONDE HAVERÁ PROPAGANDAS OU ANUNCIOS.</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Localização.
     <string name="txt_cep">CEP</string>
     <string name="txt_informar_cep">Informe seu CEP</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Lista de Compras.
     <string name="txt_ola">Olá</string>
     <string name="txt_nome_usuario">Cliente</string>
@@ -62,6 +74,9 @@
     <string name="txt_baixo">R$ 295,00</string>
     <string name="txt_ir_carrinho">Ir para o carrinho ;)</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Meus Pedidos.
     <string name="txt_pedidos">Veja abaixo seus pedidos recentes:</string>
     <string name="txt_pedido1">Pedido 01:</string>
@@ -78,21 +93,31 @@
     <string name="txt_pagamento">Dinheiro</string>
     <string name="txt_entrega">Delivery</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Loja Selecionada.
     <string name="txt_mais_vendidos">Mais Vendidos</string>
     <string name="txt_ver_mais">Ver Mais</string>
     <string name="txt_hortifruti">HORTIFRÚTI</string>
     <string name="txt_mercearia">MERCEARIA</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela de Login.
     <string name="txt_login">Login</string>
     <string name="txt_novo_usuario">Cadastrar</string>
     <string name="txt_login_usuario">Digite seu E-mail</string>
     <string name="txt_login_senha">Digite sua Senha</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Meus Dados.
     <string name="txt_informe_nick">Informe seu nick</string>
     <string name="txt_confirme_dados">Confirme ou altere seus dados:</string>
+    <string name="txt_informe_dados">Informe seus dados para finalizar seu cadastro:</string>
     <string name="txt_contatos">Contato:</string>
     <string name="txt_informe_telefone">Informe seu Telefone</string>
     <string name="txt_informe_email">Informe seu E-mail</string>
@@ -111,6 +136,9 @@
     <string name="txt_noite">Noite</string>
     <string name="txt_outros">Outros:</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Meu Carrinho.
     <string name="txt_conferir_pedido">Confira seu pedido:</string>
     <string name="txt_item1">Item 01:</string>
@@ -124,14 +152,23 @@
     <string name="txt_subtracao">-</string>
     <string name="txt_quantidade">0</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Tipo de Entrega.
     <string name="txt_buscar_loja">Buscar na Loja</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Confirmação de Pedidos.
     <string name="txt_compra_finalizada">Compra Finalizada com Sucesso!</string>
     <string name="txt_entrar">Entrar</string>
     <string name="txt_ok">OK</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Solicitar loja teste.
     <string name="txt_mensagem_parceiros">Olá, ficamos felizes com seu interesse!
     Preencha os dados abaixo e aguarde retorno da nossa equipe!</string>
@@ -141,20 +178,28 @@
     <string name="txt_telefone_fixo">Tel. Fixo:</string>
     <string name="txt_celular">Celular</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Central de Atendimento.
     <string name="txt_entre_em_contato">Entre em contato através dos canais de atendimento abaixo:</string>
     <string name="txt_contato_email">deliverymercados@gmail.com</string>
     <string name="txt_contato_telefone">(83) 9 9969 6093</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Politica de Privacidade.
     <string name="txt_politica_uso">Politica de Uso:</string>
     <string name="txt_politica_dados">Politica de Dados:</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Configurações
     <string name="txt_notificacao">Notificações</string>
     <string name="txt_avaliar_aplicativo">Avalie o nosso Aplicativo</string>
     <string name="txt_relatar_erro">Relatar problemas no app</string>
-
     // Observações sobre controle de versão:
     // Coloquei a versão do aplicativo em 3 digitos...
     // o primeiro digito é referente a versão do codigo fonte
@@ -162,10 +207,15 @@
     // o terceiro digito é referente a versão da base de dados.
     <string name="txt_versao">Versão 0.0.1</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     <string name="txt_resultado_busca">Resultado da Busca:</string>
     <string name="txt_sugeridos">Produtos Sugeridos</string>
 
-
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Produtos.
     <string name="txt_nome_produto">Feijão Preto 1kg</string>
     <string name="txt_preco_produto">R$ 4,75</string>
@@ -177,9 +227,15 @@
     <string name="txt_grupo_produto">Grupo:</string>
     <string name="txt_grupo">Esse produto faz parte do grupo de produtos de teste</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Ver Mais.
     <string name="txt_produtos">Produtos</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Politica de Privacidade.
     <string name="txt_p1">Politica de privacidade</string>
     <string name="txt_p2">Estamos comprometidos com a conscientização de nossos clientes em relação
@@ -269,6 +325,9 @@
         gratuitamente, mediante requerimento escrito enviado para
         contato@deliverymercados.com.br.</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Como Funciona.
     <string name="txt_c1">O que é o Delivery Mercados?</string>
     <string name="txt_c2">Delivery Mercados é uma plataforma de compras mensais voltado para o mais
@@ -298,12 +357,19 @@
         está para punir, mas sim para ajudarmos a nossos Mercados favoritos se aperfeiçoarem e cada
         vez mais ganharmos com isso.</string>
 
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
     // Strings da tela Avaliação Estabelecimento.
     <string name="txt_av_estabelecimento01">Com base na sua ultima experiencia no estabelecimento</string>
     <string name="txt_estabelecimento">Estabelecimento X,</string>
     <string name="txt_av_estabelecimento02">informe seu nivel de satisfação!</string>
     <string name="txt_nota"> </string>
     <string name="txt_obg_avaliacao">Agradecemos sua avaliação</string>
+
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
 
 
 
