@@ -11,73 +11,73 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".AvaliacaoEstabelecimento"
+        <activity android:name=".activity.AvaliacaoEstabelecimentoActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".VerMaisActivity"
+            android:name=".activity.VerMaisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NovoUsuarioActivity"
+            android:name=".activity.NovoUsuarioActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProdutoActivity"
+            android:name=".activity.ProdutoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".BuscaProdutoActivity"
+            android:name=".activity.BuscaProdutoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ConfiguracoesActivity"
+            android:name=".activity.ConfiguracoesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PoliticaPrivacidadeActivity"
+            android:name=".activity.PoliticaPrivacidadeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CentralAtendimentoActivity"
+            android:name=".activity.CentralAtendimentoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SolicitarLojaTesteActivity"
+            android:name=".activity.SolicitarLojaTesteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ConfirmacaoPedidoActivity"
+            android:name=".activity.ConfirmacaoPedidoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TipoEntregaActivity"
+            android:name=".activity.TipoEntregaActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DepartamentosActivity"
+            android:name=".activity.DepartamentosActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MeuCarrinhoActivity"
+            android:name=".activity.MeuCarrinhoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MeusDadosActivity"
+            android:name=".activity.MeusDadosActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LojaSelecionadaActivity"
+            android:name=".activity.LojaSelecionadaActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MapaLojasActivity"
+            android:name=".activity.MapaLojasActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MeusPedidosActivity"
+            android:name=".activity.MeusPedidosActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ListaComprasActivity"
+            android:name=".activity.ListaComprasActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ComoFuncionaActivity"
+            android:name=".activity.ComoFuncionaActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LocalizacaoActivity"
+            android:name=".activity.LocalizacaoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AnuncioActivity"
+            android:name=".activity.AnuncioActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
