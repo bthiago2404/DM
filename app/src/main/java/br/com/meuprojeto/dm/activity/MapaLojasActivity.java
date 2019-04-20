@@ -2,18 +2,16 @@ package br.com.meuprojeto.dm.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import br.com.meuprojeto.dm.R;
+import br.com.meuprojeto.dm.adapter.AdapterMapaLojas;
 
 public class MapaLojasActivity extends AppCompatActivity {
 
     // Criei a variavel listLocais do tipo ListView
-    private ListView listLocais;
+    private RecyclerView rvMapaLojas;
     // Criei uma variavel String como um array para armazenar varias palavras.
     private String[] bairros = {
             "Alto Branco", "Alto da Serra", "Araxá", "Bairro das Nações", "Conceição", "Cuités",
@@ -43,37 +41,23 @@ public class MapaLojasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mapa_lojas);
 
         // Apontei a variavel listLocais para o view listLocais da tela.
-        listLocais = findViewById(R.id.listLocais);
+        rvMapaLojas = findViewById(R.id.rvMapaLojas);
 
         // Configurando o Adapter (o adapter serve para receber os dados, sejam eles de uma
-        // matriz, vetor ou de uma base de dados, apos feito isso o adapter vai tratar os dados
+        // matriz, vetor ou de uma base de dados), apos feito isso o adapter vai tratar os dados
         // e servir como parametro para ser usado posteriormente no ListView.
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(
-                getApplicationContext(),
-                // Na linha abaixo eu indiquei o leyout que vou usar.
-                android.R.layout.simple_list_item_1,
-                // Na linha abaixo eu indiquei o campo que será preenchido.
-                android.R.id.text1,
-                // Na linha abaixo eu informei quem ira preencher o campo indicado acima.
-                bairros
-        );
+        AdapterMapaLojas adapter = new AdapterMapaLojas();
 
-        // Adicionando o adaptador para a ListView.
-        listLocais.setAdapter( adaptador );
+
+        // Adicionando o adaptador para a RecyclerView.
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        rvMapaLojas.setLayoutManager(layoutManager);
+        rvMapaLojas.setHasFixedSize(true);
+        rvMapaLojas.setAdapter(adapter);
+
 
         // Adicionando cliqe na lista
-        listLocais.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                // Criei uma nova variavel (valorSelecionado) e informei que ela iria pegar
-                // os dados da variavel listLocais e a posição do click do usuario. E informar
-                // para o usuario atravez de um Toast (mensagem flutuante na tela).
-                String valorSelecionado = listLocais.getItemAtPosition(position).toString();
-                Toast.makeText(getApplicationContext(), valorSelecionado, Toast.LENGTH_LONG).show();
-
-            }
-        });
 
     }
 
