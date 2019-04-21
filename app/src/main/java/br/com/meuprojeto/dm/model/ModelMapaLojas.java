@@ -2,24 +2,34 @@ package br.com.meuprojeto.dm.model;
 
 public class ModelMapaLojas {
 
-    private String zona;
+    private String loja;
+    private String cidade;
     private String bairro;
 
     public ModelMapaLojas(){
 
     }
 
-    public ModelMapaLojas(String zona, String bairro) {
-        this.zona = zona;
+    public ModelMapaLojas(String loja, String cidade, String bairro) {
+        this.loja = loja;
+        this.cidade = cidade;
         this.bairro = bairro;
     }
 
-    public String getZona() {
-        return zona;
+    public String getLoja() {
+        return loja;
     }
 
-    public void setZona(String zona) {
-        this.zona = zona;
+    public void setLoja(String loja) {
+        this.loja = loja;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
     }
 
     public String getBairro() {
@@ -29,5 +39,4 @@ public class ModelMapaLojas {
     public void setBairro(String bairro) {
         this.bairro = bairro;
     }
-
 }
