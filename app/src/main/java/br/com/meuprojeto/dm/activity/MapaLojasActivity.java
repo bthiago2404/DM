@@ -4,8 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.ListView;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +13,8 @@ import br.com.meuprojeto.dm.model.ModelMapaLojas;
 
 public class MapaLojasActivity extends AppCompatActivity {
 
-    // Criei a variavel listLocais do tipo ListView
+    // Criei as variaveis. A RecycleView serve para apontar pro RecyclerView da tela adapter_mapa_lojas.xml
+    // e a variavel List<ModelMapaLojas> serve como um ArrayList para receber a lista de bairros.
     private RecyclerView rvMapaLojas;
     private List<ModelMapaLojas> listaBairros = new ArrayList<>();
 
