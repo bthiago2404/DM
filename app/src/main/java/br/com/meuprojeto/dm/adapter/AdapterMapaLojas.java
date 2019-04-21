@@ -6,18 +6,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import java.util.List;
-
 import br.com.meuprojeto.dm.R;
 import br.com.meuprojeto.dm.model.ModelMapaLojas;
 
 public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyViewHolder>{
 
-    private List<ModelMapaLojas> listaZonaBairro;
+    private List<ModelMapaLojas> mapaLojasAdapter;
 
     public AdapterMapaLojas(List<ModelMapaLojas> lista) {
-        this.listaZonaBairro = lista;
+        this.mapaLojasAdapter = lista;
     }
 
     // Metodo abaixo apenas cria a visualização dos itens. Pelo que eu entendi ate o momento,
@@ -37,7 +35,7 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
 
-        ModelMapaLojas listaMapaLojas = listaZonaBairro.get(i);
+        ModelMapaLojas listaMapaLojas = mapaLojasAdapter.get(i);
 
         myViewHolder.zona.setText(listaMapaLojas.getZona());
         myViewHolder.bairro.setText(listaMapaLojas.getBairro());
@@ -47,7 +45,7 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
     // Esse metodo é responsavel por retornar a quantidade de itens que vão ser exibidos.
     @Override
     public int getItemCount() {
-        return listaZonaBairro.size();
+        return mapaLojasAdapter.size();
     }
 
     // Inner class necessario para o funcionamento perfeito do adapter.
