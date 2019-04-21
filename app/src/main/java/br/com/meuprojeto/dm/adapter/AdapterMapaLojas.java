@@ -54,7 +54,7 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
     // Inner class necessario para o funcionamento perfeito do adapter.
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
-        // Na inner class eu criei duas variaveis (que mais abaixo vão fazer referencia
+        // Na inner class eu criei trez variaveis (que mais abaixo vão fazer referencia
         // aos TextView que tem na tela adapter_mapa_loja.xml
         TextView loja;
         TextView cidade;
