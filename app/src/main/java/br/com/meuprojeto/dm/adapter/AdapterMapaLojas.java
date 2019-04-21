@@ -7,13 +7,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.List;
+
 import br.com.meuprojeto.dm.R;
+import br.com.meuprojeto.dm.model.ModelMapaLojas;
 
 public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyViewHolder>{
 
+    private List<ModelMapaLojas> listaZonaBairro;
+
+    public AdapterMapaLojas(List<ModelMapaLojas> lista) {
+        this.listaZonaBairro = lista;
+    }
+
     // Metodo abaixo apenas cria a visualização dos itens. Pelo que eu entendi ate o momento,
     // o metodo abaixo traz o layout em xml e converte para um objeto para poder ser usado
-    // como referencia.
+    // como referencia para ser instanciado posteriormente.
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -28,25 +37,31 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
 
-        myViewHolder.zona.setText("Zona de Teste");
-        myViewHolder.bairro.setText("Bairro de teste");
+        ModelMapaLojas listaMapaLojas = listaZonaBairro.get(i);
+
+        myViewHolder.zona.setText(listaMapaLojas.getZona());
+        myViewHolder.bairro.setText(listaMapaLojas.getBairro());
 
     }
 
     // Esse metodo é responsavel por retornar a quantidade de itens que vão ser exibidos.
     @Override
     public int getItemCount() {
-        return 10;
+        return listaZonaBairro.size();
     }
 
+    // Inner class necessario para o funcionamento perfeito do adapter.
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
+        // Na inner class eu criei duas variaveis (que mais abaixo vão fazer referencia
+        // aos TextView que tem na tela adapter_mapa_loja.xml
         TextView zona;
         TextView bairro;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
+            // Apontei as duas variaveis para os view da tela
             zona = itemView.findViewById(R.id.tvZona);
             bairro = itemView.findViewById(R.id.tvBairro);
 
