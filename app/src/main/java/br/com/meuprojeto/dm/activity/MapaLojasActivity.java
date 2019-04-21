@@ -55,8 +55,6 @@ public class MapaLojasActivity extends AppCompatActivity {
         ModelMapaLojas listaZonaBairro = new ModelMapaLojas("Zona Norte", "Alto Branco");
         this.listaBairros.add(listaZonaBairro);
 
-        //listaZonaBairro = new ModelMapaLojas("Zona Norte","Alto Branco");
-        //listaBairros.add(listaZonaBairro);
         listaZonaBairro = new ModelMapaLojas("Zona Norte","Alto da Serra");
         listaBairros.add(listaZonaBairro);
         listaZonaBairro = new ModelMapaLojas("Zona Norte","Araxá");
