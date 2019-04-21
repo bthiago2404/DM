@@ -6,10 +6,6 @@ public class ModelMapaLojas {
     private String cidade;
     private String bairro;
 
-    public ModelMapaLojas(){
-
-    }
-
     public ModelMapaLojas(String loja, String cidade, String bairro) {
         this.loja = loja;
         this.cidade = cidade;
@@ -39,4 +35,5 @@ public class ModelMapaLojas {
     public void setBairro(String bairro) {
         this.bairro = bairro;
     }
+
 }
