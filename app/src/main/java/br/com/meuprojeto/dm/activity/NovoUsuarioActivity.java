@@ -1,5 +1,6 @@
 package br.com.meuprojeto.dm.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -58,7 +59,10 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     // Metodo responsabel por salvar os dados do cliente no banco. (Em Construção).
     public void salvar(View view){
 
+
         verificaCheck();
+        Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(irTelaInicial);
 
     }
 
