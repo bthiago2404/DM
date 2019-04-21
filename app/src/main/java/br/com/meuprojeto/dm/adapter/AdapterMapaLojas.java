@@ -12,8 +12,10 @@ import br.com.meuprojeto.dm.model.ModelMapaLojas;
 
 public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyViewHolder>{
 
+    // Criei um atributo para ser usado no decorrer do codigo abaixo.
     private List<ModelMapaLojas> mapaLojasAdapter;
 
+    // Metodo construtor da classe AdapterMapaLojas.
     public AdapterMapaLojas(List<ModelMapaLojas> lista) {
         this.mapaLojasAdapter = lista;
     }
