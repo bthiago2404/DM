@@ -39,7 +39,8 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
 
         ModelMapaLojas listaMapaLojas = mapaLojasAdapter.get(i);
 
-        myViewHolder.zona.setText(listaMapaLojas.getZona());
+        myViewHolder.loja.setText(listaMapaLojas.getLoja());
+        myViewHolder.cidade.setText(listaMapaLojas.getCidade());
         myViewHolder.bairro.setText(listaMapaLojas.getBairro());
 
     }
@@ -55,14 +56,16 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
 
         // Na inner class eu criei duas variaveis (que mais abaixo vão fazer referencia
         // aos TextView que tem na tela adapter_mapa_loja.xml
-        TextView zona;
+        TextView loja;
+        TextView cidade;
         TextView bairro;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             // Apontei as duas variaveis para os view da tela
-            zona = itemView.findViewById(R.id.tvZona);
+            loja = itemView.findViewById(R.id.tvLoja);
+            cidade = itemView.findViewById(R.id.tvCidade);
             bairro = itemView.findViewById(R.id.tvBairro);
 
         }
