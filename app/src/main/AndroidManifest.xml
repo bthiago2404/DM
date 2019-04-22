@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        package="br.com.meuprojeto.dm">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.meuprojeto.dm">
 
     <application
         android:allowBackup="true"
@@ -11,8 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.AvaliacaoEstabelecimentoActivity"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.LocaisEntregaActivity"></activity>
+        <activity
+            android:name=".activity.AvaliacaoEstabelecimentoActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.VerMaisActivity"
             android:screenOrientation="portrait" />
