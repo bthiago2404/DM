@@ -29,7 +29,7 @@ public class MapaLojasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapa_lojas);
 
-        // Apontei a variavel listLocais para o view listLocais da tela.
+        // Apontei a variavel rvMapaLojas para o recyclerview rvMapaLojas da tela.
         rvMapaLojas = findViewById(R.id.rvMapaLojas);
 
         // Listagens de Bairros
