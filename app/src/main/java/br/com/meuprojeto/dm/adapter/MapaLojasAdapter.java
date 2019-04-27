@@ -8,15 +8,15 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import java.util.List;
 import br.com.meuprojeto.dm.R;
-import br.com.meuprojeto.dm.model.ModelMapaLojas;
+import br.com.meuprojeto.dm.model.MapaLojasModel;
 
-public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyViewHolder>{
+public class MapaLojasAdapter extends RecyclerView.Adapter<MapaLojasAdapter.MyViewHolder>{
 
     // Criei um atributo para ser usado no decorrer do codigo abaixo.
-    private List<ModelMapaLojas> mapaLojasAdapter;
+    private List<MapaLojasModel> mapaLojasAdapter;
 
-    // Metodo construtor da classe AdapterMapaLojas.
-    public AdapterMapaLojas(List<ModelMapaLojas> lista) {
+    // Metodo construtor da classe MapaLojasAdapter.
+    public MapaLojasAdapter(List<MapaLojasModel> lista) {
         this.mapaLojasAdapter = lista;
     }
 
@@ -37,7 +37,7 @@ public class AdapterMapaLojas extends RecyclerView.Adapter<AdapterMapaLojas.MyVi
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
 
-        ModelMapaLojas listaMapaLojas = mapaLojasAdapter.get(i);
+        MapaLojasModel listaMapaLojas = mapaLojasAdapter.get(i);
 
         myViewHolder.loja.setText(listaMapaLojas.getLoja());
         myViewHolder.cidade.setText(listaMapaLojas.getCidade());
