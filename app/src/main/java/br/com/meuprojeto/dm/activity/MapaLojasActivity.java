@@ -1,14 +1,20 @@
 package br.com.meuprojeto.dm.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Toast;
+
 import java.util.ArrayList;
 import java.util.List;
 import br.com.meuprojeto.dm.R;
 import br.com.meuprojeto.dm.adapter.AdapterMapaLojas;
 import br.com.meuprojeto.dm.model.ModelMapaLojas;
+import br.com.meuprojeto.dm.outros.RecyclerItemClickListener;
 
 public class MapaLojasActivity extends AppCompatActivity {
 
@@ -41,6 +47,38 @@ public class MapaLojasActivity extends AppCompatActivity {
         rvMapaLojas.setAdapter(adapter);
 
         // Adicionando cliqe na lista
+        rvMapaLojas.addOnItemTouchListener(
+                new RecyclerItemClickListener(
+                        getApplicationContext(),
+                        rvMapaLojas,
+                        new RecyclerItemClickListener.OnItemClickListener() {
+
+                            // Esse metodo é responsavel pelo click unico no item da lista.
+                            @Override
+                            public void onItemClick(View view, int position) {
+                                Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
+                                startActivity(irTelaLojaSelecionada);
+                            }
+
+                            // Esse metodo é responsavel pelo click longo no item da lista.
+                            @Override
+                            public void onLongItemClick(View view, int position) {
+                                ModelMapaLojas modelMapaLojas = mapaLojasActivity.get(position);
+                                Toast.makeText(
+                                        getApplicationContext(),
+                                        "" + modelMapaLojas.getLoja(),
+                                        Toast.LENGTH_SHORT
+                                ).show();
+                            }
+
+                            //
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                            }
+                        }
+                )
+        );
 
     }
 
