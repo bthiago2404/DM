@@ -12,16 +12,16 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 import br.com.meuprojeto.dm.R;
-import br.com.meuprojeto.dm.adapter.AdapterMapaLojas;
-import br.com.meuprojeto.dm.model.ModelMapaLojas;
+import br.com.meuprojeto.dm.adapter.MapaLojasAdapter;
+import br.com.meuprojeto.dm.model.MapaLojasModel;
 import br.com.meuprojeto.dm.outros.RecyclerItemClickListener;
 
 public class MapaLojasActivity extends AppCompatActivity {
 
     // Criei as variaveis. A RecycleView serve para apontar pro RecyclerView da tela adapter_mapa_lojas.xml
-    // e a variavel List<ModelMapaLojas> serve como um ArrayList para receber a lista de bairros.
+    // e a variavel List<MapaLojasModel> serve como um ArrayList para receber a lista de bairros.
     private RecyclerView rvMapaLojas;
-    private List<ModelMapaLojas> mapaLojasActivity = new ArrayList<>();
+    private List<MapaLojasModel> mapaLojasActivity = new ArrayList<>();
 
     // No metodo onCreate eu fiz todos os procedimentos que precisam ser feitos ao iniciar a tela.
     @Override
@@ -38,7 +38,7 @@ public class MapaLojasActivity extends AppCompatActivity {
         // Configurando o Adapter (o adapter serve para receber os dados, sejam eles de uma
         // matriz, vetor ou de uma base de dados), apos feito isso o adapter vai tratar os dados
         // e servir como parametro para ser usado posteriormente no ListView.
-        AdapterMapaLojas adapter = new AdapterMapaLojas(mapaLojasActivity);
+        MapaLojasAdapter adapter = new MapaLojasAdapter(mapaLojasActivity);
 
         // Adicionando o adaptador para a RecyclerView.
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -63,10 +63,10 @@ public class MapaLojasActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click longo no item da lista.
                             @Override
                             public void onLongItemClick(View view, int position) {
-                                ModelMapaLojas modelMapaLojas = mapaLojasActivity.get(position);
+                                MapaLojasModel mapaLojasModel = mapaLojasActivity.get(position);
                                 Toast.makeText(
                                         getApplicationContext(),
-                                        "" + modelMapaLojas.getLoja(),
+                                        "" + mapaLojasModel.getLoja(),
                                         Toast.LENGTH_SHORT
                                 ).show();
                             }
@@ -87,29 +87,29 @@ public class MapaLojasActivity extends AppCompatActivity {
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaMapaLojas(){
 
-        ModelMapaLojas listaMapaLojas = new ModelMapaLojas("Loja 1", "Campina Grande", "Alto Branco");
+        MapaLojasModel listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Alto Branco");
         this.mapaLojasActivity.add(listaMapaLojas);
 
-        listaMapaLojas = new ModelMapaLojas("Hiper Bom Preço", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Hiper Bom Preço", "Campina Grande", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Hiper Bom Preço", "Queimadas", "Norte");
+        listaMapaLojas = new MapaLojasModel("Hiper Bom Preço", "Queimadas", "Norte");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Americanas", "João Pessoa", "Centro");
+        listaMapaLojas = new MapaLojasModel("Americanas", "João Pessoa", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Maxxi Atacado", "João Pessoa", "Praia");
+        listaMapaLojas = new MapaLojasModel("Maxxi Atacado", "João Pessoa", "Praia");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Surubim", "Campina Grande", "Cruzeiro");
+        listaMapaLojas = new MapaLojasModel("Surubim", "Campina Grande", "Cruzeiro");
         mapaLojasActivity.add(listaMapaLojas);
 
-        listaMapaLojas = new ModelMapaLojas("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new ModelMapaLojas("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
         mapaLojasActivity.add(listaMapaLojas);
 
     }

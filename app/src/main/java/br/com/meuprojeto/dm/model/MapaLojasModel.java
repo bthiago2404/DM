@@ -1,12 +1,12 @@
 package br.com.meuprojeto.dm.model;
 
-public class ModelMapaLojas {
+public class MapaLojasModel {
 
     private String loja;
     private String cidade;
     private String bairro;
 
-    public ModelMapaLojas(String loja, String cidade, String bairro) {
+    public MapaLojasModel(String loja, String cidade, String bairro) {
         this.loja = loja;
         this.cidade = cidade;
         this.bairro = bairro;
