@@ -18,12 +18,9 @@ import br.com.meuprojeto.dm.outros.RecyclerItemClickListener;
 
 public class MapaLojasActivity extends AppCompatActivity {
 
-    // Criei as variaveis. A RecycleView serve para apontar pro RecyclerView da tela adapter_mapa_lojas.xml
-    // e a variavel List<MapaLojasModel> serve como um ArrayList para receber a lista de bairros.
     private RecyclerView rvMapaLojas;
     private List<MapaLojasModel> mapaLojasActivity = new ArrayList<>();
 
-    // No metodo onCreate eu fiz todos os procedimentos que precisam ser feitos ao iniciar a tela.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

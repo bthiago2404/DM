@@ -15,7 +15,7 @@ public class LocaisEntregaAdapter extends RecyclerView.Adapter<LocaisEntregaAdap
     // Criei um atributo para ser usado no decorrer do codigo abaixo.
     private List<LocaisEntregaModel> locaisEntregaAdapter;
 
-    // Metodo construtor da classe DepartamentosAdapter.
+    // Metodo construtor da classe LocaisEntregaAdapter.
     public LocaisEntregaAdapter(List<LocaisEntregaModel> lista) {
         this.locaisEntregaAdapter = lista;
     }
