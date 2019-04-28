@@ -5,11 +5,21 @@ public class MapaLojasModel {
     private String loja;
     private String cidade;
     private String bairro;
+    private String telefone;
 
-    public MapaLojasModel(String loja, String cidade, String bairro) {
+    public MapaLojasModel(String loja, String cidade, String bairro, String telefone) {
         this.loja = loja;
         this.cidade = cidade;
         this.bairro = bairro;
+        this.telefone = telefone;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
 
     public String getLoja() {
