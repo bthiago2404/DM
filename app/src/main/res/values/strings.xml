@@ -110,6 +110,8 @@
     <string name="txt_novo_usuario">Cadastrar</string>
     <string name="txt_login_usuario">Digite seu E-mail</string>
     <string name="txt_login_senha">Digite sua Senha</string>
+    <string name="txt_esqueceu_senha">Esqueceu sua senha? </string>
+    <string name="txt_clique_aqui"> Clique Aqui!</string>
 
     ==============================================================================================
     **********************************************************************************************
