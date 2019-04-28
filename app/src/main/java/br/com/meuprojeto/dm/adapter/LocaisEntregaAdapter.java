@@ -8,16 +8,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import java.util.List;
 import br.com.meuprojeto.dm.R;
-import br.com.meuprojeto.dm.model.DepartamentosModel;
+import br.com.meuprojeto.dm.model.LocaisEntregaModel;
 
-public class DepartamentosAdapter extends RecyclerView.Adapter<DepartamentosAdapter.MyViewHolder> {
+public class LocaisEntregaAdapter extends RecyclerView.Adapter<LocaisEntregaAdapter.MyViewHolder> {
 
     // Criei um atributo para ser usado no decorrer do codigo abaixo.
-    private List<DepartamentosModel> departamentosAdapter;
+    private List<LocaisEntregaModel> locaisEntregaAdapter;
 
     // Metodo construtor da classe DepartamentosAdapter.
-    public DepartamentosAdapter(List<DepartamentosModel> lista) {
-        this.departamentosAdapter = lista;
+    public LocaisEntregaAdapter(List<LocaisEntregaModel> lista) {
+        this.locaisEntregaAdapter = lista;
     }
 
     // Metodo abaixo apenas cria a visualização dos itens. Pelo que eu entendi ate o momento,
@@ -27,7 +27,7 @@ public class DepartamentosAdapter extends RecyclerView.Adapter<DepartamentosAdap
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View itemLista = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.adapter_departamentos, viewGroup, false);
+                .inflate(R.layout.adapter_locais_entrega, viewGroup, false);
 
         return new MyViewHolder(itemLista);
     }
@@ -36,25 +36,24 @@ public class DepartamentosAdapter extends RecyclerView.Adapter<DepartamentosAdap
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
 
-        DepartamentosModel listaDepartamentos = departamentosAdapter.get(i);
+        LocaisEntregaModel listaLocaisEntrega = locaisEntregaAdapter.get(i);
 
-        myViewHolder.tvdepartamento.setText(listaDepartamentos.getTvdepartamentos());
-
+        myViewHolder.tvBairro.setText(listaLocaisEntrega.getTvBairro());
     }
 
     // Esse metodo é responsavel por retornar a quantidade de itens que vão ser exibidos.
     @Override
-    public int getItemCount() { return departamentosAdapter.size(); }
+    public int getItemCount() { return locaisEntregaAdapter.size(); }
 
     // Inner class necessario para o funcionamento perfeito do adapter.
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView tvdepartamento;
+        TextView tvBairro;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvdepartamento = itemView.findViewById(R.id.tvDepartamento);
+            tvBairro = itemView.findViewById(R.id.tvBairro);
 
         }
     }

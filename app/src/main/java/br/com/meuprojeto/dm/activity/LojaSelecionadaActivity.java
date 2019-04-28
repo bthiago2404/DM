@@ -17,9 +17,14 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
 
     // Interação entre a tela LOJA SELECIONADA e a tela PRODUTO
     // através do botão que exibe o lodo_icone_quadrada_old do produto.
-    public void produto(View view) {
+    public void produto(View view){
         Intent irTelaProdutos = new Intent(getApplicationContext(), ProdutoActivity.class);
         startActivity(irTelaProdutos);
+    }
+
+    public void locaisEntrega(View view){
+        Intent irTelaLocaisEntrega = new Intent(getApplicationContext(), LocaisEntregaActivity.class);
+        startActivity(irTelaLocaisEntrega);
     }
 
 }
