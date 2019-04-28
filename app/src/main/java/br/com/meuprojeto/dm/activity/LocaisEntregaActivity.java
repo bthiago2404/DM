@@ -43,10 +43,9 @@ public class LocaisEntregaActivity extends AppCompatActivity {
 
     }
 
-     // Metodo responsavel por gerenciar a lista de bairros que fazemos entrega.
+    // Metodo responsavel por gerenciar a lista de bairros que fazemos entrega.
     // esse metodo está trabalhando com uma lista de bairros engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.
-
     public void listaLocaisEntrega(){
 
         LocaisEntregaModel listaLocaisEntrega = new LocaisEntregaModel("Presidente Medici");

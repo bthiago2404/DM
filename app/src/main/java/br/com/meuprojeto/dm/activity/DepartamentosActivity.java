@@ -81,8 +81,8 @@ public class DepartamentosActivity extends AppCompatActivity {
 
     }
 
-    // Metodo responsavel por gerenciar a lista de bairros que eu tenho.
-    // esse metodo está trabalhando com uma lista de bairros engessada. Futuramente quero que
+    // Metodo responsavel por gerenciar a lista de departamentos que eu tenho.
+    // esse metodo está trabalhando com uma lista de departamentos engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaDepartamentos(){
 
@@ -108,8 +108,6 @@ public class DepartamentosActivity extends AppCompatActivity {
         listaDepartamentos = new DepartamentosModel("Ex de departamento 10");
         departamentosActivity.add(listaDepartamentos);
 
-
     }
-
 
 }
