@@ -51,10 +51,10 @@ public class DepartamentosActivity extends AppCompatActivity {
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaDepartamentos(){
 
-        DepartamentosModel listaDepartamentos = new DepartamentosModel("Ex 01", "Ex de Departamento");
+        DepartamentosModel listaDepartamentos = new DepartamentosModel("Ex 01", "Ex de Departamento 1");
         this.departamentosActivity.add(listaDepartamentos);
 
-        listaDepartamentos = new DepartamentosModel("Ex 01", "Ex de departamento");
+        listaDepartamentos = new DepartamentosModel("Ex 02", "Ex de departamento 2");
         departamentosActivity.add(listaDepartamentos);
 
     }
