@@ -39,7 +39,6 @@ public class DepartamentosAdapter extends RecyclerView.Adapter<DepartamentosAdap
 
         DepartamentosModel listaDepartamentos = departamentosAdapter.get(i);
 
-        myViewHolder.btndepartamento.setText(listaDepartamentos.getBtndepartamentos());
         myViewHolder.tvdepartamento.setText(listaDepartamentos.getTvdepartamentos());
 
     }
@@ -59,7 +58,6 @@ public class DepartamentosAdapter extends RecyclerView.Adapter<DepartamentosAdap
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            btndepartamento = itemView.findViewById(R.id.btnDepartamento);
             tvdepartamento = itemView.findViewById(R.id.tvDepartamento);
 
         }

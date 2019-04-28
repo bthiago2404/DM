@@ -87,29 +87,29 @@ public class MapaLojasActivity extends AppCompatActivity {
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaMapaLojas(){
 
-        MapaLojasModel listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Alto Branco");
+        MapaLojasModel listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Alto Branco", "(83) 8780-4654");
         this.mapaLojasActivity.add(listaMapaLojas);
 
-        listaMapaLojas = new MapaLojasModel("Hiper Bom Preço", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Hiper Bom Preço", "Campina Grande", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Hiper Bom Preço", "Queimadas", "Norte");
+        listaMapaLojas = new MapaLojasModel("Hiper Bom Preço", "Queimadas", "Norte", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Americanas", "João Pessoa", "Centro");
+        listaMapaLojas = new MapaLojasModel("Americanas", "João Pessoa", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Maxxi Atacado", "João Pessoa", "Praia");
+        listaMapaLojas = new MapaLojasModel("Maxxi Atacado", "João Pessoa", "Praia", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Surubim", "Campina Grande", "Cruzeiro");
+        listaMapaLojas = new MapaLojasModel("Surubim", "Campina Grande", "Cruzeiro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
 
-        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
-        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro");
+        listaMapaLojas = new MapaLojasModel("Loja 1", "Campina Grande", "Centro", "(83) 8780-4654");
         mapaLojasActivity.add(listaMapaLojas);
 
     }

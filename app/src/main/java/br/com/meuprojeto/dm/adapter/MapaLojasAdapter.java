@@ -42,6 +42,7 @@ public class MapaLojasAdapter extends RecyclerView.Adapter<MapaLojasAdapter.MyVi
         myViewHolder.loja.setText(listaMapaLojas.getLoja());
         myViewHolder.cidade.setText(listaMapaLojas.getCidade());
         myViewHolder.bairro.setText(listaMapaLojas.getBairro());
+        myViewHolder.telefone.setText(listaMapaLojas.getTelefone());
 
     }
 
@@ -59,6 +60,7 @@ public class MapaLojasAdapter extends RecyclerView.Adapter<MapaLojasAdapter.MyVi
         TextView loja;
         TextView cidade;
         TextView bairro;
+        TextView telefone;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -67,6 +69,7 @@ public class MapaLojasAdapter extends RecyclerView.Adapter<MapaLojasAdapter.MyVi
             loja = itemView.findViewById(R.id.tvLoja);
             cidade = itemView.findViewById(R.id.tvCidade);
             bairro = itemView.findViewById(R.id.tvBairro);
+            telefone = itemView.findViewById(R.id.tvTelefone);
 
         }
     }
