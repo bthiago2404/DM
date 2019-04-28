@@ -25,7 +25,6 @@ public class DepartamentosActivity extends AppCompatActivity {
         // Apontei a variavel rvDepartamentos para o recyclerview rvDepartamentos da tela.
         rvDepartamentos = findViewById(R.id.rvDepartamentos);
 
-
         // Listagens de Departamentos
         this.listaDepartamentos();
 

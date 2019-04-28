@@ -2,18 +2,18 @@ package br.com.meuprojeto.dm.model;
 
 public class DepartamentosModel {
 
-    private String tvdepartamentos;
+    private String tvDepartamentos;
 
     public DepartamentosModel(String tvdepartamentos) {
-        this.tvdepartamentos = tvdepartamentos;
+        this.tvDepartamentos = tvdepartamentos;
     }
 
     public String getTvdepartamentos() {
-        return tvdepartamentos;
+        return tvDepartamentos;
     }
 
     public void setTvdepartamentos(String tvdepartamentos) {
-        this.tvdepartamentos = tvdepartamentos;
+        this.tvDepartamentos = tvdepartamentos;
     }
 
 }

@@ -373,7 +373,7 @@
     // Strings usadas nos Adapter.xml
     <string name="txt_loja">Loja</string>
     <string name="txt_cidade">Cidade</string>
-
+    <string name="txt_locias_entrega">Locais que fazemos Entrega:</string>
 
 
 
