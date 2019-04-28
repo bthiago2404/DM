@@ -1,9 +1,13 @@
 package br.com.meuprojeto.dm.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +15,7 @@ import java.util.List;
 import br.com.meuprojeto.dm.R;
 import br.com.meuprojeto.dm.adapter.DepartamentosAdapter;
 import br.com.meuprojeto.dm.model.DepartamentosModel;
+import br.com.meuprojeto.dm.outros.RecyclerItemClickListener;
 
 public class DepartamentosActivity extends AppCompatActivity {
 
@@ -41,7 +46,38 @@ public class DepartamentosActivity extends AppCompatActivity {
         rvDepartamentos.setAdapter(adapter);
 
         // Adicionando cliqe na lista
+        rvDepartamentos.addOnItemTouchListener(
+                new RecyclerItemClickListener(
+                        getApplicationContext(),
+                        rvDepartamentos,
+                        new RecyclerItemClickListener.OnItemClickListener() {
 
+                            // Esse metodo é responsavel pelo click unico no item da lista.
+                            @Override
+                            public void onItemClick(View view, int position) {
+                                //Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
+                                //startActivity(irTelaLojaSelecionada);
+                            }
+
+                            // Esse metodo é responsavel pelo click longo no item da lista.
+                            @Override
+                            public void onLongItemClick(View view, int position) {
+                                DepartamentosModel departamentosModel = departamentosActivity.get(position);
+                                Toast.makeText(
+                                        getApplicationContext(),
+                                        "" + departamentosModel.getTvdepartamentos(),
+                                        Toast.LENGTH_SHORT
+                                ).show();
+                            }
+
+                            //
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                            }
+                        }
+                )
+        );
 
     }
 
