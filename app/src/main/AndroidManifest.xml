@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.LocaisEntregaActivity"></activity>
+        <activity android:name=".activity.CategoriasActivity"></activity>
+        <activity android:name=".activity.LocaisEntregaActivity" />
         <activity
             android:name=".activity.AvaliacaoEstabelecimentoActivity"
             android:screenOrientation="portrait" />
