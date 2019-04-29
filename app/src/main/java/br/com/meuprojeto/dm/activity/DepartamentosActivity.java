@@ -55,8 +55,8 @@ public class DepartamentosActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click unico no item da lista.
                             @Override
                             public void onItemClick(View view, int position) {
-                                //Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
-                                //startActivity(irTelaLojaSelecionada);
+                                Intent irTelaDepartamento = new Intent(getApplicationContext(), CategoriasActivity.class);
+                                startActivity(irTelaDepartamento);
                             }
 
                             // Esse metodo é responsavel pelo click longo no item da lista.
