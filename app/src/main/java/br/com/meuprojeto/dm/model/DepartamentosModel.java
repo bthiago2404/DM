@@ -4,6 +4,9 @@ public class DepartamentosModel {
 
     private String tvDepartamentos;
 
+    public DepartamentosModel() {
+    }
+
     public DepartamentosModel(String tvdepartamentos) {
         this.tvDepartamentos = tvdepartamentos;
     }

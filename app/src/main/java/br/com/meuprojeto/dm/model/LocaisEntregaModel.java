@@ -4,6 +4,9 @@ public class LocaisEntregaModel {
 
     private String tvBairro;
 
+    public LocaisEntregaModel() {
+    }
+
     public LocaisEntregaModel(String tvBairro) {
         this.tvBairro = tvBairro;
     }
