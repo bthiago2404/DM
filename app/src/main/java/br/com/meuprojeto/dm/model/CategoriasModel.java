@@ -4,6 +4,9 @@ public class CategoriasModel {
 
     private String tvCategoria;
 
+    public CategoriasModel() {
+    }
+
     public CategoriasModel(String tvCategoria) {
         this.tvCategoria = tvCategoria;
     }

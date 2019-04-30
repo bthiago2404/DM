@@ -7,6 +7,9 @@ public class MapaLojasModel {
     private String bairro;
     private String telefone;
 
+    public MapaLojasModel() {
+    }
+
     public MapaLojasModel(String loja, String cidade, String bairro, String telefone) {
         this.loja = loja;
         this.cidade = cidade;
