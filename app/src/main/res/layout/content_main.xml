@@ -10,7 +10,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/etBuscarDepartamento"
         android:layout_width="0dp"
         android:layout_height="35dp"
         android:layout_marginStart="20dp"
@@ -23,21 +23,21 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:textColor="@color/capa"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toEndOf="@+id/button85"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button85"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
         android:background="@drawable/icons8_search_64"
+        app:layout_constraintBottom_toBottomOf="@+id/etBuscarDepartamento"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/etBuscarDepartamento" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText11"
+        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento"
         app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout

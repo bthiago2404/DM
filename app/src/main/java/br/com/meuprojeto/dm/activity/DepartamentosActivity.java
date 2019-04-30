@@ -38,7 +38,6 @@ public class DepartamentosActivity extends AppCompatActivity {
         // e servir como parametro para ser usado posteriormente no ListView.
         DepartamentosAdapter adapter = new DepartamentosAdapter(departamentosActivity);
 
-
         // Adicionando o adaptador para a RecyclerView.
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         rvDepartamentos.setLayoutManager(layoutManager);
