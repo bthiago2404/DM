@@ -303,7 +303,7 @@
                     android:text="@string/txt_adicao" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/tvValorItem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -328,7 +328,7 @@
                     android:text="@string/txt_quant_itens" />
 
                 <TextView
-                    android:id="@+id/textView95"
+                    android:id="@+id/tvQuantidadeItem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -348,7 +348,7 @@
                     android:text="@string/txt_valor_compra" />
 
                 <TextView
-                    android:id="@+id/textView97"
+                    android:id="@+id/tvValorTotal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"

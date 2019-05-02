@@ -36,19 +36,14 @@
                 android:textStyle="italic" />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/txt_pedidos"
-                android:textColor="@color/letras_roxo"
-                android:textStyle="bold" />
-        </TableRow>
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/txt_pedidos"
+            android:textColor="@color/letras_roxo"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
