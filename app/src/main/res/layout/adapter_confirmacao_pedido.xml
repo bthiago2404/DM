@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <View
+        android:id="@+id/divider0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/tvQuantidadeItem"
@@ -16,7 +23,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/txt_quantidade"
-            android:textColor="@color/letras_roxo" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
 
         <TextView
             android:id="@+id/tvNomeItem"
@@ -24,7 +33,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/txt_item1"
-            android:textColor="@color/letras_roxo" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
 
         <TextView
             android:id="@+id/tvValorItem"
@@ -32,8 +43,16 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/txt_valor"
-            android:textColor="@color/letras_roxo" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
 
     </TableRow>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
 
 </LinearLayout>
