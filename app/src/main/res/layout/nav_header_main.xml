@@ -36,7 +36,9 @@
         android:text="@string/txt_login_logout"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
-        android:typeface="normal" />
+        android:typeface="normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:fontFamily="@font/scada" />
 
     <Button
         android:id="@+id/btn_meus_dados"
@@ -48,6 +50,8 @@
         android:text="@string/txt_meus_dados"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
-        android:typeface="normal" />
+        android:typeface="normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:fontFamily="@font/scada" />
 
 </LinearLayout>

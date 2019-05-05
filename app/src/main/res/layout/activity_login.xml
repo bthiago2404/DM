@@ -82,7 +82,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/txt_login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/letras_roxo"
+        app:fontFamily="@font/scada"
         app:layout_constraintEnd_toStartOf="@+id/swTipoLogin"
         app:layout_constraintStart_toStartOf="@+id/etSenha"
         app:layout_constraintTop_toBottomOf="@+id/etSenha" />
@@ -95,7 +97,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="35dp"
         android:text="@string/txt_novo_usuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/letras_roxo"
+        app:fontFamily="@font/scada"
         app:layout_constraintEnd_toEndOf="@+id/etSenha"
         app:layout_constraintStart_toEndOf="@+id/swTipoLogin"
         app:layout_constraintTop_toBottomOf="@+id/etSenha" />
@@ -112,11 +116,13 @@
         android:layout_marginRight="8dp"
         android:onClick="logar"
         android:text="@string/txt_entrar"
-        android:textColor="@color/letras_roxo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swTipoLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/swTipoLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/letras_roxo"
+        app:fontFamily="@font/scada" />
 
     <TextView
         android:id="@+id/textView18"
@@ -124,8 +130,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="@string/txt_esqueceu_senha"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/letras_roxo"
         android:textSize="12sp"
+        app:fontFamily="@font/scada"
         app:layout_constraintStart_toStartOf="@+id/etSenha"
         app:layout_constraintTop_toBottomOf="@+id/btnEntrar" />
 
@@ -142,7 +150,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView18"
         app:layout_constraintEnd_toEndOf="@+id/etSenha"
         app:layout_constraintTop_toTopOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.437"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:fontFamily="@font/scada" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -35,7 +35,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="10dp" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -47,7 +47,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_av_estabelecimento01"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
         </TableRow>
 
         <TableRow
@@ -60,8 +62,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_estabelecimento"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView144"
@@ -69,13 +73,15 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_av_estabelecimento02"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
         </TableRow>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="5dp" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -91,7 +97,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="5dp" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -104,12 +110,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/txt_salvar"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
         </TableRow>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="5dp" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -128,10 +136,6 @@
             android:layout_width="match_parent"
             android:layout_height="5dp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -142,7 +146,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_obg_avaliacao"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
         </TableRow>
 
     </LinearLayout>

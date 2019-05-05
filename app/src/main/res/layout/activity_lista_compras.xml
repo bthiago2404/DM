@@ -294,7 +294,14 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.909"
                     app:layout_constraintStart_toStartOf="parent" />
+
             </TableRow>
+
+            <View
+                android:id="@+id/divider0"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
 
         </LinearLayout>
 

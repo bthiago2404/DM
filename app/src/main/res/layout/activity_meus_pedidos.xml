@@ -21,29 +21,33 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:text="@string/txt_ola"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="bold" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:text="@string/txt_nome_usuario"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="italic" />
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:fontFamily="@font/scada" />
         </TableRow>
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:text="@string/txt_pedidos"
             android:textColor="@color/letras_roxo"
-            android:textStyle="bold" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:fontFamily="@font/scada" />
 
     </LinearLayout>
 

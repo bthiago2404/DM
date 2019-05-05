@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,16 +28,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_p1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_laranja" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_laranja"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/tvValorItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -44,56 +47,63 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_p3"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_laranja" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_laranja"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p4"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView67"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p5"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView107"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p6"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView110"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p7"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView111"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p8"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView112"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p8"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView113"
@@ -101,64 +111,72 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_p9"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_laranja" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_laranja"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView114"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p10"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView115"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p11"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView116"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p12"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView117"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p13"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView118"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p14"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView119"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p15"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView120"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p16"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView121"
@@ -166,16 +184,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_p17"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_laranja" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_laranja"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView122"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p18"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView123"
@@ -183,24 +203,27 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_p19"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_laranja" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_laranja"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView124"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p20"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView125"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p21"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView126"
@@ -208,24 +231,27 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_p22"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_laranja" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_laranja"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView127"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p23"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView128"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p24"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
         </LinearLayout>
     </ScrollView>
 
