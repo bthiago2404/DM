@@ -12,47 +12,46 @@
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
 
-    <TableRow
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent" >
 
-        <TextView
-            android:id="@+id/tvQuantidadeItem"
-            android:layout_width="wrap_content"
+        <TableRow
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="@string/txt_quantidade"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
-            app:fontFamily="@font/scada" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tvNomeItem"
-            android:layout_width="210dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="@string/txt_item1"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
-            app:fontFamily="@font/scada" />
+            <TextView
+                android:id="@+id/tvQuantidadeItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txt_quantidade"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
-        <TextView
-            android:id="@+id/tvValorItem"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="@string/txt_valor"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
-            app:fontFamily="@font/scada" />
+            <TextView
+                android:id="@+id/tvNomeItem"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txt_item1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
-    </TableRow>
+            <TextView
+                android:id="@+id/tvValorItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txt_valor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
-    <View
-        android:id="@+id/divider1"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
+        </TableRow>
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>
