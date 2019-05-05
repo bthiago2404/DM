@@ -2,12 +2,26 @@
 
 <resources>
 
-    <color name="colorPrimary">#352245</color>
     <color name="colorPrimaryDark">#271830</color>
+    <color name="colorPrimary">#352245</color>
     <color name="colorAccent">#352245</color>
     <color name="capa">#D2352245</color>
     <color name="fundoBotao">#00F86942</color>
     <color name="letras_roxo">#352245</color>
     <color name="letras_laranja">#F86942</color>
+    <color name="cor_background">#D8D8D8</color>
+    <color name="cor_background_btn">#FFFFFF</color>
+
+    <!-- Novo Padrão de cores do aplicativo
+    <color name="cor_cabeçario_1">#271830</color>
+    <color name="cor_cabeçario_2">#352245</color>
+    <color name="cor_detalhes">#352245</color>
+    <color name="capa_nova">#D2352245</color>
+    <color name="fundoBotao_novo">#00F86942</color>
+    <color name="letras_nova_1">#352245</color>
+    <color name="letras_nova_2">#F86942</color>
+    <color name="cor_background">#B8B8B8</color>
+    <color name="cor_background_btn">#FFFFFF</color>
+    -->
 
 </resources>
