@@ -36,6 +36,7 @@
                     android:text="@string/txt_ola"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="150dp" />
 
@@ -47,6 +48,7 @@
                     android:text="@string/txt_nome_usuario"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_laranja"
+                    app:fontFamily="@font/scada"
                     android:textStyle="italic"
                     tools:layout_editor_absoluteX="85dp"
                     tools:layout_editor_absoluteY="150dp" />
@@ -64,6 +66,7 @@
                     android:text="@string/txt_selecione_lista"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada"
                     tools:layout_editor_absoluteX="15dp"
                     tools:layout_editor_absoluteY="186dp" />
             </TableRow>
@@ -77,12 +80,6 @@
                 android:layout_height="wrap_content"
                 tools:layout_editor_absoluteY="226dp">
 
-                <View
-                    android:id="@+id/divider0"
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="?android:attr/listDivider" />
-
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -95,7 +92,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_lista1"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <CheckBox
                         android:id="@+id/checkBox2"
@@ -104,7 +102,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_lista2"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                 </TableRow>
 
@@ -120,7 +119,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_lista3"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <CheckBox
                         android:id="@+id/checkBox7"
@@ -129,7 +129,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_lista4"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                 </TableRow>
             </TableLayout>
@@ -154,7 +155,8 @@
                     android:background="@color/cor_background_btn"
                     android:text="@string/txt_ok"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo" />
+                    android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada" />
             </TableRow>
 
             <android.support.v7.widget.CardView
@@ -176,7 +178,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_quant_itens"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -185,7 +188,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_itens"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -199,7 +203,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_mercados_disponiveis"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <TextView
                         android:id="@+id/textView9"
@@ -208,7 +213,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_mercados"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -222,7 +228,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_valor_alto"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <TextView
                         android:id="@+id/textView10"
@@ -231,7 +238,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_alto"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -245,7 +253,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_valor_baixo"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <TextView
                         android:id="@+id/textView13"
@@ -254,7 +263,8 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_baixo"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo" />
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
                 </TableRow>
             </TableLayout>
             </android.support.v7.widget.CardView>
@@ -280,6 +290,7 @@
                     android:text="@string/txt_ir_carrinho"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.909"
