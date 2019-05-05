@@ -23,7 +23,9 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toEndOf="@+id/button85"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:fontFamily="@font/scada" />
 
     <Button
         android:id="@+id/button85"
@@ -56,10 +58,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/txt_locias_entrega"
-        android:textColor="@color/letras_roxo"
-        android:textSize="18sp"
+         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/button85"
-        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento" />
+        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/letras_roxo"
+        app:fontFamily="@font/scada" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvLocaisEntrega"

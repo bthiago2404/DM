@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -21,8 +22,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/txt_pedido1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/letras_roxo"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="@font/scada" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -34,7 +37,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_valor_compra"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/tvValorPedido"
@@ -42,7 +47,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_valor"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
         </TableRow>
 
@@ -56,7 +63,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_data_compra"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/tvDataPedido"
@@ -77,7 +86,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_forma_pagamento"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/tvTipoPagamento"
@@ -85,7 +96,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_pagamento"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
         </TableRow>
 
         <TableRow
@@ -98,7 +111,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_tipo_entrega"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/tvTipoEntrega"
@@ -106,7 +121,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="@string/txt_entrega"
-                android:textColor="@color/letras_roxo" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_roxo"
+                app:fontFamily="@font/scada" />
         </TableRow>
     </TableLayout>
 

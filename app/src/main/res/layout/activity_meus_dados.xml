@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,8 +32,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="@string/txt_ola"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_roxo"
-                    android:textStyle="bold" />
+                    app:fontFamily="@font/scada" />
 
                 <TextView
                     android:id="@+id/textView24"
@@ -40,7 +42,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="@string/txt_nome_usuario"
-                    android:textColor="@color/letras_laranja" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_laranja"
+                    app:fontFamily="@font/scada" />
             </TableRow>
 
             <TextView
@@ -49,8 +53,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_confirme_dados"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <View
                 android:id="@+id/divider"
@@ -68,7 +73,7 @@
 
                     <EditText
                         android:id="@+id/etNome"
-                        style="@style/Widget.AppCompat.EditText"
+                        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -91,7 +96,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_contatos"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                 </TableRow>
 
@@ -138,7 +145,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_endereco"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                 </TableRow>
 
@@ -197,7 +206,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_alterar_senha"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -263,7 +274,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/tx_melhor_hora_entrega"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
                 </LinearLayout>
 
                 <TableRow
@@ -277,7 +290,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="@string/txt_manha"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <CheckBox
                         android:id="@+id/cbTarde"
@@ -285,7 +300,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="@string/txt_tarde"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <CheckBox
                         android:id="@+id/cbNoite"
@@ -293,7 +310,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="@string/txt_noite"
-                        android:textColor="@color/letras_roxo" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                 </TableRow>
 
@@ -303,14 +322,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_salvar"
-                    android:textColor="@color/letras_roxo" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada" />
 
             </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
 
         </LinearLayout>
     </ScrollView>

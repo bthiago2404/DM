@@ -11,7 +11,8 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,16 +29,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/tvValorItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -45,16 +48,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView133"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView134"
@@ -62,16 +67,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView135"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView136"
@@ -79,16 +86,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView137"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView138"
@@ -96,16 +105,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView139"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView140"
@@ -113,16 +124,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c11"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView141"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c12"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView142"
@@ -130,16 +143,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_c13"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_laranja"
-                android:textStyle="bold" />
+                app:fontFamily="@font/scada" />
 
             <TextView
                 android:id="@+id/textView143"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_c14"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
-                android:textStyle="italic" />
+                app:fontFamily="@font/scada" />
 
 
         </LinearLayout>

@@ -27,7 +27,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,8 +49,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="@string/txt_mensagem_parceiros"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_roxo"
-                    android:textStyle="bold" />
+                    app:fontFamily="@font/scada" />
 
             </TableRow>
 
@@ -73,8 +75,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_contatos"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -131,8 +134,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_endereco"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -192,8 +196,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:text="@string/txt_outros"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         android:textColor="@color/letras_roxo"
-                        android:textStyle="bold" />
+                        app:fontFamily="@font/scada" />
                 </TableRow>
 
                 <TableRow
@@ -227,13 +232,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/txt_confirmar"
-                    android:textColor="@color/letras_roxo" />
-            </TableRow>
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+            </TableRow>
 
         </LinearLayout>
 

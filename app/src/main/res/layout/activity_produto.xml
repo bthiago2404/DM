@@ -9,6 +9,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,7 +18,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -42,7 +43,10 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="@string/txt_nome_produto"
-                        android:textStyle="bold" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/scada" />
 
                     <TextView
                         android:id="@+id/textView99"
@@ -50,7 +54,9 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="@string/txt_preco_produto"
-                        android:textStyle="bold" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                 </TableRow>
 
@@ -64,7 +70,10 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_caracteristica_produto"
-                    android:textStyle="bold" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/scada" />
 
                 <TextView
                     android:id="@+id/textView101"
@@ -72,7 +81,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_caracteristica"
-                    android:textStyle="italic" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada" />
 
                 <TextView
                     android:id="@+id/textView102"
@@ -80,7 +91,10 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_embalagem_produto"
-                    android:textStyle="bold" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/scada" />
 
                 <TextView
                     android:id="@+id/textView103"
@@ -88,7 +102,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_embalagem"
-                    android:textStyle="italic" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada" />
 
                 <TextView
                     android:id="@+id/textView104"
@@ -96,7 +112,10 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_grupo_produto"
-                    android:textStyle="bold" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/scada" />
 
                 <TextView
                     android:id="@+id/textView105"
@@ -104,7 +123,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="@string/txt_grupo"
-                    android:textStyle="italic" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/letras_roxo"
+                    app:fontFamily="@font/scada" />
 
                 <Space
                     android:layout_width="match_parent"
@@ -121,7 +142,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_carrinho" />
+                        android:text="@string/txt_carrinho"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
 
                     <Button
                         android:id="@+id/button70"
@@ -129,7 +153,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="@string/txt_lista_compra" />
+                        android:text="@string/txt_lista_compra"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/letras_roxo"
+                        app:fontFamily="@font/scada" />
+
                 </TableRow>
 
                 <Space
