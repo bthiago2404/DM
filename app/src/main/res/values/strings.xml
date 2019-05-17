@@ -39,6 +39,8 @@
     <string name="txt_quantidade_abertos">98</string>
     <string name="txt_quantidade_fechados">75</string>
     <string name="txt_pesquisar_produto">Pesquisar Comércios</string>
+    <string name="txt_tempo_entrega">45-55 min</string>
+    <string name="txt_valor_entrega">Entrega R$ 5,99</string>
 
     ==============================================================================================
     **********************************************************************************************
