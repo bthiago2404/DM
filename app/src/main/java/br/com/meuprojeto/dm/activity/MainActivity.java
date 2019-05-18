@@ -2,6 +2,8 @@ package br.com.meuprojeto.dm.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -10,11 +12,22 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import br.com.meuprojeto.dm.R;
+import br.com.meuprojeto.dm.adapter.MainAdapter;
+import br.com.meuprojeto.dm.model.MainModel;
+import br.com.meuprojeto.dm.outros.RecyclerItemClickListener;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private RecyclerView rvMain;
+    private List<MainModel> mainActivity = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +44,58 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        // Apontei a variavel rvMeusPedidos para o recyclerview rvMeusPedidos da tela.
+        rvMain = findViewById(R.id.rvMain);
+
+        // Listagens de Bairros
+        this.listaComercios();
+
+        // Configurando o Adapter (o adapter serve para receber os dados, sejam eles de uma
+        // matriz, vetor ou de uma base de dados), apos feito isso o adapter vai tratar os dados
+        // e servir como parametro para ser usado posteriormente no ListView.
+        MainAdapter adapter = new MainAdapter(mainActivity);
+
+        // Adicionando o adaptador para a RecyclerView.
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        rvMain.setLayoutManager(layoutManager);
+        rvMain.setHasFixedSize(true);
+        rvMain.setAdapter(adapter);
+
+        // Adicionando cliqe na lista
+        rvMain.addOnItemTouchListener(
+                new RecyclerItemClickListener(
+                        getApplicationContext(),
+                        rvMain,
+                        new RecyclerItemClickListener.OnItemClickListener() {
+
+                            // Esse metodo é responsavel pelo click unico no item da lista.
+                            @Override
+                            public void onItemClick(View view, int position) {
+                                Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
+                                startActivity(irTelaLojaSelecionada);
+                            }
+
+                            // Esse metodo é responsavel pelo click longo no item da lista.
+                            @Override
+                            public void onLongItemClick(View view, int position) {
+                                MainModel mainModel = mainActivity.get(position);
+                                Toast.makeText(
+                                        getApplicationContext(),
+                                        "" + mainModel.getLoja(),
+                                        Toast.LENGTH_SHORT
+                                ).show();
+                            }
+
+                            //
+                            @Override
+                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                            }
+                        }
+                )
+        );
+
     }
 
     @Override
@@ -168,6 +233,44 @@ public class MainActivity extends AppCompatActivity
     public void avaliacao(View view) {
         Intent irTelaAvaliacaoEstabelecimento = new Intent(getApplicationContext(), AvaliacaoEstabelecimentoActivity.class);
         startActivity(irTelaAvaliacaoEstabelecimento);
+    }
+
+    // Metodo responsavel por gerenciar a lista de bairros que eu tenho.
+    // esse metodo está trabalhando com uma lista de bairros engessada. Futuramente quero que
+    // essa lista seja alimentada por uma consulta no banco de dados.
+    public void listaComercios(){
+
+
+        MainModel listaComercios = new MainModel("Menor Preço", "45-55 min", "Entrega R$5.99");
+        this.mainActivity.add(listaComercios);
+
+        listaComercios = new MainModel("Hiper Bom Preço", "60-120 min", "Entrega R$ 10,00");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Ideal", "25-35 min", "Entrega R$ 15.00");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Rede Compras", "15-25 min", "Entrega R$ 7.00");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Maxxi", "45-55 min", "Entrega R$ 0.00");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Atacarejo", "40-100 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Atacadão", "30-55 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Makro", "10-15 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Carefour", "45-60 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Açai Atacadista", "30-45 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Rede Compras Loja 2", "120-240 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Rede Bairro", "5-10 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Mercado José", "10-20 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+        listaComercios = new MainModel("Mercado Maria", "15-30 min", "Entrega R$ 5.99");
+        mainActivity.add(listaComercios);
+
     }
 
 }
