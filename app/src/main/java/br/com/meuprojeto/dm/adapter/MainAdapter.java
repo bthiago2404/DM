@@ -17,7 +17,7 @@ public class MainAdapter extends  RecyclerView.Adapter<MainAdapter.MyViewHolder>
     // Criei um atributo para ser usado no decorrer do codigo abaixo.
     private List<MainModel> mainAdapter;
 
-    // Metodo construtor da classe MeusPedidosAdapter.
+    // Metodo construtor da classe MainAdapter.
     public MainAdapter(List<MainModel> lista) {
         this.mainAdapter = lista;
     }
@@ -57,7 +57,7 @@ public class MainAdapter extends  RecyclerView.Adapter<MainAdapter.MyViewHolder>
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
         // Na inner class eu criei trez variaveis (que mais abaixo vão fazer referencia
-        // aos TextView que tem na tela adapter_meus_pedidos.xml
+        // aos TextView que tem na tela adapter_main.xml
         TextView loja;
         TextView tempoEntrega;
         TextView valorEntrega;

@@ -45,10 +45,10 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        // Apontei a variavel rvMeusPedidos para o recyclerview rvMeusPedidos da tela.
+        // Apontei a variavel rvMain para o recyclerview rvMain da tela.
         rvMain = findViewById(R.id.rvMain);
 
-        // Listagens de Bairros
+        // Listagens de Mercados
         this.listaComercios();
 
         // Configurando o Adapter (o adapter serve para receber os dados, sejam eles de uma
@@ -215,11 +215,6 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaAnuncio);
     }
 
-    public void lojaSelecionada(View view) {
-        Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
-        startActivity(irTelaLojaSelecionada);
-    }
-
     public void login(View view) {
         Intent irTelaLogin = new Intent(getApplicationContext(), LoginActivity.class);
         startActivity(irTelaLogin);
@@ -235,8 +230,8 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaAvaliacaoEstabelecimento);
     }
 
-    // Metodo responsavel por gerenciar a lista de bairros que eu tenho.
-    // esse metodo está trabalhando com uma lista de bairros engessada. Futuramente quero que
+    // Metodo responsavel por gerenciar a lista de Mercados que eu tenho.
+    // esse metodo está trabalhando com uma lista de mercados engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaComercios(){
 
