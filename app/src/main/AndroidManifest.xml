@@ -11,8 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.CategoriasActivity"></activity>
-        <activity android:name=".activity.LocaisEntregaActivity" />
+        <activity
+            android:name=".activity.CategoriasActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LocaisEntregaActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.AvaliacaoEstabelecimentoActivity"
             android:screenOrientation="portrait" />
@@ -39,6 +44,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.SolicitarLojaTesteActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.ConfirmacaoPedidoActivity"
@@ -48,12 +54,14 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.DepartamentosActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.MeuCarrinhoActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.MeusDadosActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.LoginActivity"
@@ -63,6 +71,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.MapaLojasActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.MeusPedidosActivity"
@@ -82,6 +91,7 @@
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
