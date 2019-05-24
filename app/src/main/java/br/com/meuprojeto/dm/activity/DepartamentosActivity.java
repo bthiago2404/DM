@@ -61,12 +61,14 @@ public class DepartamentosActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click longo no item da lista.
                             @Override
                             public void onLongItemClick(View view, int position) {
+                                /*
                                 DepartamentosModel departamentosModel = departamentosActivity.get(position);
                                 Toast.makeText(
                                         getApplicationContext(),
                                         "" + departamentosModel.getTvdepartamentos(),
                                         Toast.LENGTH_SHORT
                                 ).show();
+                                */
                             }
 
                             //
@@ -85,26 +87,34 @@ public class DepartamentosActivity extends AppCompatActivity {
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaDepartamentos(){
 
-        DepartamentosModel listaDepartamentos = new DepartamentosModel("Ex de Departamento 1");
+        DepartamentosModel listaDepartamentos = new DepartamentosModel("Alimentos Especiais");
         this.departamentosActivity.add(listaDepartamentos);
 
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 2");
+        listaDepartamentos = new DepartamentosModel("Bazar");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 3");
+        listaDepartamentos = new DepartamentosModel("Bebidas");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 4");
+        listaDepartamentos = new DepartamentosModel("Carnes, Aves e Peixes");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 5");
+        listaDepartamentos = new DepartamentosModel("Congelados");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 6");
+        listaDepartamentos = new DepartamentosModel("Frios e Laticinios");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 7");
+        listaDepartamentos = new DepartamentosModel("Higiene e Beleza");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 8");
+        listaDepartamentos = new DepartamentosModel("Hortifruti");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 9");
+        listaDepartamentos = new DepartamentosModel("Limpeza");
         departamentosActivity.add(listaDepartamentos);
-        listaDepartamentos = new DepartamentosModel("Ex de departamento 10");
+        listaDepartamentos = new DepartamentosModel("Matinais");
+        departamentosActivity.add(listaDepartamentos);
+        listaDepartamentos = new DepartamentosModel("Mercearia");
+        departamentosActivity.add(listaDepartamentos);
+        listaDepartamentos = new DepartamentosModel("Padaria");
+        departamentosActivity.add(listaDepartamentos);
+        listaDepartamentos = new DepartamentosModel("Pet Shop");
+        departamentosActivity.add(listaDepartamentos);
+        listaDepartamentos = new DepartamentosModel("Suplementos");
         departamentosActivity.add(listaDepartamentos);
 
     }

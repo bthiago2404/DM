@@ -60,12 +60,14 @@ public class MapaLojasActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click longo no item da lista.
                             @Override
                             public void onLongItemClick(View view, int position) {
+                                /*
                                 MapaLojasModel mapaLojasModel = mapaLojasActivity.get(position);
                                 Toast.makeText(
                                         getApplicationContext(),
                                         "" + mapaLojasModel.getLoja(),
                                         Toast.LENGTH_SHORT
                                 ).show();
+                                */
                             }
 
                             //

@@ -61,12 +61,14 @@ public class CategoriasActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click longo no item da lista.
                             @Override
                             public void onLongItemClick(View view, int position) {
+                                /*
                                 CategoriasModel categoriasModel = categoriasActivity.get(position);
                                 Toast.makeText(
                                         getApplicationContext(),
                                         "" + categoriasModel.getTvCategoria(),
                                         Toast.LENGTH_SHORT
                                 ).show();
+                                */
                             }
 
                             //
@@ -85,26 +87,26 @@ public class CategoriasActivity extends AppCompatActivity {
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaCategorias () {
 
-        CategoriasModel listaCategorias = new CategoriasModel("Ex de Categoria 1");
+        CategoriasModel listaCategorias = new CategoriasModel("Alimentos Basicos");
         this.categoriasActivity.add(listaCategorias);
 
-        listaCategorias = new CategoriasModel("Ex de Categoria 2");
+        listaCategorias = new CategoriasModel("Biscoitos e Salgadinhos");
         this.categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 3");
+        listaCategorias = new CategoriasModel("Bomboniere");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 4");
+        listaCategorias = new CategoriasModel("Conservas e Enlatados");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 5");
+        listaCategorias = new CategoriasModel("Doces e Sobremesas");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 6");
+        listaCategorias = new CategoriasModel("Graos e Farinaceos");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 7");
+        listaCategorias = new CategoriasModel("Massas e Molhos");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 8");
+        listaCategorias = new CategoriasModel("Temperos e Condimentos");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 9");
+        listaCategorias = new CategoriasModel("Outros");
         categoriasActivity.add(listaCategorias);
-        listaCategorias = new CategoriasModel("Ex de Categoria 10");
+        listaCategorias = new CategoriasModel("Resto");
         categoriasActivity.add(listaCategorias);
 
     }

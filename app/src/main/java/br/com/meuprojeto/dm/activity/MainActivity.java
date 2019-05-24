@@ -79,12 +79,14 @@ public class MainActivity extends AppCompatActivity
                             // Esse metodo é responsavel pelo click longo no item da lista.
                             @Override
                             public void onLongItemClick(View view, int position) {
+                                /*
                                 MainModel mainModel = mainActivity.get(position);
                                 Toast.makeText(
                                         getApplicationContext(),
                                         "" + mainModel.getLoja(),
                                         Toast.LENGTH_SHORT
                                 ).show();
+                                */
                             }
 
                             //
