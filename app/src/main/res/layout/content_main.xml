@@ -13,8 +13,6 @@
         android:id="@+id/etBuscarDepartamento"
         android:layout_width="0dp"
         android:layout_height="35dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
@@ -23,21 +21,10 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:textColor="@color/capa"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toEndOf="@+id/button85"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button85"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:background="@drawable/icons8_search_64"
-        app:layout_constraintBottom_toBottomOf="@+id/etBuscarDepartamento"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/etBuscarDepartamento" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -54,9 +41,11 @@
         app:layout_constraintGuide_percent="0.77" />
 
     <ScrollView
+        android:id="@+id/scrollView4"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
+        android:scrollbarStyle="insideInset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,57 +56,29 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+<!--
             <View
                 android:id="@+id/divider0"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
                 android:background="?android:attr/listDivider" />
 
-            <HorizontalScrollView
-                android:id="@+id/horizontalScrollView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/capa"
-                app:layout_constraintBottom_toTopOf="@+id/textView26"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/btnBanner1"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="400dp"
-                        android:layout_height="150dp"
-                        android:layout_margin="5dp"
-                        android:background="@drawable/banner_seja_bem_vindo" />
-
-                    <Button
-                        android:id="@+id/btnBanner2"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="400dp"
-                        android:layout_height="150dp"
-                        android:layout_margin="5dp"
-                        android:background="@drawable/banner_fazer_contas" />
-
-                    <Button
-                        android:id="@+id/btnBanner3"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="400dp"
-                        android:layout_height="150dp"
-                        android:layout_margin="5dp"
-                        android:background="@drawable/banner_variedades" />
-
-                </LinearLayout>
-
-            </HorizontalScrollView>
+            <Button
+                android:id="@+id/btnBanner1"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/banner_seja_bem_vindo" />
 
             <View
                 android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+-->
+            <View
+                android:id="@+id/divider2"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
                 android:background="?android:attr/listDivider" />
@@ -126,14 +87,13 @@
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:text="@string/txt_mercados_disponiveis"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"
                 app:fontFamily="@font/scada"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+                app:layout_constraintStart_toStartOf="parent" />
 
 
             <android.support.v7.widget.RecyclerView
