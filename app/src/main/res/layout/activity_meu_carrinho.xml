@@ -83,6 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp" />
 
+                <!--
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -107,10 +108,11 @@
                         android:textColor="@color/letras_roxo"
                         app:fontFamily="@font/scada" />
                 </TableRow>
-
+-->
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
 
                     <TextView
                         android:id="@+id/textView96"
@@ -133,16 +135,16 @@
                         app:fontFamily="@font/scada" />
                 </TableRow>
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical">
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp" />
 
                     <Button
                         android:id="@+id/btnFinalizarPedido"

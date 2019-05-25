@@ -11,27 +11,8 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/tvItem"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="@string/txt_item1"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
-            app:fontFamily="@font/scada" />
-
-        <Button
-            android:id="@+id/btnSubtrair"
-            android:layout_width="35dp"
-            android:layout_height="wrap_content"
-            android:text="@string/txt_subtracao"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
-            app:fontFamily="@font/scada" />
-
-        <TextView
             android:id="@+id/tvQuantidade"
-            android:layout_width="wrap_content"
+            android:layout_width="35dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="@string/txt_quantidade"
@@ -39,11 +20,12 @@
             android:textColor="@color/letras_roxo"
             app:fontFamily="@font/scada" />
 
-        <Button
-            android:id="@+id/btnAcrescentar"
-            android:layout_width="35dp"
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
-            android:text="@string/txt_adicao"
+            android:layout_margin="5dp"
+            android:text="@string/txt_item1"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/letras_roxo"
             app:fontFamily="@font/scada" />
