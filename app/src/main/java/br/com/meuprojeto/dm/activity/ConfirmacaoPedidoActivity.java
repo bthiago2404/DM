@@ -73,6 +73,13 @@ public class ConfirmacaoPedidoActivity extends AppCompatActivity {
 
     }
 
+    // Interação entre a tela CONFIRMAÇÃO PEDIDO e a tela MAIN ACTIVITY
+    // através do botão FINALIZAR PEDIDO.
+    public void irTelaInicial(View view) {
+        Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(irTelaInicial);
+    }
+
     // Metodo responsavel por simular um pedido que fiz.
     // esse metodo está trabalhando com uma lista engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.
