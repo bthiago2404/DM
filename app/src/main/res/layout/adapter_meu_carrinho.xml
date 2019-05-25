@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txt_item1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
+
+        <Button
+            android:id="@+id/btnSubtrair"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_subtracao"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
+
+        <TextView
+            android:id="@+id/tvQuantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txt_quantidade"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
+
+        <Button
+            android:id="@+id/btnAcrescentar"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_adicao"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
+
+        <TextView
+            android:id="@+id/tvValor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/txt_valor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/letras_roxo"
+            app:fontFamily="@font/scada" />
+
+    </TableRow>
+
+</LinearLayout>
