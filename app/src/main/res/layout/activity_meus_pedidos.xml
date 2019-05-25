@@ -50,6 +50,12 @@
             android:textColor="@color/letras_roxo"
             app:fontFamily="@font/scada" />
 
+        <View
+            android:id="@+id/divider0"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rvMeusPedidos"
             android:layout_width="match_parent"
