@@ -70,6 +70,11 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         startActivity(irTelaConfirmacaoPedido);
     }
 
+    public void adicionarMaisItens(View view) {
+        Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
+        startActivity(irTelaLojaSelecionada);
+    }
+
     /*
         //Trecho do codigo referente a logica dos botões de somar e subtrair.
         //Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
