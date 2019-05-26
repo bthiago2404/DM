@@ -27,4 +27,9 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
         startActivity(irTelaLocaisEntrega);
     }
 
+    public void verMais(View view){
+        Intent irTelaVerMais = new Intent(getApplicationContext(), VerMaisActivity.class);
+        startActivity(irTelaVerMais);
+    }
+
 }
