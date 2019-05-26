@@ -2,7 +2,7 @@ package br.com.meuprojeto.dm.model;
 
 public class ConfirmacaoPedidoModel {
 
-    private String quantidadeItem;
+    //private String quantidadeItem;
     private String nomeItem;
     private String valorItem;
     private String quantidadeTotalItem;
@@ -12,20 +12,20 @@ public class ConfirmacaoPedidoModel {
 
     }
 
-    public ConfirmacaoPedidoModel(String quantidadeItem, String nomeItem, String valorItem) {
-        this.quantidadeItem = quantidadeItem;
+    public ConfirmacaoPedidoModel(String nomeItem, String valorItem) {
+        //this.quantidadeItem = quantidadeItem;
         this.nomeItem = nomeItem;
         this.valorItem = valorItem;
     }
-
+/*
     public String getQuantidadeItem() {
         return quantidadeItem;
     }
-
+*
     public void setQuantidadeItem(String quantidadeItem) {
         this.quantidadeItem = quantidadeItem;
     }
-
+*/
     public String getNomeItem() {
         return nomeItem;
     }
