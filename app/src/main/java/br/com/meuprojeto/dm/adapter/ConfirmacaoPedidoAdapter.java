@@ -41,7 +41,7 @@ public class ConfirmacaoPedidoAdapter extends RecyclerView.Adapter<ConfirmacaoPe
 
         ConfirmacaoPedidoModel listaConfirmacaoPedido = confirmacaoPedidoAdapter.get(i);
 
-        myViewHolder.quantidadeItem.setText(listaConfirmacaoPedido.getQuantidadeItem());
+        //myViewHolder.quantidadeItem.setText(listaConfirmacaoPedido.getQuantidadeItem());
         myViewHolder.nomeItem.setText(listaConfirmacaoPedido.getNomeItem());
         myViewHolder.valorItem.setText(listaConfirmacaoPedido.getValorItem());
 
@@ -58,7 +58,7 @@ public class ConfirmacaoPedidoAdapter extends RecyclerView.Adapter<ConfirmacaoPe
 
         // Na inner class eu criei trez variaveis (que mais abaixo vão fazer referencia
         // aos TextView que tem na tela adapter_meus_pedidos.xml
-        TextView quantidadeItem;
+        //TextView quantidadeItem;
         TextView nomeItem;
         TextView valorItem;
       //TextView quantidadeTotalItem;
@@ -68,7 +68,7 @@ public class ConfirmacaoPedidoAdapter extends RecyclerView.Adapter<ConfirmacaoPe
             super(itemView);
 
             // Apontei as duas variaveis para os view da tela
-            quantidadeItem = itemView.findViewById(R.id.tvQuantidadeItem);
+            //quantidadeItem = itemView.findViewById(R.id.tvQuantidadeItem);
             nomeItem = itemView.findViewById(R.id.tvNomeItem);
             valorItem = itemView.findViewById(R.id.tvValorItem);
 
