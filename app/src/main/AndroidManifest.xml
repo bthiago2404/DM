@@ -23,6 +23,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.VerMaisActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.NovoUsuarioActivity"
@@ -68,6 +69,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.LojaSelecionadaActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.MapaLojasActivity"

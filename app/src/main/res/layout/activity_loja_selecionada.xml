@@ -42,24 +42,22 @@
 
     <Button
         android:id="@+id/btnLocaisEntrega"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
         android:background="@drawable/icons8_europe_64"
         android:onClick="locaisEntrega"
         app:layout_constraintBottom_toBottomOf="@+id/etBuscarDepartamento"
         app:layout_constraintStart_toEndOf="@+id/etBuscarDepartamento"
-        app:layout_constraintTop_toTopOf="@+id/etBuscarDepartamento"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/etBuscarDepartamento" />
 
     <Button
         android:id="@+id/btnBanner2"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:background="@drawable/icons8_shopping_cart_64"
         app:layout_constraintBottom_toBottomOf="@+id/etBuscarDepartamento"
         app:layout_constraintStart_toEndOf="@+id/btnLocaisEntrega"
@@ -164,6 +162,7 @@
                 android:id="@+id/btnBanner3"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
+                android:onClick="verMais"
                 android:text="@string/txt_ver_mais" />
 
             <Space
