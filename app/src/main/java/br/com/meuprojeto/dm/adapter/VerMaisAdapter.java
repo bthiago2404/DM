@@ -44,10 +44,6 @@ public class VerMaisAdapter extends RecyclerView.Adapter<VerMaisAdapter.MyViewHo
         myViewHolder.tvValorProduto1.setText(listaVerMais.getTvValorProduto1());
         myViewHolder.tvValor1.setText(listaVerMais.getTvValor1());
 
-        myViewHolder.tvNomeProduto2.setText(listaVerMais.getTvNomeProduto2());
-        myViewHolder.tvValorProduto2.setText(listaVerMais.getTvValorProduto2());
-        myViewHolder.tvValor2.setText(listaVerMais.getTvValor2());
-
     }
 
     // Esse metodo é responsavel por retornar a quantidade de itens que vão ser exibidos.
@@ -61,20 +57,12 @@ public class VerMaisAdapter extends RecyclerView.Adapter<VerMaisAdapter.MyViewHo
         TextView tvValorProduto1;
         TextView tvValor1;
 
-        TextView tvNomeProduto2;
-        TextView tvValorProduto2;
-        TextView tvValor2;
-
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             tvNomeProduto1 = itemView.findViewById(R.id.tvNomeProduto1);
             tvValorProduto1 = itemView.findViewById(R.id.tvValorProduto1);
             tvValor1 = itemView.findViewById(R.id.tvValor1);
-
-            tvNomeProduto2 = itemView.findViewById(R.id.tvNomeProduto2);
-            tvValorProduto2 = itemView.findViewById(R.id.tvValorProduto2);
-            tvValor2 = itemView.findViewById(R.id.tvValor2);
 
         }
     }
