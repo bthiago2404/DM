@@ -106,27 +106,40 @@ public class VerMaisActivity extends AppCompatActivity {
     // essa lista seja alimentada por uma consulta no banco de dados.
     public void listaVerMais(){
 
-        //DepartamentosModel listaDepartamentos = new DepartamentosModel("Alimentos Especiais");
-        //this.departamentosActivity.add(listaDepartamentos);
-
-        VerMaisModel listaVerMais = new VerMaisModel("Azeitona Verde Raiola 100g Fatiada", "5.99", "5.99", "Azeitona Verde Raiola 100g Fatiada", "8.99", "8.99");
+        VerMaisModel listaVerMais = new VerMaisModel("Azeitona Verde Raiola 100g Fatiada", "5.99", "5.99");
         this.verMaisActivity.add(listaVerMais);
 
-        listaVerMais = new VerMaisModel("Atum Gomes Da Costa 170g Solido Natural Light", "1.50", "5.99", "Beb Lactea Nestle 200ml Nescau Light", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Atum Gomes Da Costa 170g Solido Natural Light", "1.50", "5.99");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Bisc Capricche 120g Waffer Laranja", "3.99", "5.99", "Agua Mineral Indaia 200ml Copo", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Bisc Capricche 120g Waffer Laranja", "3.99", "5.99");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Alface Crespa Und", "3.20", "5.99", "Alvejante Brilux Lv5l Pg4,5l Mult", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Alface Crespa Und", "3.20", "5.99");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Amendoim Pippo S 30g S-Pele Torrado", "0.80", "0.80", "Ap Barbear Bic Comf 3 Black Night C-1", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Amendoim Pippo S 30g S-Pele Torrado", "0.80", "0.80");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Arroz Safra De Ouro Da Terra 1kg", "5.20", "5.20", "Aveia Yoki 500g Sachet Em Flocos Finos", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Arroz Safra De Ouro Da Terra 1kg", "5.20", "5.20");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Azeitona Verde Raiola 100g Fatiada", "5.99", "5.99", "Feijão Preto tip 1", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Azeitona Verde Raiola 100g Fatiada", "5.99", "5.99");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Barra Cereal Hersheys 66g Cookies-Choc", "10.00", "10.00", "Batata Frita 50g Scrusch Ondulada", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Barra Cereal Hersheys 66g Cookies-Choc", "10.00", "10.00");
         verMaisActivity.add(listaVerMais);
-        listaVerMais = new VerMaisModel("Bebida Lactea Cariri 900g Zero Morango", "5.99", "5.99", "Bisc Amant Renata 330g Coco", "8.99", "8.99");
+        listaVerMais = new VerMaisModel("Bebida Lactea Cariri 900g Zero Morango", "5.99", "5.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Beb Lactea Nestle 200ml Nescau Light", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Agua Mineral Indaia 200ml Copo", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Alvejante Brilux Lv5l Pg4,5l Mult", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Ap Barbear Bic Comf 3 Black Night C-1", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Aveia Yoki 500g Sachet Em Flocos Finos", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Feijão Preto tip 1", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Batata Frita 50g Scrusch Ondulada", "8.99", "8.99");
+        verMaisActivity.add(listaVerMais);
+        listaVerMais = new VerMaisModel("Bisc Amant Renata 330g Coco", "8.99", "8.99");
         verMaisActivity.add(listaVerMais);
 
     }
