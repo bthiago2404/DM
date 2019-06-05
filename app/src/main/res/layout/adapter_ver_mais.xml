@@ -23,7 +23,7 @@
                 android:gravity="center_vertical">
 
                 <ImageButton
-                    android:id="@+id/ibItem1"
+                    android:id="@+id/ibItem"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
@@ -41,7 +41,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/tvNomeProduto1"
+                            android:id="@+id/tvNomeProduto"
                             android:layout_width="200dip"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
@@ -53,7 +53,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/tvValorProduto1"
+                            android:id="@+id/tvValorProduto"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
@@ -67,7 +67,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/tvValor1"
+                            android:id="@+id/tvValor"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
@@ -81,7 +81,7 @@
                         android:gravity="center">
 
                         <Button
-                            android:id="@+id/btnAdicionar1"
+                            android:id="@+id/btnAdicionar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
@@ -100,7 +100,7 @@
         </TableLayout>
 
     </android.support.v7.widget.CardView>
-    -->
+
     <!--
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"

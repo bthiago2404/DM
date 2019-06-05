@@ -40,9 +40,9 @@ public class VerMaisAdapter extends RecyclerView.Adapter<VerMaisAdapter.MyViewHo
 
         VerMaisModel listaVerMais = verMaisAdapter.get(i);
 
-        myViewHolder.tvNomeProduto1.setText(listaVerMais.getTvNomeProduto1());
-        myViewHolder.tvValorProduto1.setText(listaVerMais.getTvValorProduto1());
-        myViewHolder.tvValor1.setText(listaVerMais.getTvValor1());
+        myViewHolder.tvNomeProduto.setText(listaVerMais.getTvNomeProduto());
+        myViewHolder.tvValorProduto.setText(listaVerMais.getTvValorProduto());
+        myViewHolder.tvValor.setText(listaVerMais.getTvValor());
 
     }
 
@@ -53,16 +53,16 @@ public class VerMaisAdapter extends RecyclerView.Adapter<VerMaisAdapter.MyViewHo
     // Inner class necessario para o funcionamento perfeito do adapter.
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView tvNomeProduto1;
-        TextView tvValorProduto1;
-        TextView tvValor1;
+        TextView tvNomeProduto;
+        TextView tvValorProduto;
+        TextView tvValor;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvNomeProduto1 = itemView.findViewById(R.id.tvNomeProduto1);
-            tvValorProduto1 = itemView.findViewById(R.id.tvValorProduto1);
-            tvValor1 = itemView.findViewById(R.id.tvValor1);
+            tvNomeProduto = itemView.findViewById(R.id.tvNomeProduto);
+            tvValorProduto = itemView.findViewById(R.id.tvValorProduto);
+            tvValor = itemView.findViewById(R.id.tvValor);
 
         }
     }
