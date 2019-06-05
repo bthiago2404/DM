@@ -58,7 +58,7 @@ public class MeuCarrinhoAdapter extends RecyclerView.Adapter<MeuCarrinhoAdapter.
             super(itemView);
 
             tvItem = itemView.findViewById(R.id.tvItem);
-            tvValor = itemView.findViewById(R.id.tvValor1);
+            tvValor = itemView.findViewById(R.id.tvValor);
 
         }
     }

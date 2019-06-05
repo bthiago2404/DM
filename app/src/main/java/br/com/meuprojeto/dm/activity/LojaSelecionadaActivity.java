@@ -32,4 +32,9 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
         startActivity(irTelaVerMais);
     }
 
+    public void BuscaProduto(View view){
+        Intent irTelaBuscaProduto = new Intent(getApplicationContext(), BuscaProdutoActivity.class);
+        startActivity(irTelaBuscaProduto);
+    }
+
 }
