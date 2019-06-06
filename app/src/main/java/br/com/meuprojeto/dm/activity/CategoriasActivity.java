@@ -54,8 +54,8 @@ public class CategoriasActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click unico no item da lista.
                             @Override
                             public void onItemClick(View view, int position) {
-                                Intent irTelaBuscaProduto = new Intent(getApplicationContext(), BuscaProdutoActivity.class);
-                                startActivity(irTelaBuscaProduto);
+                                Intent irTelaVerMais = new Intent(getApplicationContext(), VerMaisActivity.class);
+                                startActivity(irTelaVerMais);
                             }
 
                             // Esse metodo é responsavel pelo click longo no item da lista.

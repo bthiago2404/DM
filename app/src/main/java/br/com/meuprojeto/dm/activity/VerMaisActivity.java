@@ -83,9 +83,9 @@ public class VerMaisActivity extends AppCompatActivity {
 
     //Metodo responsavel por levar o cliente até a tela do produto.
     //OBS: esse metodo tem que fazer um filtro para levar o cliente para a tela do produto certo.
-    public void irTelaTipoEntrega(View view) {
-        Intent irTelaTipoEntrega = new Intent(getApplicationContext(), TipoEntregaActivity.class);
-        startActivity(irTelaTipoEntrega);
+    public void irTelaLocaisDeEntrega(View view) {
+        Intent irTelaLocaisDeEntrega = new Intent(getApplicationContext(), LocaisEntregaActivity.class);
+        startActivity(irTelaLocaisDeEntrega);
     }
 
     public void irTelaMeuCarrinho(View view){

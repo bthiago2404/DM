@@ -109,6 +109,7 @@
                 style="@style/Widget.AppCompat.Button.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:onClick="irTelaInicial"
                 android:text="@string/txt_salvar"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_roxo"

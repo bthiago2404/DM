@@ -42,6 +42,17 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.77" />
 
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_departamentos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvDepartamentos"
         android:layout_width="0dp"
@@ -51,6 +62,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento" />
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
 </android.support.constraint.ConstraintLayout>

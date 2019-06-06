@@ -45,8 +45,8 @@
         android:layout_height="30dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:background="@drawable/icons8_deliver_food_64"
-        android:onClick="irTelaTipoEntrega"
+        android:background="@drawable/icons8_europe_64"
+        android:onClick="irTelaLocaisDeEntrega"
         app:layout_constraintBottom_toBottomOf="@+id/etBuscarDepartamento"
         app:layout_constraintStart_toEndOf="@+id/etBuscarDepartamento"
         app:layout_constraintTop_toTopOf="@+id/etBuscarDepartamento" />
@@ -67,6 +67,7 @@
         android:id="@+id/rvVerMais"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
