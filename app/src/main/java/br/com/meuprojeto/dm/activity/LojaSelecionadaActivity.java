@@ -103,6 +103,11 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
         startActivity(irTelaVerMais);
     }
 
+    public void irTelaBuscaProduto(View view){
+        Intent irTelaBuscaProduto = new Intent(getApplicationContext(), BuscaProdutoActivity.class);
+        startActivity(irTelaBuscaProduto);
+    }
+
     // Metodo responsavel por gerenciar a lista de departamentos que eu tenho.
     // esse metodo está trabalhando com uma lista de departamentos engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.

@@ -85,12 +85,6 @@
             android:name=".activity.ComoFuncionaActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.LocalizacaoActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity.AnuncioActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"

@@ -80,7 +80,7 @@
     **********************************************************************************************
     ==============================================================================================
     // Strings da tela Meus Pedidos.
-    <string name="txt_pedidos">Veja abaixo seus pedidos recentes:</string>
+    <string name="txt_pedidos">Veja abaixo os produtos do seu carrinho:</string>
     <string name="txt_pedido1">Pedido 01:</string>
     <string name="txt_pedido2">Pedido 02:</string>
     <string name="txt_pedido3">Pedido 03:</string>
@@ -411,6 +411,12 @@
     ==============================================================================================
     // String usados na tela Categorias.
     <string name="txt_buscar_categorias">Informe a categoria</string>
+    <string name="txt_categorias">Categorias</string>
+
+    ==============================================================================================
+    **********************************************************************************************
+    ==============================================================================================
+    // String usados na tela Busca Produto
 
 
     ==============================================================================================
