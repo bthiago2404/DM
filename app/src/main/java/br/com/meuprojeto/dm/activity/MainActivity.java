@@ -212,11 +212,6 @@ public class MainActivity extends AppCompatActivity
     }
 
     // Inicio das interações entre telas:
-    public void anuncio(View view) {
-        Intent irTelaAnuncio = new Intent(getApplicationContext(), AnuncioActivity.class);
-        startActivity(irTelaAnuncio);
-    }
-
     public void login(View view) {
         Intent irTelaLogin = new Intent(getApplicationContext(), LoginActivity.class);
         startActivity(irTelaLogin);
@@ -225,11 +220,6 @@ public class MainActivity extends AppCompatActivity
     public void meusDados(View view) {
         Intent irTelaMeusDados = new Intent(getApplicationContext(), MeusDadosActivity.class);
         startActivity(irTelaMeusDados);
-    }
-
-    public void avaliacao(View view) {
-        Intent irTelaAvaliacaoEstabelecimento = new Intent(getApplicationContext(), AvaliacaoEstabelecimentoActivity.class);
-        startActivity(irTelaAvaliacaoEstabelecimento);
     }
 
     // Metodo responsavel por gerenciar a lista de Mercados que eu tenho.
