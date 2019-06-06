@@ -53,10 +53,8 @@ public class BuscaProdutoActivity extends AppCompatActivity {
                             // Esse metodo é responsavel pelo click unico no item da lista.
                             @Override
                             public void onItemClick(View view, int position) {
-                                /*
-                                Intent irTelaDepartamento = new Intent(getApplicationContext(), CategoriasActivity.class);
-                                startActivity(irTelaDepartamento);
-                                */
+                                Intent irTelaProduto = new Intent(getApplicationContext(), ProdutoActivity.class);
+                                startActivity(irTelaProduto);
                             }
 
                             // Esse metodo é responsavel pelo click longo no item da lista.
@@ -82,14 +80,6 @@ public class BuscaProdutoActivity extends AppCompatActivity {
         );
 
     }
-
-    //Metodo responsavel por levar o cliente até a tela do produto.
-    //OBS: esse metodo tem que fazer um filtro para levar o cliente para a tela do produto certo.
-    public void irTelaProduto(View view) {
-        Intent irTelaProduto = new Intent(getApplicationContext(), ProdutoActivity.class);
-        startActivity(irTelaProduto);
-    }
-
 
     // Metodo responsavel por gerenciar a lista de departamentos que eu tenho.
     // esse metodo está trabalhando com uma lista de departamentos engessada. Futuramente quero que
