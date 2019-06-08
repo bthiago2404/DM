@@ -29,7 +29,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_p1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -48,7 +48,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_p3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p6"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p7"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p8"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -103,7 +103,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_p9"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p10"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p11"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -130,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p12"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p13"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -148,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p14"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -157,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p15"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -166,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p16"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -176,7 +176,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_p17"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -185,7 +185,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p18"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -195,7 +195,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_p19"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -204,7 +204,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p20"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -213,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p21"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -223,7 +223,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_p22"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -232,7 +232,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p23"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -241,7 +241,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_p24"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
         </LinearLayout>
     </ScrollView>

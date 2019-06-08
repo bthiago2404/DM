@@ -29,7 +29,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_ola"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -39,7 +39,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_nome_usuario"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 android:textStyle="italic"
                 app:fontFamily="@font/scada" />
         </TableRow>
@@ -51,7 +51,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_pedidos"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal"
             app:fontFamily="@font/scada" />
 
         <View
@@ -122,7 +122,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_valor_compra"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
 
                     <TextView
@@ -132,7 +132,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_valor"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
                 </TableRow>
 
@@ -155,23 +155,25 @@
                         <Button
                             android:id="@+id/button3"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="35dp"
                             android:layout_margin="5dp"
+                            android:background="@drawable/btnpersonalizado"
                             android:onClick="adicionarMaisItens"
                             android:text="@string/txt_adicionar_itens"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_enfase_01"
                             app:fontFamily="@font/scada" />
 
                         <Button
                             android:id="@+id/btnFinalizarPedido"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="35dp"
                             android:layout_margin="5dp"
+                            android:background="@drawable/btnpersonalizado"
                             android:onClick="confirmacaoPedido"
                             android:text="@string/txt_finalizar"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_enfase_01"
                             app:fontFamily="@font/scada" />
                     </TableRow>
 

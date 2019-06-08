@@ -2,6 +2,20 @@
 
 <resources>
 
+        <color name="colorPrimaryDark">#C23122</color>          <!-- Cor Cabeçario_1 -->
+        <color name="colorPrimary">#E83F2E</color>              <!-- Cor_Cabeçario_2 -->
+        <color name="colorAccent">#E83F2E</color>               <!-- Cor Detalhes -->
+        <color name="capa">#4C4E50</color>                      <!-- Cor Capa -->
+        <color name="letras_normal">#1F2023</color>             <!-- Cor Letras Normal -->
+        <color name="letras_normal_clara">#9C1F2023</color>     <!-- Cor Letras Normal Clara -->
+        <color name="letras_enfase_01">#E83F2E</color>          <!-- Cor Letras Enfase 01 -->
+        <color name="letras_enfase_02">#FCBF0B</color>          <!-- Cor Letras Enfase 02 -->
+        <color name="cor_background">#F7F9FA</color>            <!-- Cor Background -->
+        <color name="cor_background_btn_01">#164C4E50</color>   <!-- Cor Fundo Botão 01 -->
+        <color name="cor_background_btn_02">#00F86942</color>     <!-- Cor Fundo Botão 02 -->
+
+<!--
+         Antigo Padrão de cores do aplicativo
         <color name="colorPrimaryDark">#271830</color>
         <color name="colorPrimary">#352245</color>
         <color name="colorAccent">#352245</color>
@@ -11,17 +25,10 @@
         <color name="letras_laranja">#F86942</color>
         <color name="cor_background">#D8D8D8</color>
         <color name="cor_background_btn">#FFFFFF</color>
-
-
-         Novo Padrão de cores do aplicativo
-        <color name="cor_cabeçario_1">#A83D00</color>
-        <color name="cor_cabeçario_2">#BE4700</color>
-        <color name="cor_detalhes">#d2520b</color>
-        <color name="capa_nova">#e3651b</color>
-        <color name="fundoBotao_novo">#00F86942</color>
-        <color name="letras_nova_1">#4D4A4A</color>
-        <color name="letras_nova_2">#181717</color>
-        <color name="cor_background_1">#D8D8D8</color>
-        <color name="cor_background_btn_1">#FFFFFF</color>
+-->
 
 </resources>
+
+<!--
+        00F86942
+-->

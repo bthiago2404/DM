@@ -17,7 +17,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_pedido1"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal"
             android:textStyle="bold"
             app:fontFamily="@font/scada" />
 
@@ -32,7 +32,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_valor_compra"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -42,7 +42,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_valor"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
 
         </TableRow>
@@ -58,7 +58,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_data_compra"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/txt_data"
-                android:textColor="@color/letras_roxo" />
+                android:textColor="@color/letras_normal_clara" />
         </TableRow>
 
         <TableRow
@@ -81,7 +81,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_forma_pagamento"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -91,7 +91,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_pagamento"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
         </TableRow>
 
@@ -106,7 +106,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_tipo_entrega"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -116,7 +116,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_entrega"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal_clara"
                 app:fontFamily="@font/scada" />
         </TableRow>
     </TableLayout>

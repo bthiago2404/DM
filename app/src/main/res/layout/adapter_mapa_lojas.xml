@@ -45,7 +45,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/txt_loja"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal"
                             android:textSize="18sp"
                             app:fontFamily="@font/scada" />
                     </TableRow>
@@ -60,7 +60,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/txt_cidade"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <TextView
@@ -74,7 +74,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/txt_bairro"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                     </TableRow>
@@ -89,7 +89,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/txt_contato_telefone"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
                     </TableRow>
                 </TableLayout>

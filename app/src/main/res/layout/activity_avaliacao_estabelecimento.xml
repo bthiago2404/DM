@@ -48,7 +48,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_av_estabelecimento01"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
         </TableRow>
 
@@ -63,7 +63,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_estabelecimento"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 android:textStyle="bold"
                 app:fontFamily="@font/scada" />
 
@@ -74,7 +74,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_av_estabelecimento02"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
         </TableRow>
@@ -108,11 +108,12 @@
                 android:id="@+id/btnSalvar"
                 style="@style/Widget.AppCompat.Button.Small"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/btnpersonalizado"
                 android:onClick="irTelaInicial"
                 android:text="@string/txt_salvar"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
         </TableRow>
 
@@ -130,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_nota"
-                android:textColor="@color/letras_laranja" />
+                android:textColor="@color/letras_enfase_01" />
         </TableRow>
 
         <Space
@@ -148,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_obg_avaliacao"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
         </TableRow>
 

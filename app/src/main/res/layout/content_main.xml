@@ -90,7 +90,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_mercados_disponiveis"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />

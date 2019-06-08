@@ -33,7 +33,7 @@
         android:layout_marginTop="100dp"
         android:text="@string/txt_notificacao"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/letras_roxo"
+        android:textColor="@color/letras_normal"
         app:fontFamily="@font/scada"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_logo" />
@@ -47,7 +47,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/txt_avaliar_aplicativo"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/letras_roxo"
+        android:textColor="@color/letras_normal"
         app:fontFamily="@font/scada"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView77" />
@@ -61,7 +61,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/txt_relatar_erro"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/letras_roxo"
+        android:textColor="@color/letras_normal"
         app:fontFamily="@font/scada"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView79" />
@@ -73,7 +73,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="100dp"
-        android:textColor="@color/letras_laranja"
+        android:textColor="@color/letras_enfase_01"
         app:layout_constraintStart_toEndOf="@+id/textView77"
         app:layout_constraintTop_toBottomOf="@+id/image_logo" />
 
@@ -88,7 +88,7 @@
         android:layout_marginBottom="16dp"
         android:text="@string/txt_versao"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/letras_roxo"
+        android:textColor="@color/letras_enfase_01"
         app:fontFamily="@font/scada"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

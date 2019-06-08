@@ -34,7 +34,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/txt_ola"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     app:fontFamily="@font/scada"
                     tools:layout_editor_absoluteX="16dp"
                     tools:layout_editor_absoluteY="150dp" />
@@ -46,7 +46,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/txt_nome_usuario"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_laranja"
+                    android:textColor="@color/letras_enfase_01"
                     android:textStyle="italic"
                     app:fontFamily="@font/scada"
                     tools:layout_editor_absoluteX="85dp"
@@ -64,7 +64,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/txt_selecione_lista"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     app:fontFamily="@font/scada"
                     tools:layout_editor_absoluteX="15dp"
                     tools:layout_editor_absoluteY="186dp" />
@@ -92,7 +92,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_lista1"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <CheckBox
@@ -102,7 +102,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_lista2"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                     </TableRow>
@@ -119,7 +119,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_lista3"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <CheckBox
@@ -129,7 +129,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_lista4"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                     </TableRow>
@@ -144,18 +144,18 @@
                 <Button
                     android:id="@+id/button89"
                     style="@style/Widget.AppCompat.Button.Small"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
                     android:layout_margin="5dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="16dp"
-                    android:background="@color/cor_background_btn"
+                    android:background="@drawable/btnpersonalizado"
                     android:text="@string/txt_ok"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_enfase_01"
                     app:fontFamily="@font/scada" />
             </TableRow>
 
@@ -179,7 +179,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_quant_itens"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <TextView
@@ -189,7 +189,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_itens"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
                     </TableRow>
 
@@ -204,7 +204,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_mercados_disponiveis"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <TextView
@@ -214,7 +214,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_mercados"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
                     </TableRow>
 
@@ -229,7 +229,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_valor_alto"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <TextView
@@ -239,7 +239,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_alto"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
                     </TableRow>
 
@@ -254,7 +254,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_valor_baixo"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
 
                         <TextView
@@ -264,7 +264,7 @@
                             android:layout_margin="10dp"
                             android:text="@string/txt_baixo"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal_clara"
                             app:fontFamily="@font/scada" />
                     </TableRow>
                 </TableLayout>
@@ -278,19 +278,19 @@
                 <Button
                     android:id="@+id/button"
                     style="@style/Widget.AppCompat.Button.Small"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
                     android:layout_margin="5dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="16dp"
-                    android:background="@color/cor_background_btn"
+                    android:background="@drawable/btnpersonalizado"
                     android:onClick="meuCarrinho"
                     android:text="@string/txt_ir_carrinho"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_enfase_01"
                     app:fontFamily="@font/scada"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
