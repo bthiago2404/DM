@@ -60,7 +60,7 @@
                 android:title="@string/txt_mapa_lojas" />
             <item
                 android:id="@+id/nav_como_funciona"
-                android:icon="@drawable/icons8_question_mark_64"
+                android:icon="@drawable/icons8_question_64"
                 android:title="@string/txt_como_func" />
         </menu>
     </item>
