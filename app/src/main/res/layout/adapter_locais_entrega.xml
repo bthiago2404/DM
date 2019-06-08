@@ -17,7 +17,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_bairro"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal"
             app:fontFamily="@font/scada" />
     </LinearLayout>
 </LinearLayout>

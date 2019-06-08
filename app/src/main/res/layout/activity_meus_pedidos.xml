@@ -26,7 +26,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_ola"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <TextView
@@ -36,7 +36,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_nome_usuario"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_laranja"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
         </TableRow>
 
@@ -47,7 +47,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_conferir_pedido"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal"
             app:fontFamily="@font/scada" />
 
         <View

@@ -48,7 +48,7 @@
                             android:layout_margin="1dp"
                             android:text="@string/txt_loja"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
+                            android:textColor="@color/letras_normal"
                             android:textSize="18sp"
                             app:fontFamily="@font/scada" />
 
@@ -65,7 +65,7 @@
                             android:layout_margin="1dp"
                             android:text="@string/txt_tempo_entrega"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_nova_1"
+                            android:textColor="@color/letras_normal_clara"
                             android:textSize="12sp"
                             app:fontFamily="@font/scada" />
 
@@ -82,7 +82,7 @@
                             android:layout_margin="1dp"
                             android:text="@string/txt_valor_entrega"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_nova_1"
+                            android:textColor="@color/letras_normal_clara"
                             android:textSize="12sp"
                             app:fontFamily="@font/scada" />
                     </TableRow>

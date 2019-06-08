@@ -19,7 +19,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_quantidade"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal_clara"
             app:fontFamily="@font/scada" />
 
         <TextView
@@ -29,7 +29,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_item1"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal_clara"
             app:fontFamily="@font/scada" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:layout_margin="5dp"
             android:text="@string/txt_valor"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/letras_roxo"
+            android:textColor="@color/letras_normal_clara"
             app:fontFamily="@font/scada" />
 
     </TableRow>

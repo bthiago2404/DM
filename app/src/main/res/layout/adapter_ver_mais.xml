@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -44,7 +43,8 @@
                             android:layout_width="200dip"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/txt_nome_prod" />
+                            android:text="@string/txt_nome_prod"
+                            android:textColor="@color/letras_normal" />
                     </TableRow>
 
                     <TableRow
@@ -57,7 +57,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
                             android:text="@string/txt_preco_produto"
-                            android:textColor="@android:color/holo_green_dark" />
+                            android:textColor="@color/letras_enfase_01" />
 
                     </TableRow>
 
@@ -71,24 +71,8 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
                             android:text="@string/txt_preco_produto"
+                            android:textColor="@color/letras_normal_clara"
                             android:textSize="12sp" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center">
-
-                        <Button
-                            android:id="@+id/btnAdicionar"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="2dp"
-                            android:text="@string/txt_adicionar"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textColor="@color/letras_roxo"
-                            app:fontFamily="@font/scada" />
-
                     </TableRow>
 
                 </TableLayout>

@@ -27,6 +27,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.NovoUsuarioActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.ProdutoActivity"

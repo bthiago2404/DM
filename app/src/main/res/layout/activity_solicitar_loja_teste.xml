@@ -50,7 +50,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/txt_mensagem_parceiros"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     app:fontFamily="@font/scada" />
 
             </TableRow>
@@ -76,7 +76,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_contatos"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
                 </TableRow>
 
@@ -89,7 +89,7 @@
                         android:layout_width="281dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="Nome"
+                        android:hint="@string/txt_nome"
                         android:inputType="textPersonName" />
                 </TableRow>
 
@@ -102,7 +102,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="Celular"
+                        android:hint="@string/txt_celular"
                         android:inputType="phone" />
                 </TableRow>
 
@@ -115,7 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="Tel. Fixo"
+                        android:hint="@string/txt_telefone_fixo"
                         android:inputType="phone" />
                 </TableRow>
 
@@ -135,7 +135,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_endereco"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
                 </TableRow>
 
@@ -197,7 +197,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_outros"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
                 </TableRow>
 
@@ -210,7 +210,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="CNPJ"
+                        android:hint="@string/txt_cnpj"
                         android:inputType="number" />
                 </TableRow>
 
@@ -230,11 +230,12 @@
                     android:id="@+id/button43"
                     style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btnpersonalizado"
                     android:onClick="irTelaInicial"
                     android:text="@string/txt_confirmar"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_enfase_01"
                     app:fontFamily="@font/scada" />
 
             </TableRow>

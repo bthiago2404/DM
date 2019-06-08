@@ -84,11 +84,12 @@
             <Button
                 android:id="@+id/btnDepartamento"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/btnpersonalizado"
                 android:onClick="irTelaDepartamentos"
                 android:text="@string/txt_departamentos"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <Space
@@ -190,10 +191,11 @@
                 android:id="@+id/btnVerMais"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
+                android:background="@drawable/btnpersonalizado"
                 android:onClick="irTelaVerMais"
                 android:text="@string/txt_ver_mais"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_enfase_01"
                 app:fontFamily="@font/scada" />
 
             <Space

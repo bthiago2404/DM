@@ -50,7 +50,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/txt_ola"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     app:fontFamily="@font/scada" />
 
                 <TextView
@@ -60,7 +60,7 @@
                     android:layout_margin="5dp"
                     android:text="@string/txt_nome_usuario"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_laranja"
+                    android:textColor="@color/letras_enfase_01"
                     app:fontFamily="@font/scada" />
             </TableRow>
 
@@ -71,7 +71,7 @@
                 android:layout_margin="5dp"
                 android:text="@string/txt_informe_dados"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_roxo"
+                android:textColor="@color/letras_normal"
                 app:fontFamily="@font/scada" />
 
             <View
@@ -114,7 +114,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_contatos"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
 
                 </TableRow>
@@ -163,7 +163,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_endereco"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
 
                 </TableRow>
@@ -226,7 +226,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/txt_alterar_senha"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
                 </TableRow>
 
@@ -283,7 +283,7 @@
                         android:layout_margin="5dp"
                         android:text="@string/tx_melhor_hora_entrega"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         app:fontFamily="@font/scada" />
                 </LinearLayout>
 
@@ -299,7 +299,7 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_manha"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal_clara"
                         app:fontFamily="@font/scada" />
 
                     <CheckBox
@@ -309,7 +309,7 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_tarde"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal_clara"
                         app:fontFamily="@font/scada" />
 
                     <CheckBox
@@ -319,7 +319,7 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_noite"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal_clara"
                         app:fontFamily="@font/scada" />
 
                 </TableRow>
@@ -328,11 +328,12 @@
                     android:id="@+id/btnSalvar"
                     style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btnpersonalizado"
                     android:onClick="salvar"
                     android:text="@string/txt_salvar"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_enfase_01"
                     app:fontFamily="@font/scada" />
 
             </LinearLayout>

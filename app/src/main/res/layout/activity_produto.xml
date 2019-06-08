@@ -31,7 +31,7 @@
                     android:id="@+id/button68"
                     android:layout_width="260dp"
                     android:layout_height="260dp"
-                    android:background="@drawable/side_nav_bar" />
+                    android:background="@drawable/laranja" />
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_nome_produto"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal"
                         android:textStyle="bold"
                         app:fontFamily="@font/scada" />
 
@@ -55,7 +55,7 @@
                         android:layout_margin="10dp"
                         android:text="@string/txt_preco_produto"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_normal_clara"
                         app:fontFamily="@font/scada" />
 
                 </TableRow>
@@ -71,7 +71,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_caracteristica_produto"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     android:textStyle="bold"
                     app:fontFamily="@font/scada" />
 
@@ -82,7 +82,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_caracteristica"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal_clara"
                     app:fontFamily="@font/scada" />
 
                 <TextView
@@ -92,7 +92,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_embalagem_produto"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     android:textStyle="bold"
                     app:fontFamily="@font/scada" />
 
@@ -103,7 +103,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_embalagem"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal_clara"
                     app:fontFamily="@font/scada" />
 
                 <TextView
@@ -113,7 +113,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_grupo_produto"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal"
                     android:textStyle="bold"
                     app:fontFamily="@font/scada" />
 
@@ -124,7 +124,7 @@
                     android:layout_margin="10dp"
                     android:text="@string/txt_grupo"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/letras_roxo"
+                    android:textColor="@color/letras_normal_clara"
                     app:fontFamily="@font/scada" />
 
                 <Space
@@ -140,24 +140,26 @@
                         android:id="@+id/button69"
                         style="@style/Widget.AppCompat.Button"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
+                        android:background="@drawable/btnpersonalizado"
                         android:onClick="irTelaLojaSelecionada"
                         android:text="@string/txt_carrinho"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_enfase_01"
                         app:fontFamily="@font/scada" />
 
                     <Button
                         android:id="@+id/button70"
                         style="@style/Widget.AppCompat.Button"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
+                        android:background="@drawable/btnpersonalizado"
                         android:onClick="irTelaLojaSelecionada"
                         android:text="@string/txt_lista_compra"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                        android:textColor="@color/letras_roxo"
+                        android:textColor="@color/letras_enfase_01"
                         app:fontFamily="@font/scada" />
 
                 </TableRow>
