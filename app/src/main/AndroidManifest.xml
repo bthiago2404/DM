@@ -17,6 +17,7 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.LocaisEntregaActivity"
+            android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.AvaliacaoEstabelecimentoActivity"
