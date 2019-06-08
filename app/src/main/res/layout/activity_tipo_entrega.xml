@@ -100,7 +100,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/switch3"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/icons8_deliver_food_64" />
+        app:srcCompat="@drawable/icons8_in_transit_64" />
 
     <Switch
         android:id="@+id/switch3"

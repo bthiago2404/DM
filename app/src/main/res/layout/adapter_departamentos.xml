@@ -19,7 +19,7 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_margin="10dp"
-                android:background="@drawable/icons8_steak_64" />
+                android:background="@drawable/icons8_food_as_resources_64" />
 
             <TextView
                 android:id="@+id/tvDepartamento"

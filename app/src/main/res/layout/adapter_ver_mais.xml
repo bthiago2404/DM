@@ -28,7 +28,7 @@
                     android:layout_margin="5dp"
                     android:background="#00000000"
                     android:contentDescription="@string/todo"
-                    app:srcCompat="@drawable/kika" />
+                    app:srcCompat="@drawable/oreo" />
 
                 <TableLayout
                     android:layout_width="match_parent"
