@@ -82,21 +82,6 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnDepartamento"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:background="@drawable/btnpersonalizado"
-                android:onClick="irTelaDepartamentos"
-                android:text="@string/txt_departamentos"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_enfase_01"
-                app:fontFamily="@font/scada" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="5dp" />
-
-            <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -177,6 +162,21 @@
                 </LinearLayout>
             </HorizontalScrollView>
             -->
+
+            <Button
+                android:id="@+id/btnDepartamento"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/btnpersonalizado"
+                android:onClick="irTelaDepartamentos"
+                android:text="@string/txt_departamentos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_enfase_01"
+                app:fontFamily="@font/scada" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/rvLojaSelecionada"
