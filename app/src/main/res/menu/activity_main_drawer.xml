@@ -40,7 +40,7 @@
                 android:title="@string/txt_departamentos" />
             <item
                 android:id="@+id/nav_tipo_entrega"
-                android:icon="@drawable/icons8_deliver_food_64"
+                android:icon="@drawable/icons8_in_transit_64"
                 android:title="@string/txt_tipo_entrega" />
             <item
                 android:id="@+id/nav_lista_compras"
@@ -56,7 +56,7 @@
         <menu>
             <item
                 android:id="@+id/nav_mapa_lojas"
-                android:icon="@drawable/icons8_europe_64"
+                android:icon="@drawable/icons8_google_maps_64"
                 android:title="@string/txt_mapa_lojas" />
             <item
                 android:id="@+id/nav_como_funciona"
