@@ -40,9 +40,6 @@ public class LoginActivity extends AppCompatActivity {
             // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
             // a tela de cadastro.
 
-            // Metodo responsavel por exibir uma mensagem flutuante informativa como fedback ao usuario.
-            Toast.makeText(getApplicationContext(),"Você será direcionado para tela de cadastro", Toast.LENGTH_LONG).show();
-
             // Metodo responsavel por fazer a interação entre a tela de login e a tela de cadastro.
             Intent irTelaNovoUsuario = new Intent(getApplicationContext(), NovoUsuarioActivity.class);
             startActivity(irTelaNovoUsuario);
