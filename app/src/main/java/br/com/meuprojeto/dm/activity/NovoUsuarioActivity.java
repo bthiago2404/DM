@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import br.com.meuprojeto.dm.R;
 
@@ -61,6 +62,7 @@ public class NovoUsuarioActivity extends AppCompatActivity {
 
 
         verificaCheck();
+        Toast.makeText(getApplicationContext(),"Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(irTelaInicial);
 

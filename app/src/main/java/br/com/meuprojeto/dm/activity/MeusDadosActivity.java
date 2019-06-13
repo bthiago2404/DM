@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import br.com.meuprojeto.dm.R;
 
@@ -59,10 +60,11 @@ public class MeusDadosActivity extends AppCompatActivity {
 
     // Metodo responsabel por salvar os dados do cliente no banco. (Em Construção).
     public void salvar(View view){
-        Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(irTelaInicial);
 
         verificaCheck();
+        Toast.makeText(getApplicationContext(),"Dados alterados com sucesso!", Toast.LENGTH_LONG).show();
+        Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(irTelaInicial);
 
     }
 
