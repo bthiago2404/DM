@@ -40,6 +40,7 @@ public class SolicitarLojaTesteActivity extends AppCompatActivity {
 
                 Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(irTelaInicial);
+                SolicitarLojaTesteActivity.this.finish();
 
             }
         });

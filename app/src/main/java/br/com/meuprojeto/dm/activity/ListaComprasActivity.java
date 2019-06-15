@@ -20,6 +20,7 @@ public class ListaComprasActivity extends AppCompatActivity {
     public void meuCarrinho(View view) {
         Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
         startActivity(irTelaMeuCarrinho);
+        ListaComprasActivity.this.finish();
     }
 
 }

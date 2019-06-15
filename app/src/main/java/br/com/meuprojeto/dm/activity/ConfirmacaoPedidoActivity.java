@@ -78,6 +78,7 @@ public class ConfirmacaoPedidoActivity extends AppCompatActivity {
     public void irTelaAvaliacaoEstabelecimento(View view) {
         Intent irTelaAvaliacaoEstabelecimento = new Intent(getApplicationContext(), AvaliacaoEstabelecimentoActivity.class);
         startActivity(irTelaAvaliacaoEstabelecimento);
+        ConfirmacaoPedidoActivity.this.finish();
     }
 
     // Metodo responsavel por simular um pedido que fiz.
@@ -121,11 +122,6 @@ public class ConfirmacaoPedidoActivity extends AppCompatActivity {
         listaConfirmacaoPedido = new ConfirmacaoPedidoModel("Bisc Amant Renata 330g Coco", "11,40");
         confirmacaoPedidoActivity.add(listaConfirmacaoPedido);
 
-    }
-
-    public void confirmacao(View view) {
-        Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(irTelaInicial);
     }
 
 }

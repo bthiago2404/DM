@@ -12,7 +12,6 @@ import br.com.meuprojeto.dm.R;
 public class ProdutoActivity extends AppCompatActivity {
 
     //Trecho do codigo referente a logica dos botões de somar e subtrair.
-    //Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
     private Button btnAcrescentar;
     private Button btnSubtrair;
     private TextView tvQuantidade;
@@ -33,7 +32,6 @@ public class ProdutoActivity extends AppCompatActivity {
     }
 
     //Trecho do codigo referente a logica dos botões de somar e subtrair.
-    //Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
     public void acrescentarItens(View view) {
         if(i >= 0){
             i = i + 1;
@@ -59,6 +57,7 @@ public class ProdutoActivity extends AppCompatActivity {
     public void irTelaLojaSelecionada(View view){
         Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
         startActivity(irTelaLojaSelecionada);
+        ProdutoActivity.this.finish();
     }
 
 }

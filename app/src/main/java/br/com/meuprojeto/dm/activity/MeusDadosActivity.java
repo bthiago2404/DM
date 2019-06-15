@@ -65,6 +65,7 @@ public class MeusDadosActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Dados alterados com sucesso!", Toast.LENGTH_LONG).show();
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(irTelaInicial);
+        MeusDadosActivity.this.finish();
 
     }
 

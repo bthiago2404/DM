@@ -59,6 +59,7 @@ public class AvaliacaoEstabelecimentoActivity extends AppCompatActivity {
     public void irTelaInicial(View view) {
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(irTelaInicial);
+        AvaliacaoEstabelecimentoActivity.this.finish();
     }
 
 }

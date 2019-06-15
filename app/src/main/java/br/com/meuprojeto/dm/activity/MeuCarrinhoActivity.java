@@ -50,6 +50,8 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
     public void confirmacaoPedido(View view) {
         Intent irTelaConfirmacaoPedido = new Intent(getApplicationContext(), ConfirmacaoPedidoActivity.class);
         startActivity(irTelaConfirmacaoPedido);
+        MeuCarrinhoActivity.this.finish();
+
     }
 
     public void adicionarMaisItens(View view) {
