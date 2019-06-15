@@ -51,7 +51,9 @@ public class LoginActivity extends AppCompatActivity {
             // uma mensagem: "Acesso permitido" (por meio de um TOAST)
             // caso os dados estejam errados retornar uma mensagem: "Acesso negado"
             // (por meio de um ALERTDIALOG).
-            Toast.makeText(getApplicationContext(),"Consultando dados", Toast.LENGTH_LONG).show();
+            Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(irTelaInicial);
+            LoginActivity.this.finish();
 
         }
 

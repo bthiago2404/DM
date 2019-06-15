@@ -55,6 +55,7 @@ public class MapaLojasActivity extends AppCompatActivity {
                             public void onItemClick(View view, int position) {
                                 Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
                                 startActivity(irTelaLojaSelecionada);
+                                MapaLojasActivity.this.finish();
                             }
 
                             // Esse metodo é responsavel pelo click longo no item da lista.

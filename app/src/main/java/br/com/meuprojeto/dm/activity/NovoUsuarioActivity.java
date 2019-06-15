@@ -60,11 +60,12 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     // Metodo responsabel por salvar os dados do cliente no banco. (Em Construção).
     public void salvar(View view){
 
-
         verificaCheck();
         Toast.makeText(getApplicationContext(),"Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+        irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pinha de Activity's
         startActivity(irTelaInicial);
+        NovoUsuarioActivity.this.finish(); // Finaliza a activity atual e não permite voltar para ela.
 
     }
 

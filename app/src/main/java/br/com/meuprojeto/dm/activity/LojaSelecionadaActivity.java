@@ -93,6 +93,11 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
         startActivity(irTelaMeuCarrinho);
     }
 
+    public void irTelaBuscaProduto(View view){
+        Intent irTelaBuscaProduto = new Intent(getApplicationContext(), BuscaProdutoActivity.class);
+        startActivity(irTelaBuscaProduto);
+    }
+
     public void irTelaDepartamentos(View view){
         Intent irTelaDepartamentos = new Intent(getApplicationContext(), DepartamentosActivity.class);
         startActivity(irTelaDepartamentos);
@@ -101,11 +106,6 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
     public void irTelaVerMais(View view){
         Intent irTelaVerMais = new Intent(getApplicationContext(), VerMaisActivity.class);
         startActivity(irTelaVerMais);
-    }
-
-    public void irTelaBuscaProduto(View view){
-        Intent irTelaBuscaProduto = new Intent(getApplicationContext(), BuscaProdutoActivity.class);
-        startActivity(irTelaBuscaProduto);
     }
 
     // Metodo responsavel por gerenciar a lista de departamentos que eu tenho.

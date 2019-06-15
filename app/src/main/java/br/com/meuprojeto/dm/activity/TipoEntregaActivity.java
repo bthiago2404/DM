@@ -21,6 +21,7 @@ public class TipoEntregaActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Forma de entrega alterado!", Toast.LENGTH_LONG).show();
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(irTelaInicial);
+        TipoEntregaActivity.this.finish();
 
     }
 
