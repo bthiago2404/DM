@@ -20,6 +20,7 @@ public class ListaComprasActivity extends AppCompatActivity {
     public void meuCarrinho(View view) {
         Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
         startActivity(irTelaMeuCarrinho);
+        irTelaMeuCarrinho.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pilha de activity
         ListaComprasActivity.this.finish();
     }
 

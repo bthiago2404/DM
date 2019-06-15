@@ -53,7 +53,8 @@ public class LoginActivity extends AppCompatActivity {
             // (por meio de um ALERTDIALOG).
             Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(irTelaInicial);
-            LoginActivity.this.finish();
+            irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
+            LoginActivity.this.finish(); // Finaliza a activity atual
 
         }
 

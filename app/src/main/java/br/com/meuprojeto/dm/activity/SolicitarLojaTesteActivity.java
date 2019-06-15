@@ -40,6 +40,7 @@ public class SolicitarLojaTesteActivity extends AppCompatActivity {
 
                 Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(irTelaInicial);
+                irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pilha de activity
                 SolicitarLojaTesteActivity.this.finish();
 
             }

@@ -59,7 +59,9 @@ public class AvaliacaoEstabelecimentoActivity extends AppCompatActivity {
     public void irTelaInicial(View view) {
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(irTelaInicial);
-        AvaliacaoEstabelecimentoActivity.this.finish();
+        irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pilha de activity
+        AvaliacaoEstabelecimentoActivity.this.finish(); // Finaliza a activity atual.
+
     }
 
 }
