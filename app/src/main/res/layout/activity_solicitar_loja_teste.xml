@@ -231,14 +231,18 @@
                     style="@style/Widget.AppCompat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="35dp"
-                    android:background="@drawable/btnpersonalizado"
-                    android:onClick="irTelaInicial"
+                    android:background="@drawable/btn_personalizado_02"
+                    android:onClick="abrirAlerta"
                     android:text="@string/txt_confirmar"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_enfase_01"
                     app:fontFamily="@font/scada" />
 
             </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
 
         </LinearLayout>
 

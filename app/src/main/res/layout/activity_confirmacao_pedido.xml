@@ -148,7 +148,7 @@
                         android:id="@+id/btnFinalizarPedido"
                         android:layout_width="wrap_content"
                         android:layout_height="35dp"
-                        android:background="@drawable/btnpersonalizado"
+                        android:background="@drawable/btn_personalizado_02"
                         android:onClick="irTelaAvaliacaoEstabelecimento"
                         android:text="@string/txt_ok"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"

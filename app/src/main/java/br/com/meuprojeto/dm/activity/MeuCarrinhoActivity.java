@@ -16,15 +16,6 @@ import br.com.meuprojeto.dm.model.MeuCarrinhoModel;
 
 public class MeuCarrinhoActivity extends AppCompatActivity {
 
-    /*
-    //Trecho do codigo referente a logica dos botões de somar e subtrair.
-    //Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
-    private Button btnAcrescentar;
-    private Button btnSubtrair;
-    private TextView tvQuantidade;
-    private int i;
-    */
-
     private RecyclerView rvMeuCarrinho;
     private List<MeuCarrinhoModel> meuCarrinhoActivity = new ArrayList<>();
 
@@ -32,15 +23,6 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meu_carrinho);
-
-    /*
-        //Trecho do codigo referente a logica dos botões de somar e subtrair.
-        //esse trecho é responsavel por apontar os valores das 3 variaveis citadas acima
-        //para cada View da tela MeuCarrinho.
-        btnAcrescentar = findViewById(R.id.btnAcrescentar);
-        btnSubtrair = findViewById(R.id.btnSubtrair);
-        tvQuantidade = findViewById(R.id.tvQuantidade);
-    */
 
         // Apontei a variavel rvMeuCarrinho para o recyclerview rvMeuCarrinho da tela.
         rvMeuCarrinho = findViewById(R.id.rvMeuCarrinho);
@@ -74,22 +56,6 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
         Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
         startActivity(irTelaLojaSelecionada);
     }
-
-    /*
-        //Trecho do codigo referente a logica dos botões de somar e subtrair.
-        //Vou deixar como comentario pois essa tela vai ser por meio de Web Services.
-        public void acrescentarItens(View view) {
-            i = i + 1;
-            String numero2 = String.valueOf(i);
-            tvQuantidade.setText(numero2);
-        }
-
-        public void subtrairItens(View view) {
-            i = i - 1;
-            String numero2 = String.valueOf(i);
-            tvQuantidade.setText(numero2);
-        }
-    */
 
     // Metodo responsavel por gerenciar a lista de produtos que fazemos entrega.
     // esse metodo está trabalhando com uma lista de produtos engessada. Futuramente quero que
