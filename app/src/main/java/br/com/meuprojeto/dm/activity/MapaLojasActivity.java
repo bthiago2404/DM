@@ -55,6 +55,7 @@ public class MapaLojasActivity extends AppCompatActivity {
                             public void onItemClick(View view, int position) {
                                 Intent irTelaLojaSelecionada = new Intent(getApplicationContext(), LojaSelecionadaActivity.class);
                                 startActivity(irTelaLojaSelecionada);
+                                irTelaLojaSelecionada.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pilha de activity
                                 MapaLojasActivity.this.finish();
                             }
 

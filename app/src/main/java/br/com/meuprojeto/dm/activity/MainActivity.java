@@ -161,8 +161,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_departamentos) {
 
-            Intent departamentos = new Intent(MainActivity.this, DepartamentosActivity.class);
-            startActivity(departamentos);
+            //Intent departamentos = new Intent(MainActivity.this, DepartamentosActivity.class);
+            //startActivity(departamentos);
+            Toast.makeText(getApplicationContext(),"Escolha um mercado primeiro, para poder ver seus departamentos!", Toast.LENGTH_LONG).show();
 
         } else if (id == R.id.nav_tipo_entrega) {
 
