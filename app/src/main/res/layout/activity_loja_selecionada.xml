@@ -92,82 +92,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <!--
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/button10"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64"
-                        android:onClick="produto" />
-
-                    <Button
-                        android:id="@+id/button11"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64"
-                        android:onClick="produto" />
-
-                    <Button
-                        android:id="@+id/button12"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64"
-                        android:onClick="produto" />
-
-                    <Button
-                        android:id="@+id/button13"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
-
-                    <Button
-                        android:id="@+id/button14"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_paid_64" />
-
-                    <Button
-                        android:id="@+id/button15"
-                        style="@style/Widget.AppCompat.Button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/icons8_sell_stock_64" />
-
-                </LinearLayout>
-            </HorizontalScrollView>
-            -->
-
             <Button
                 android:id="@+id/btnDepartamento"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
-                android:background="@drawable/btnpersonalizado"
+                android:background="@drawable/btn_personalizado_03"
                 android:onClick="irTelaDepartamentos"
                 android:text="@string/txt_departamentos"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -191,7 +120,7 @@
                 android:id="@+id/btnVerMais"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
-                android:background="@drawable/btnpersonalizado"
+                android:background="@drawable/btn_personalizado_02"
                 android:onClick="irTelaVerMais"
                 android:text="@string/txt_ver_mais"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
