@@ -63,8 +63,8 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         verificaCheck();
         Toast.makeText(getApplicationContext(),"Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
         Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
-        irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pinha de Activity's
         startActivity(irTelaInicial);
+        irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pinha de Activity's
         NovoUsuarioActivity.this.finish(); // Finaliza a activity atual e não permite voltar para ela.
 
     }
