@@ -1,6 +1,8 @@
 package br.com.meuprojeto.dm.activity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -45,12 +47,37 @@ public class MeuCarrinhoActivity extends AppCompatActivity {
 
     }
 
-    // Interação entre a tela MEU CARRINHO e a tela CONFIRMAÇÃO DE PEDIDO
-    // através do botão FINALIZAR PEDIDO.
-    public void confirmacaoPedido(View view) {
-        Intent irTelaConfirmacaoPedido = new Intent(getApplicationContext(), ConfirmacaoPedidoActivity.class);
-        startActivity(irTelaConfirmacaoPedido);
-        MeuCarrinhoActivity.this.finish();
+    // AlertDialog
+    public void confirmacaoPedido (View view){
+
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+
+        // Configurando Título e Mensagem do AlertDialoh.
+        dialog.setTitle("Pedido Finalizado com Sucesso!");
+        dialog.setMessage("Aguarde seu pedido ser confirmado, e em breve receberá suas compras no conforto de sua casa :)");
+
+        // Configurar Cancelamento
+        dialog.setCancelable(false);
+
+        // Configurar Icone
+        dialog.setIcon(android.R.drawable.ic_menu_info_details
+        );
+
+        // Configurar ações para os botões.
+        dialog.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                Intent irTelaConfirmacaoPedido = new Intent(getApplicationContext(), ConfirmacaoPedidoActivity.class);
+                startActivity(irTelaConfirmacaoPedido);
+                MeuCarrinhoActivity.this.finish();
+
+            }
+        });
+
+        // Criar e exibir o AlertDialog
+        dialog.create();
+        dialog.show();
 
     }
 
