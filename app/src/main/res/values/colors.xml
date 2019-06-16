@@ -12,7 +12,7 @@
         <color name="letras_enfase_02">#E83F0B</color>          <!-- Cor Letras Enfase 02 -->
         <color name="cor_background">#F7F9FA</color>            <!-- Cor Background -->
         <color name="cor_background_btn_01">#164C4E50</color>   <!-- Cor Fundo Botão 01 -->
-        <color name="cor_background_btn_02">#00F86942</color>     <!-- Cor Fundo Botão 02 -->
+        <color name="cor_background_btn_02">#00F86942</color>   <!-- Cor Fundo Botão 02 -->
 
 <!--
          Antigo Padrão de cores do aplicativo

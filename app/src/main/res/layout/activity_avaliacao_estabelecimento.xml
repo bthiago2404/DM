@@ -49,6 +49,7 @@
                 android:text="@string/txt_av_estabelecimento01"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/letras_normal"
+                android:textSize="14sp"
                 app:fontFamily="@font/scada" />
         </TableRow>
 

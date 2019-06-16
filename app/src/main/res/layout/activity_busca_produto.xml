@@ -14,7 +14,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/txt_resultado_busca"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/letras_normal"
+        app:fontFamily="@font/scada"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

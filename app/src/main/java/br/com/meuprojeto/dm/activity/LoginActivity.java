@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
-import android.widget.Toast;
 
 import br.com.meuprojeto.dm.R;
 
@@ -39,7 +38,6 @@ public class LoginActivity extends AppCompatActivity {
 
             // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
             // a tela de cadastro.
-
             // Metodo responsavel por fazer a interação entre a tela de login e a tela de cadastro.
             Intent irTelaNovoUsuario = new Intent(getApplicationContext(), NovoUsuarioActivity.class);
             startActivity(irTelaNovoUsuario);
