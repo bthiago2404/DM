@@ -107,6 +107,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="5dp" />
 
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/txt_produto_destaque"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/letras_normal"
+                app:fontFamily="@font/scada"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento" />
+
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/rvLojaSelecionada"
                 android:layout_width="match_parent"

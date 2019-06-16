@@ -47,7 +47,6 @@
                     android:text="@string/txt_nome_usuario"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/letras_enfase_01"
-                    android:textStyle="italic"
                     app:fontFamily="@font/scada"
                     tools:layout_editor_absoluteX="85dp"
                     tools:layout_editor_absoluteY="150dp" />

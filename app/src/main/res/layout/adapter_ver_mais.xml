@@ -44,7 +44,9 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:text="@string/txt_nome_prod"
-                            android:textColor="@color/letras_normal" />
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="@color/letras_normal"
+                            app:fontFamily="@font/scada" />
                     </TableRow>
 
                     <TableRow
@@ -57,7 +59,9 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
                             android:text="@string/txt_preco_produto"
-                            android:textColor="@color/letras_enfase_01" />
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="@color/letras_enfase_01"
+                            app:fontFamily="@font/scada" />
 
                     </TableRow>
 
@@ -71,8 +75,10 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
                             android:text="@string/txt_preco_produto"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="@color/letras_normal_clara"
-                            android:textSize="12sp" />
+                            android:textSize="12sp"
+                            app:fontFamily="@font/scada" />
                     </TableRow>
 
                 </TableLayout>
