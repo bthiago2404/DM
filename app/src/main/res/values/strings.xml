@@ -406,6 +406,7 @@
     <string name="txt_sugeridos">Produtos Sugeridos</string>
 -->
 
-
+    <string name="txt_erro_email">Por favor digite seu E-mail ou selecione a opção de cadastrar!</string>
+    <string name="txt_erro_senha">Faltou digitar a senha!</string>
 
 </resources>
