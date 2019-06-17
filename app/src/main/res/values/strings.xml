@@ -138,7 +138,7 @@
     <string name="txt_esqueceu_senha">Esqueceu sua senha? </string>
     <string name="txt_clique_aqui"> Clique Aqui!</string>
     <string name="txt_erro_email">Por favor digite seu E-mail ou selecione a opção de novo cadastro!</string>
-    <string name="txt_erro_senha1">Por Favor digite sua senha!</string>
+    <string name="txt_erro_senha">Por Favor digite sua senha!</string>
 
     ==============================================================================================
     **********************************************************************************************
@@ -218,7 +218,7 @@
     <string name="txt_erro_numero">Por favor informe o Numero!</string>
     <string name="txt_erro_senha_atual">Por Favor digite sua Senha Atual!</string>
     <string name="txt_erro_nova_senha">Por favor informe sua Nova Senha!</string>
-    <string name="txt_erro_confirme_nova_senha">Por favor confirme sua nova Senha!</string>
+    <string name="txt_erro_confirme_nova_senha">Por favor confirme sua Nova Senha!</string>
 
     ==============================================================================================
     **********************************************************************************************

@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
             if(login.getText().toString().length() == 0){
                 login.setError(getString(R.string.txt_erro_email));
             } else if(senha.getText().toString().length() == 0){
-                senha.setError(getString(R.string.txt_erro_senha1));
+                senha.setError(getString(R.string.txt_erro_senha));
             } else {
                 Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(irTelaInicial);
