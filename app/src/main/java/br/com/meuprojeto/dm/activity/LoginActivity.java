@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
     // Metodo que será responsável pelo login no app.
     public void logar(View view){
 
-        if (tipoLogin.isChecked()) {
+        if(tipoLogin.isChecked()){
 
             // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
             // a tela de cadastro.
@@ -44,15 +44,16 @@ public class LoginActivity extends AppCompatActivity {
 
         } else {
 
-            // Se o Switch estiver inativo o aplicativo tera que fazer uma consulta no banco
-            // de dados, se os dados digitados estiverem corretos ira retornar
-            // uma mensagem: "Acesso permitido" (por meio de um TOAST)
-            // caso os dados estejam errados retornar uma mensagem: "Acesso negado"
-            // (por meio de um ALERTDIALOG).
-            Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
-            startActivity(irTelaInicial);
-            irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
-            LoginActivity.this.finish(); // Finaliza a activity atual
+            if(login.getText().toString().length() == 0){
+                login.setError(getString(R.string.txt_erro_email));
+            } else if(senha.getText().toString().length() == 0){
+                senha.setError(getString(R.string.txt_erro_senha));
+            } else {
+                Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(irTelaInicial);
+                irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
+                LoginActivity.this.finish(); // Finaliza a activity atual
+            }
 
         }
 
