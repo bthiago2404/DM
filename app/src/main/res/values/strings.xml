@@ -137,7 +137,7 @@
     <string name="txt_login_senha">Digite sua Senha</string>
     <string name="txt_esqueceu_senha">Esqueceu sua senha? </string>
     <string name="txt_clique_aqui"> Clique Aqui!</string>
-    <string name="txt_erro_email">Por favor digite seu E-mail ou selecione a opção de novo cadastro!</string>
+    <string name="txt_erro_email">Por favor digite seu E-mail ou selecione a opção Cadastrar!</string>
     <string name="txt_erro_senha">Por Favor digite sua senha!</string>
 
     ==============================================================================================
