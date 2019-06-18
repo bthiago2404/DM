@@ -361,6 +361,8 @@
     <string name="txt_cnpj">CNPJ</string>
     <string name="txt_telefone_fixo">Tel. Fixo</string>
     <string name="txt_celular">Celular</string>
+    <string name="txt_erro_celular">Por favor informe seu Celular!</string>
+    <string name="txt_erro_cnpj">Por favor informe seu CNPJ!</string>
 
     ==============================================================================================
     **********************************************************************************************
