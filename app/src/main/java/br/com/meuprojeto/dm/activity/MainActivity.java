@@ -223,6 +223,16 @@ public class MainActivity extends AppCompatActivity
         startActivity(irTelaMeusDados);
     }
 
+    public void irTelaTipoEntrega(View view) {
+        Intent irTelaTipoEntrega = new Intent(getApplicationContext(), TipoEntregaActivity.class);
+        startActivity(irTelaTipoEntrega);
+    }
+
+    public void irTelaMeuCarrinho(View view){
+        Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
+        startActivity(irTelaMeuCarrinho);
+    }
+
     // Metodo responsavel por gerenciar a lista de Mercados que eu tenho.
     // esse metodo está trabalhando com uma lista de mercados engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.

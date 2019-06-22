@@ -1,6 +1,8 @@
 package br.com.meuprojeto.dm.activity;
 
 import android.content.Intent;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -28,7 +30,6 @@ public class LojaSelecionadaActivity extends AppCompatActivity {
 
         // Apontei a variavel rvLojaSelecionada para o recyclerview rvLojaSelecionada da tela.
         rvLojaSelecionada = findViewById(R.id.rvLojaSelecionada);
-
         // Listagens de Departamentos
         this.listaLojaSelecionada();
 
