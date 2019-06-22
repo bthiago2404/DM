@@ -7,8 +7,15 @@
     android:layout_height="match_parent"
     tools:context="br.com.meuprojeto.dm.activity.DepartamentosActivity">
 
-    <EditText
-        android:id="@+id/etBuscarDepartamento"
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05109489" />
+
+    <SearchView
+        android:id="@+id/svBuscaDepartamentos"
         android:layout_width="0dp"
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
@@ -16,24 +23,35 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:ems="10"
-        android:hint="@string/txt_buscar_departamento"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/capa"
-        android:textSize="14sp"
-        app:fontFamily="@font/scada"
+        android:background="@drawable/btn_personalizado_03"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.05109489" />
+    <Button
+        android:id="@+id/btnLocaisEntrega"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/icons8_google_maps_64"
+        android:onClick="irTelaLocaisDeEntrega"
+        app:layout_constraintBottom_toBottomOf="@+id/svBuscaDepartamentos"
+        app:layout_constraintStart_toEndOf="@+id/svBuscaDepartamentos"
+        app:layout_constraintTop_toTopOf="@+id/svBuscaDepartamentos"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/btnMeuCarrinho"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/icons8_shopping_cart_loaded_64"
+        android:onClick="irTelaMeuCarrinho"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLocaisEntrega"
+        app:layout_constraintStart_toEndOf="@+id/btnLocaisEntrega"
+        app:layout_constraintTop_toTopOf="@+id/btnLocaisEntrega" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline4"
@@ -48,13 +66,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/txt_departamentos"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/letras_normal"
         app:fontFamily="@font/scada"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento" />
+        app:layout_constraintTop_toBottomOf="@+id/svBuscaDepartamentos" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvDepartamentos"

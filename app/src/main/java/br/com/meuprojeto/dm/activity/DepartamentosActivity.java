@@ -82,6 +82,16 @@ public class DepartamentosActivity extends AppCompatActivity {
 
     }
 
+    public void irTelaLocaisDeEntrega(View view) {
+        Intent irTelaLocaisDeEntrega = new Intent(getApplicationContext(), LocaisEntregaActivity.class);
+        startActivity(irTelaLocaisDeEntrega);
+    }
+
+    public void irTelaMeuCarrinho(View view){
+        Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
+        startActivity(irTelaMeuCarrinho);
+    }
+
     // Metodo responsavel por gerenciar a lista de departamentos que eu tenho.
     // esse metodo está trabalhando com uma lista de departamentos engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.

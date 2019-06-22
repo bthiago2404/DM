@@ -1,9 +1,11 @@
 package br.com.meuprojeto.dm.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,8 +41,20 @@ public class LocaisEntregaActivity extends AppCompatActivity {
         rvLocaisEntrega.setHasFixedSize(true);
         rvLocaisEntrega.setAdapter(adapter);
 
-        // Adicionando cliqe na lista
+    }
 
+    public void irTelaInicial(View view) {
+        Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+        irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
+        startActivity(irTelaInicial);
+        LocaisEntregaActivity.this.finish(); // Finaliza a activity atual
+    }
+
+    public void irTelaMeuCarrinho(View view){
+        Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
+        irTelaMeuCarrinho.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
+        startActivity(irTelaMeuCarrinho);
+        LocaisEntregaActivity.this.finish(); // Finaliza a activity atual
     }
 
     // Metodo responsavel por gerenciar a lista de bairros que fazemos entrega.

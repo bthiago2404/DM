@@ -9,29 +9,50 @@
     tools:context=".activity.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <EditText
-        android:id="@+id/etBuscarDepartamento"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        android:hint="@string/txt_pesquisar_produto"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="false"
-        android:textColor="@color/capa"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.05109489" />
+
+    <SearchView
+        android:id="@+id/svBuscaComercios"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btn_personalizado_03"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLocaisEntrega"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/icons8_in_transit_64"
+        android:onClick="irTelaTipoEntrega"
+        app:layout_constraintBottom_toBottomOf="@+id/svBuscaComercios"
+        app:layout_constraintStart_toEndOf="@+id/svBuscaComercios"
+        app:layout_constraintTop_toTopOf="@+id/svBuscaComercios" />
+
+    <Button
+        android:id="@+id/btnMeuCarrinho"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/icons8_shopping_cart_loaded_64"
+        android:onClick="irTelaMeuCarrinho"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLocaisEntrega"
+        app:layout_constraintStart_toEndOf="@+id/btnLocaisEntrega"
+        app:layout_constraintTop_toTopOf="@+id/btnLocaisEntrega" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline4"
@@ -40,23 +61,38 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.77" />
 
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_mercados_disponiveis"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/letras_normal"
+        app:fontFamily="@font/scada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/svBuscaComercios" />
+
     <ScrollView
         android:id="@+id/scrollView4"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:scrollbarStyle="insideInset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etBuscarDepartamento">
+        app:layout_constraintTop_toBottomOf="@+id/textView26">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-<!--
+            <!--
             <View
                 android:id="@+id/divider0"
                 android:layout_width="match_parent"
@@ -82,18 +118,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
                 android:background="?android:attr/listDivider" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="@string/txt_mercados_disponiveis"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/letras_normal"
-                app:fontFamily="@font/scada"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
 
 
             <android.support.v7.widget.RecyclerView

@@ -82,6 +82,16 @@ public class CategoriasActivity extends AppCompatActivity {
 
     }
 
+    public void irTelaLocaisDeEntrega(View view) {
+        Intent irTelaLocaisDeEntrega = new Intent(getApplicationContext(), LocaisEntregaActivity.class);
+        startActivity(irTelaLocaisDeEntrega);
+    }
+
+    public void irTelaMeuCarrinho(View view){
+        Intent irTelaMeuCarrinho = new Intent(getApplicationContext(), MeuCarrinhoActivity.class);
+        startActivity(irTelaMeuCarrinho);
+    }
+
     // Metodo responsavel por gerenciar a lista de categorias que eu tenho.
     // esse metodo está trabalhando com uma lista de categorias engessada. Futuramente quero que
     // essa lista seja alimentada por uma consulta no banco de dados.
