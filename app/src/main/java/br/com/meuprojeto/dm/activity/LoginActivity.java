@@ -41,6 +41,8 @@ public class LoginActivity extends AppCompatActivity {
             // Metodo responsavel por fazer a interação entre a tela de login e a tela de cadastro.
             Intent irTelaNovoUsuario = new Intent(getApplicationContext(), NovoUsuarioActivity.class);
             startActivity(irTelaNovoUsuario);
+            irTelaNovoUsuario.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
+            LoginActivity.this.finish(); // Finaliza a activity atual
 
         } else {
 
