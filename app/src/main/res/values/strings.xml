@@ -84,7 +84,10 @@
     // o primeiro digito é referente a versão do codigo fonte
     // o segundo digito é referente a versão do layout
     // o terceiro digito é referente a versão da base de dados.
-    <string name="txt_versao">Versão 0.0.1</string>
+    <string name="txt_versao">Versão 1.0.1</string>
+    // Versão = Primeiro digito: Versão da Tela.
+    // Versão = Segundo digito: Versão do WebService.
+    // Versão = Terceiro digito: Versão do Banco de dados.
 
     ==============================================================================================
     **********************************************************************************************
