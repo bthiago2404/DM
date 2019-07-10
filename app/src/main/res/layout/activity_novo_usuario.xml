@@ -86,7 +86,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                     <EditText
                         android:id="@+id/etNome"
@@ -96,6 +97,26 @@
                         android:ems="10"
                         android:hint="@string/txt_informe_nick"
                         android:inputType="textPersonName" />
+
+                </TableRow>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <EditText
+                        android:id="@+id/etCpf"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_informe_cpf"
+                        android:inputType="phone" />
                 </TableRow>
 
                 <Space
@@ -209,6 +230,21 @@
                         android:hint="@string/txt_numero_casa"
                         android:inputType="textPersonName" />
                 </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/etCid"
+                        style="@style/Widget.AppCompat.EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/txt_informe_cidade"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
 
                 <Space
                     android:layout_width="match_parent"

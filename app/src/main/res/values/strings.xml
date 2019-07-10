@@ -194,6 +194,7 @@
     ==============================================================================================
     // Strings da tela Meus Dados.
     <string name="txt_informe_nick">Informe seu Nome</string>
+    <string name="txt_informe_cpf">informe seu CPF</string>
     <string name="txt_confirme_dados">Confirme ou altere seus dados:</string>
     <string name="txt_informe_dados">Informe seus dados para finalizar seu cadastro:</string>
     <string name="txt_contatos">Contato:</string>
@@ -203,6 +204,7 @@
     <string name="txt_rua">Rua</string>
     <string name="txt_bairro">Bairro</string>
     <string name="txt_numero_casa">Nº</string>
+    <string name="txt_informe_cidade">Informe sua cidade</string>
     <string name="txt_alterar_senha">Altere sua Senha:</string>
     <string name="txt_senha_atual">Senha</string>
     <string name="txt_nova_senha">Nova Senha</string>
@@ -214,11 +216,13 @@
     <string name="txt_noite">Noite</string>
     <string name="txt_outros">Outros:</string>
     <string name="txt_erro_nome">Por favor informe seu Nome!</string>
+    <string name="txt_erro_cpf">Por favor informe seu CPF!</string>
     <string name="txt_erro_telefone">Por favor informe seu Telefone!</string>
     <string name="txt_erro_email2">Por favor informe seu E-mail!</string>
     <string name="txt_erro_rua">Por favor informe sua Rua!</string>
     <string name="txt_erro_bairro">Por favor informe seu Bairro!</string>
     <string name="txt_erro_numero">Por favor informe o Numero!</string>
+    <string name="txt_erro_cidade">Por favor informe sua Cidade!</string>
     <string name="txt_erro_senha_atual">Por Favor digite sua Senha Atual!</string>
     <string name="txt_erro_nova_senha">Por favor informe sua Nova Senha!</string>
     <string name="txt_erro_confirme_nova_senha">Por favor confirme sua Nova Senha!</string>
