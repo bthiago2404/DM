@@ -30,8 +30,9 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     private EditText etNome, etNumero, etCpf, etEmail, etRua, etBairro, etNum, etCid, etSenha, etConfirmeSenha;
     private CheckBox cbManha, cbTarde, cbNoite;
     private Button btnSalvar;
-
+    //URL base do endpoint. Deve sempre terminar com /
     final  String url_Register = "https://deliverymercado.000webhostapp.com/registro.php";
+    //final  String url_Register = "http://192.168.1.107/Projeto%20DM/DM-WebService/registro.php";//essa url aqui era a quq eu tava usando no servidor local
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,8 +97,9 @@ public class NovoUsuarioActivity extends AppCompatActivity {
             String finalURL = url_Register + "?IDUSUARIO=&NOME="+ Name +"&CPF="+ Cpf +"&RUA="+ Rua +"&BAIRRO="+ Bairro +"&NUMERO="+ Numero +"&CIDADE="+ Cidade +"&TELEFONE01="+ Telefone01 +"&EMAIL="+ Email +"&SENHA="+ Senha +"&ATIVO=";
 
 
-            try {
+            try {//Instancia do interceptador das requisições
                 OkHttpClient okHttpClient = new OkHttpClient();
+
                 Request request = new Request.Builder()
                         .url(finalURL)
                         .get()
