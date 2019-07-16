@@ -31,8 +31,8 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     private CheckBox cbManha, cbTarde, cbNoite;
     private Button btnSalvar;
     //URL base do endpoint. Deve sempre terminar com /
-    final  String url_Register = "https://deliverymercado.000webhostapp.com/registro.php";
-    //final  String url_Register = "http://192.168.1.107/Projeto%20DM/DM-WebService/registro.php";//essa url aqui era a quq eu tava usando no servidor local
+    //final  String url_Register = "https://deliverymercado.000webhostapp.com/registro.php";
+    final  String url_Register = "http://192.168.1.107/Projeto%20DM/DM-WebService/registro.php";//essa url aqui era a quq eu tava usando no servidor local
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,7 +97,7 @@ public class NovoUsuarioActivity extends AppCompatActivity {
             String finalURL = url_Register + "?IDUSUARIO=&NOME="+ Name +"&CPF="+ Cpf +"&RUA="+ Rua +"&BAIRRO="+ Bairro +"&NUMERO="+ Numero +"&CIDADE="+ Cidade +"&TELEFONE01="+ Telefone01 +"&EMAIL="+ Email +"&SENHA="+ Senha +"&ATIVO=";
 
 
-            try {//Instancia do interceptador das requisições
+            try {//Para conseguirmos usá-la, (a biblioteca OkHttp) teremos que criar um objeto do tipo OkHttpClient, que será responsável pela comunicação.
                 OkHttpClient okHttpClient = new OkHttpClient();
 
                 Request request = new Request.Builder()
