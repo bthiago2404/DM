@@ -83,9 +83,13 @@ public class NovoUsuarioActivity extends AppCompatActivity {
 
                 try {
                     response = okHttpClient.newCall(request).execute();
+
+                    String result = null;
+
                     if (response.isSuccessful()) {
 
-                        String result = response.body().string();
+                        result = response.body().string();
+
                         showToast("registrado com sucesso");
                         Intent i = new Intent(NovoUsuarioActivity.this, MainActivity.class);
                         startActivity(i);
