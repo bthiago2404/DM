@@ -86,7 +86,6 @@ public class NovoUsuarioActivity extends AppCompatActivity {
                     if (response.isSuccessful()) {
 
                         String result = response.body().string();
-
                         showToast("registrado com sucesso");
                         Intent i = new Intent(NovoUsuarioActivity.this, MainActivity.class);
                         startActivity(i);
@@ -95,13 +94,12 @@ public class NovoUsuarioActivity extends AppCompatActivity {
                         } else if (result.equalsIgnoreCase("Usuário já existe")) {
                             showToast("\n" +
                                     "Usuário já existe");
-                        } else {
-                            showToast("oop! Por favor, tente novamente");
                         }
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }catch (Exception e){
+            } catch (Exception e){
                 e.printStackTrace();
             }
 
