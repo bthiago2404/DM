@@ -29,10 +29,10 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     // Declaração das variaveis que vao ser usadas.
     private EditText etNome, etNumero, etCpf, etEmail, etRua, etBairro, etNum, etCid, etSenha, etConfirmeSenha;
     private CheckBox cbManha, cbTarde, cbNoite;
-    private Button btnSalvar;
+
     //URL base do endpoint. Deve sempre terminar com /
-    //final  String url_Register = "https://deliverymercado.000webhostapp.com/registro.php";
-    final  String url_Register = "http://192.168.1.107/Projeto%20DM/DM-WebService/registro.php";//essa url aqui era a quq eu tava usando no servidor local
+    final  String url_Register = "https://deliverymercado.000webhostapp.com/registro.php";
+    //final  String url_Register = "http://192.168.1.107/Projeto%20DM/DM-WebService/registro.php";//essa url aqui era a quq eu tava usando no servidor local
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,30 +53,6 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         cbManha = findViewById(R.id.cbManha);
         cbTarde = findViewById(R.id.cbTarde);
         cbNoite = findViewById(R.id.cbNoite);
-        btnSalvar = findViewById(R.id.btnSalvar);
-
-        btnSalvar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-
-                String Name = etNome.getText().toString();
-                String Cpf = etCpf.getText().toString();
-                String Rua = etRua.getText().toString();
-                String Bairro = etBairro.getText().toString();
-                String Numero = etNum.getText().toString();
-                String Cidade = etCid.getText().toString();
-                String Telefone01 = etNumero.getText().toString();
-                String Email = etEmail.getText().toString();
-                String Senha = etSenha.getText().toString();
-
-
-
-                new RegisterUser().execute(Name,Cpf,Rua,Bairro,Numero,Cidade,Telefone01,Email,Senha);
-
-            }
-        });
 
     }
 
@@ -84,18 +60,17 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... strings) {
 
-            String Name = strings[0];
-            String Cpf = strings[1];
-            String Rua = strings[2];
-            String Bairro = strings[3];
-            String Numero = strings[4];
-            String Cidade = strings[5];
-            String Telefone01 = strings[6];
-            String Email = strings[7];
-            String Senha = strings[8];
+            String nome = strings[0];
+            String cpf = strings[1];
+            String rua = strings[2];
+            String bairro = strings[3];
+            String numero = strings[4];
+            String cidade = strings[5];
+            String telefone01 = strings[6];
+            String email = strings[7];
+            String senha = strings[8];
 
-            String finalURL = url_Register + "?IDUSUARIO=&NOME="+ Name +"&CPF="+ Cpf +"&RUA="+ Rua +"&BAIRRO="+ Bairro +"&NUMERO="+ Numero +"&CIDADE="+ Cidade +"&TELEFONE01="+ Telefone01 +"&EMAIL="+ Email +"&SENHA="+ Senha +"&ATIVO=";
-
+            String finalURL = url_Register + "?IDUSUARIO=&NOME="+ nome +"&CPF="+ cpf +"&RUA="+ rua +"&BAIRRO="+ bairro +"&NUMERO="+ numero +"&CIDADE="+ cidade +"&TELEFONE01="+ telefone01 +"&EMAIL="+ email +"&SENHA="+ senha +"&ATIVO=";
 
             try {//Para conseguirmos usá-la, (a biblioteca OkHttp) teremos que criar um objeto do tipo OkHttpClient, que será responsável pela comunicação.
                 OkHttpClient okHttpClient = new OkHttpClient();
@@ -109,22 +84,20 @@ public class NovoUsuarioActivity extends AppCompatActivity {
                 try {
                     response = okHttpClient.newCall(request).execute();
                     if (response.isSuccessful()) {
+
                         String result = response.body().string();
 
-                        if (result.equalsIgnoreCase("\n" +
-                                "Usuário registrado com sucesso")) {
-                            showToast("registrado com sucesso");
-                            Intent i = new Intent(NovoUsuarioActivity.this,
-                                    MainActivity.class);
-                            startActivity(i);
-                            finish();
+                        showToast("registrado com sucesso");
+                        Intent i = new Intent(NovoUsuarioActivity.this, MainActivity.class);
+                        startActivity(i);
+                        finish();
+
                         } else if (result.equalsIgnoreCase("Usuário já existe")) {
                             showToast("\n" +
                                     "Usuário já existe");
                         } else {
                             showToast("oop! Por favor, tente novamente");
                         }
-                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -132,8 +105,8 @@ public class NovoUsuarioActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-
             return null;
+
         }
     }
 
@@ -167,7 +140,7 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     }
 
     // Metodo responsabel por salvar os dados do cliente no banco. (Em Construção).
-    public void salvar() {
+    public void salvar(View view) {
 
         if (etNome.getText().toString().length() == 0) {
             etNome.setError(getString(R.string.txt_erro_nome));
@@ -190,12 +163,25 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         } else if(etConfirmeSenha.getText().toString().length() == 0) {
             etConfirmeSenha.setError(getString(R.string.txt_erro_senha));
         } else {
-                verificaCheck();
-                Toast.makeText(getApplicationContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
-                Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(irTelaInicial);
-                irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pinha de Activity's
-                NovoUsuarioActivity.this.finish(); // Finaliza a activity atual e não permite voltar para ela.
+
+            String nome = etNome.getText().toString();
+            String cpf = etCpf.getText().toString();
+            String rua = etRua.getText().toString();
+            String bairro = etBairro.getText().toString();
+            String numero = etNum.getText().toString();
+            String cidade = etCid.getText().toString();
+            String telefone01 = etNumero.getText().toString();
+            String email = etEmail.getText().toString();
+            String senha = etSenha.getText().toString();
+
+            new RegisterUser().execute(nome,cpf,rua,bairro,numero,cidade,telefone01,email,senha);
+
+            verificaCheck();
+            Toast.makeText(getApplicationContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
+            Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(irTelaInicial);
+            irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pinha de Activity's
+            NovoUsuarioActivity.this.finish(); // Finaliza a activity atual e não permite voltar para ela.
 
         }
     }
