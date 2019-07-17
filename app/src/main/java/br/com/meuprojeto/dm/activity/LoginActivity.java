@@ -29,8 +29,8 @@ public class LoginActivity extends AppCompatActivity {
     private String email;*/
 
     //aqui onde vai a url da API
-    //final  String url_Login = "https://deliverymercado.000webhostapp.com/conexaoLogin.php";
-    final  String url_Login = "http://192.168.1.107/Projeto%20DM/DM-WebService/conexaoLogin2.php";//essa url aqui era a que eu tava usando no servidor local
+    final  String url_Login = "https://deliverymercado.000webhostapp.com/conexaoLogin.php";
+    //final String url_Login = "http://192.168.1.107/Projeto%20DM/DM-WebService/conexaoLogin2.php";//essa url aqui era a que eu tava usando no servidor local
 
 
     @Override
@@ -44,16 +44,9 @@ public class LoginActivity extends AppCompatActivity {
         tipoLogin = findViewById(R.id.swTipoLogin);
         btnEntrar = findViewById(R.id.btnEntrar);
 
-        btnEntrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                logar();
-            }
-        });
     }
 
-
-    public void logar(){
+    public void logar(View view){
 
         if(tipoLogin.isChecked()){
 
@@ -71,8 +64,6 @@ public class LoginActivity extends AppCompatActivity {
 
         }
     }
-
-
 
     public void consulta(){
 
