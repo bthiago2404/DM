@@ -1,21 +1,21 @@
 package br.com.meuprojeto.dm.activity;
 
 import android.content.Intent;
-import android.os.AsyncTask;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
 import android.widget.Switch;
 import android.widget.Toast;
 
+import com.google.gson.JsonObject;
+import com.koushikdutta.async.future.FutureCallback;
+import com.koushikdutta.ion.Ion;
+
 import br.com.meuprojeto.dm.R;
-import okhttp3.FormBody;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -25,12 +25,14 @@ public class LoginActivity extends AppCompatActivity {
     private Switch tipoLogin;
     private Button btnEntrar;
 
-    /*private String senha;
-    private String email;*/
+    /*esse pe=rimeiro e para usarno servidor local
+    private String HOST = "http://192.168.1.107/Projeto%20DM/Login";*/
 
-    //aqui onde vai a url da API
-    final  String url_Login = "https://deliverymercado.000webhostapp.com/conexaoLogin.php";
-    //final String url_Login = "http://192.168.1.107/Projeto%20DM/DM-WebService/conexaoLogin2.php";//essa url aqui era a que eu tava usando no servidor local
+    //esse segundo e para usar no servidor remoto
+    private String HOST = "https://deliverymercado.000webhostapp.com/Login";
+
+
+
 
 
     @Override
@@ -39,92 +41,81 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Apontando as variaveis para seus respctivos Views da tela login.
+
         etLogin = findViewById(R.id.etLogin);
         etSenha = findViewById(R.id.etSenha);
         tipoLogin = findViewById(R.id.swTipoLogin);
         btnEntrar = findViewById(R.id.btnEntrar);
 
-    }
-
-    public void logar(View view){
-
-        if(tipoLogin.isChecked()){
-
-            // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
-            // a tela de cadastro.
-            // Metodo responsavel por fazer a interação entre a tela de login e a tela de cadastro.
-            Intent irTelaNovoUsuario = new Intent(getApplicationContext(), NovoUsuarioActivity.class);
-            startActivity(irTelaNovoUsuario);
-            irTelaNovoUsuario.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
-            LoginActivity.this.finish(); // Finaliza a activity atual
-
-        }else{
-
-            Toast.makeText(getApplicationContext(),"Você não pode LOGAR ZE RUELA!", Toast.LENGTH_LONG).show();
-
-        }
-    }
-
-    public void consulta(){
-
-        String email = etLogin.getText().toString();
-        String password = etSenha.getText().toString();
-
-        new LoginUser().execute(email, password);
-
-        boolean teste = false;
-
-
-    }
-
-
-    public  class LoginUser extends AsyncTask<String,Void,String>{
-
-        @Override
-        protected String doInBackground(String... strings) {
-            String Email = strings[0];
-            String Password = strings[1];
-
-            //criando objeto de solicitacao para fazer chamadas de rede
-            OkHttpClient okHttpClient = new OkHttpClient();
-            RequestBody formBody = new FormBody.Builder()
-                    .add("EMAIL", Email)
-                    .add("SENHA", Password)
-                    .build();
-
-            Request request = new Request.Builder()
-                    .url(url_Login)
-                    .post(formBody)
-                    .build();
-
-            Response response = null;
-            try{//envio e recebimento de chamada de rede
-                response = okHttpClient.newCall(request).execute();
-                if(response.isSuccessful()){
-                    String result = response.body().string();
-                    if(result.equalsIgnoreCase("Logado com Sucesso!")){ Intent i = new Intent(LoginActivity.this,MainActivity.class);
-                        startActivity(i);
-                        finish();
-                    }else{
-                        showToast("E-mail ou senha incompatíveis!");
-                    }
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-
-            return null;
-        }
-    }
-
-    public void showToast(final String Text){
-        this.runOnUiThread(new Runnable() {
+        btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                Toast.makeText(LoginActivity.this,
-                        Text, Toast.LENGTH_LONG).show();
+            public void onClick(View v) {
+
+                if(tipoLogin.isChecked()){
+
+                    // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
+                    // a tela de cadastro.
+                    // Metodo responsavel por fazer a interação entre a tela de login e a tela de cadastro.
+                    Intent irTelaNovoUsuario = new Intent(getApplicationContext(), NovoUsuarioActivity.class);
+                    startActivity(irTelaNovoUsuario);
+                    irTelaNovoUsuario.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Finaliza a pilha de activity
+                    LoginActivity.this.finish(); // Finaliza a activity atual
+
+                }else{
+
+                    String email = etLogin.getText().toString();
+                    String senha = etSenha.getText().toString();
+
+                    String URL = HOST + "/logar.php";
+
+                    if( email.isEmpty() || senha.isEmpty()){
+                        Toast.makeText(LoginActivity.this,"Todos os campos são obrigatorios" , Toast.LENGTH_LONG ).show();
+                    }else {
+                        Ion.with(LoginActivity.this)
+                                .load(URL)
+                                .setBodyParameter("email_app",email)
+                                .setBodyParameter("senha_app",senha)
+                                .asJsonObject()
+                                .setCallback(new FutureCallback<JsonObject>() {
+                                    @Override
+                                    public void onCompleted(Exception e, JsonObject result) {
+
+                                        try {
+                                            //Toast.makeText(NovoUsuarioActivity.this, "Nome:" + result.get("NOME").getAsString(), Toast.LENGTH_LONG).show();
+                                            String RETORNO = result.get("LOGIN").getAsString();
+
+                                            if(RETORNO.equals("ERRO")){
+                                                Toast.makeText(LoginActivity.this, "Ops! e-mail ou senha incorretos" , Toast.LENGTH_LONG).show();
+                                            }else if(RETORNO.equals("SUCESSO")){
+
+                                                Intent abrePrincipal = new Intent(LoginActivity.this, MainActivity.class);
+                                                startActivity(abrePrincipal);
+
+                                            }else{
+                                                Toast.makeText(LoginActivity.this, "Ops! Ocorreu um erro", Toast.LENGTH_LONG).show();
+                                            }
+
+                                        } catch (Exception erro) {
+                                            Toast.makeText(LoginActivity.this, "Ops! Ocorreu um erro," + erro, Toast.LENGTH_LONG).show();
+                                        }
+
+                                    }
+                                });
+                    }
+
+                }
+
             }
         });
+
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        finish();
     }
 
 }

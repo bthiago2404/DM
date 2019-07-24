@@ -25,11 +25,11 @@ public class MeusDadosActivity extends AppCompatActivity {
 
         // Apontando as variaveis para seus respctivos Views da tela Novo Usuario.
         etNome = findViewById(R.id.etNome);
-        etNumero = findViewById(R.id.etNumero);
+        etNumero = findViewById(R.id.etTelefone);
         etEmail = findViewById(R.id.etEmail);
         etRua = findViewById(R.id.etRua);
         etBairro = findViewById(R.id.etBairro);
-        etNum = findViewById(R.id.etNum);
+        etNum = findViewById(R.id.etNumero);
         etSenha = findViewById(R.id.etSenha);
         etNovaSenha = findViewById(R.id.etNovaSenha);
         etConfirmeNovaSenha = findViewById(R.id.etConfirmeSenha);

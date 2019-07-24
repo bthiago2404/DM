@@ -1,7 +1,7 @@
 package br.com.meuprojeto.dm.activity;
 
 import android.content.Intent;
-import android.os.AsyncTask;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,29 +10,28 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.json.JSONObject;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+import com.google.gson.JsonObject;
+import com.koushikdutta.async.future.FutureCallback;
+import com.koushikdutta.ion.Ion;
+
 
 import br.com.meuprojeto.dm.R;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+
 
 public class NovoUsuarioActivity extends AppCompatActivity {
 
     // Declaração das variaveis que vao ser usadas.
-    private EditText etNome, etNumero, etCpf, etEmail, etRua, etBairro, etNum, etCid, etSenha, etConfirmeSenha;
+    private EditText etNome, etTelefone, etCpf, etEmail, etRua, etBairro, etNumero, etCid, etSenha, etConfirmeSenha;
     private CheckBox cbManha, cbTarde, cbNoite;
+    private Button btnSalvar;
 
-    //URL base do endpoint. Deve sempre terminar com /
-    final  String url_Register = "https://deliverymercado.000webhostapp.com/registro.php";
-    //final  String url_Register = "http://192.168.1.107/Projeto%20DM/DM-WebService/registro.php";//essa url aqui era a quq eu tava usando no servidor local
+    /*esse pe=rimeiro e para usarno servidor local
+    private String HOST = "http://192.168.1.107/Projeto%20DM/Login";*/
+
+    //esse segundo e para usar no servidor remoto
+    private String HOST = "https://deliverymercado.000webhostapp.com/Login";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,87 +39,100 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_novo_usuario);
 
         // Apontando as variaveis para seus respctivos Views da tela Novo Usuario.
+
         etNome = findViewById(R.id.etNome);
-        etNumero = findViewById(R.id.etNumero);
+        etTelefone = findViewById(R.id.etTelefone);
         etCpf = findViewById(R.id.etCpf);
         etEmail = findViewById(R.id.etEmail);
         etRua = findViewById(R.id.etRua);
         etBairro = findViewById(R.id.etBairro);
-        etNum = findViewById(R.id.etNum);
+        etNumero = findViewById(R.id.etNumero);
         etCid = findViewById(R.id.etCid);
         etSenha = findViewById(R.id.etSenha);
         etConfirmeSenha = findViewById(R.id.etConfirmeSenha);
-        cbManha = findViewById(R.id.cbManha);
-        cbTarde = findViewById(R.id.cbTarde);
-        cbNoite = findViewById(R.id.cbNoite);
 
-    }
 
-    public class RegisterUser extends  AsyncTask<String, Void, String>{
-        @Override
-        protected String doInBackground(String... strings) {
+        btnSalvar = findViewById(R.id.btnSalvar);
 
-            String nome = strings[0];
-            String cpf = strings[1];
-            String rua = strings[2];
-            String bairro = strings[3];
-            String numero = strings[4];
-            String cidade = strings[5];
-            String telefone01 = strings[6];
-            String email = strings[7];
-            String senha = strings[8];
-
-            String finalURL = url_Register + "?IDUSUARIO=&NOME="+ nome +"&CPF="+ cpf +"&RUA="+ rua +"&BAIRRO="+ bairro +"&NUMERO="+ numero +"&CIDADE="+ cidade +"&TELEFONE01="+ telefone01 +"&EMAIL="+ email +"&SENHA="+ senha +"&ATIVO=";
-
-            try {//Para conseguirmos usá-la, (a biblioteca OkHttp) teremos que criar um objeto do tipo OkHttpClient, que será responsável pela comunicação.
-                OkHttpClient okHttpClient = new OkHttpClient();
-
-                Request request = new Request.Builder()
-                        .url(finalURL)
-                        .get()
-                        .build();
-                Response response = null;
-
-                try {
-                    response = okHttpClient.newCall(request).execute();
-
-                    String result = null;
-
-                    if (response.isSuccessful()) {
-
-                        result = response.body().string();
-
-                        showToast("registrado com sucesso");
-                        Intent i = new Intent(NovoUsuarioActivity.this, MainActivity.class);
-                        startActivity(i);
-                        finish();
-
-                        } else if (result.equalsIgnoreCase("Usuário já existe")) {
-                            showToast("\n" +
-                                    "Usuário já existe");
-                        }
-
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            } catch (Exception e){
-                e.printStackTrace();
-            }
-
-            return null;
-
-        }
-    }
-
-    public void showToast(final String Text){
-        this.runOnUiThread(new Runnable() {
+        btnSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                Toast.makeText(NovoUsuarioActivity.this,
-                        Text, Toast.LENGTH_LONG).show();
+            public void onClick(View v) {
+
+                String nome = etNome.getText().toString();
+                String cpf = etCpf.getText().toString();
+                String telefone01 = etTelefone.getText().toString();
+                String email = etEmail.getText().toString();
+                String rua = etRua.getText().toString();
+                String bairro = etBairro.getText().toString();
+                String numero = etNumero.getText().toString();
+                String cidade = etCid.getText().toString();
+                String senha = etSenha.getText().toString();
+                String confirme = etConfirmeSenha.getText().toString();
+
+                String URL = HOST + "/cadastrar.php";
+
+                if(confirme.equals(senha)){
+
+
+                    if(nome.isEmpty() || cpf.isEmpty() || telefone01.isEmpty() || email.isEmpty() || rua.isEmpty() || bairro.isEmpty() || numero.isEmpty() || cidade.isEmpty()){
+                        Toast.makeText(NovoUsuarioActivity.this,"Todos os campos são obrigatorios" , Toast.LENGTH_LONG ).show();
+                    }else {
+                        Ion.with(NovoUsuarioActivity.this)
+                                .load(URL)
+                                .setBodyParameter("nome_app",nome)
+                                .setBodyParameter("cpf_app",cpf)
+                                .setBodyParameter("rua_app",rua)
+                                .setBodyParameter("bairro_app",bairro)
+                                .setBodyParameter("numero_app",numero)
+                                .setBodyParameter("cidade_app",cidade)
+                                .setBodyParameter("telefone01_app",telefone01)
+                                .setBodyParameter("email_app",email)
+                                .setBodyParameter("senha_app",senha)
+                                .asJsonObject()
+                                .setCallback(new FutureCallback<JsonObject>() {
+                                    @Override
+                                    public void onCompleted(Exception e, JsonObject result) {
+
+                                        try {
+                                            //Toast.makeText(NovoUsuarioActivity.this, "Nome:" + result.get("NOME").getAsString(), Toast.LENGTH_LONG).show();
+                                            String RETORNO = result.get("CADASTRO").getAsString();
+
+                                            if(RETORNO.equals("EMAIL_ERRO")){
+                                                Toast.makeText(NovoUsuarioActivity.this, "Ops! esse e-mail ja esta cadastrado" , Toast.LENGTH_LONG).show();
+                                            }else if(RETORNO.equals("SUCESSO")){
+                                                Toast.makeText(NovoUsuarioActivity.this, "Cadastrado com sucesso" , Toast.LENGTH_LONG).show();
+
+                                            }else{
+                                                Toast.makeText(NovoUsuarioActivity.this, "Ops! Ocorreu um erro", Toast.LENGTH_LONG).show();
+                                            }
+
+                                        } catch (Exception erro) {
+                                            Toast.makeText(NovoUsuarioActivity.this, "Ops! Ocorreu um erro," + erro, Toast.LENGTH_LONG).show();
+                                        }
+
+                                    }
+                                });
+                    }
+
+
+                }else{
+                    Toast.makeText(NovoUsuarioActivity.this,"As senhas não conferem:" , Toast.LENGTH_LONG ).show();
+                }
+
+
             }
         });
     }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        finish();
+    }
+
+
 
 
     // Metodo responsavel por chegar as opções de melhor horario para entrega e inserir no banco.
@@ -142,22 +154,22 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     }
 
     // Metodo responsabel por salvar os dados do cliente no banco. (Em Construção).
-    public void salvar(View view) {
+   /* public void salvar(View view) {
 
         if (etNome.getText().toString().length() == 0) {
             etNome.setError(getString(R.string.txt_erro_nome));
         } else if (etCpf.getText().toString().length() == 0) {
             etCpf.setError(getString(R.string.txt_erro_cpf));
-        } else if (etNumero.getText().toString().length() == 0) {
-            etNumero.setError(getString(R.string.txt_erro_telefone));
+        } else if (etTelefone.getText().toString().length() == 0) {
+            etTelefone.setError(getString(R.string.txt_erro_telefone));
         } else if (etEmail.getText().toString().length() == 0) {
             etEmail.setError(getString(R.string.txt_erro_email2));
         } else if (etRua.getText().toString().length() == 0) {
             etRua.setError(getString(R.string.txt_erro_rua));
         } else if (etBairro.getText().toString().length() == 0) {
             etBairro.setError(getString(R.string.txt_erro_bairro));
-        } else if (etNum.getText().toString().length() == 0) {
-            etNum.setError(getString(R.string.txt_erro_numero));
+        } else if (etNumero.getText().toString().length() == 0) {
+            etNumero.setError(getString(R.string.txt_erro_numero));
         } else if (etCid.getText().toString().length() == 0) {
             etCid.setError(getString(R.string.txt_erro_cidade));
         } else if (etSenha.getText().toString().length() == 0) {
@@ -166,25 +178,16 @@ public class NovoUsuarioActivity extends AppCompatActivity {
             etConfirmeSenha.setError(getString(R.string.txt_erro_senha));
         } else {
 
-            String nome = etNome.getText().toString();
-            String cpf = etCpf.getText().toString();
-            String rua = etRua.getText().toString();
-            String bairro = etBairro.getText().toString();
-            String numero = etNum.getText().toString();
-            String cidade = etCid.getText().toString();
-            String telefone01 = etNumero.getText().toString();
-            String email = etEmail.getText().toString();
-            String senha = etSenha.getText().toString();
 
-            new RegisterUser().execute(nome,cpf,rua,bairro,numero,cidade,telefone01,email,senha);
+
+
 
             verificaCheck();
-            Toast.makeText(getApplicationContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
             Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(irTelaInicial);
             irTelaInicial.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Limpa a pinha de Activity's
             NovoUsuarioActivity.this.finish(); // Finaliza a activity atual e não permite voltar para ela.
 
         }
-    }
+    }*/
 }

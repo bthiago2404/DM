@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 
 import br.com.meuprojeto.dm.R;
@@ -24,10 +23,10 @@ public class SolicitarLojaTesteActivity extends AppCompatActivity {
 
         etNome = findViewById(R.id.etNome);
         etCelular = findViewById(R.id.etCelular);
-        etNumero = findViewById(R.id.etNumero);
+        etNumero = findViewById(R.id.etTelefone);
         etRua = findViewById(R.id.etRua);
         etBairro = findViewById(R.id.etBairro);
-        etNum = findViewById(R.id.etNum);
+        etNum = findViewById(R.id.etNumero);
         etCnpj = findViewById(R.id.etCnpj);
         btnSalvar = findViewById(R.id.btnSalvar);
 
