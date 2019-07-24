@@ -25,15 +25,11 @@ public class LoginActivity extends AppCompatActivity {
     private Switch tipoLogin;
     private Button btnEntrar;
 
-    /*esse pe=rimeiro e para usarno servidor local
+    /*esse primeiro e para usarno servidor local
     private String HOST = "http://192.168.1.107/Projeto%20DM/Login";*/
 
     //esse segundo e para usar no servidor remoto
     private String HOST = "https://deliverymercado.000webhostapp.com/Login";
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +37,6 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Apontando as variaveis para seus respctivos Views da tela login.
-
         etLogin = findViewById(R.id.etLogin);
         etSenha = findViewById(R.id.etSenha);
         tipoLogin = findViewById(R.id.swTipoLogin);
@@ -52,7 +47,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(tipoLogin.isChecked()){
-
                     // Se o Switch estiver ativo o aplicativo tera que direcionar o usuario para
                     // a tela de cadastro.
                     // Metodo responsavel por fazer a interação entre a tela de login e a tela de cadastro.
@@ -96,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                                             }
 
                                         } catch (Exception erro) {
-                                            Toast.makeText(LoginActivity.this, "Ops! Ocorreu um erro," + erro, Toast.LENGTH_LONG).show();
+                                            Toast.makeText(LoginActivity.this, "Email ou Senha incorretos." + erro, Toast.LENGTH_LONG).show();
                                         }
 
                                     }
@@ -108,14 +102,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        finish();
     }
 
 }

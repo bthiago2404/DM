@@ -10,14 +10,11 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 
-
 import br.com.meuprojeto.dm.R;
-
 
 public class NovoUsuarioActivity extends AppCompatActivity {
 
@@ -32,14 +29,12 @@ public class NovoUsuarioActivity extends AppCompatActivity {
     //esse segundo e para usar no servidor remoto
     private String HOST = "https://deliverymercado.000webhostapp.com/Login";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novo_usuario);
 
         // Apontando as variaveis para seus respctivos Views da tela Novo Usuario.
-
         etNome = findViewById(R.id.etNome);
         etTelefone = findViewById(R.id.etTelefone);
         etCpf = findViewById(R.id.etCpf);
@@ -50,7 +45,6 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         etCid = findViewById(R.id.etCid);
         etSenha = findViewById(R.id.etSenha);
         etConfirmeSenha = findViewById(R.id.etConfirmeSenha);
-
 
         btnSalvar = findViewById(R.id.btnSalvar);
 
@@ -73,9 +67,8 @@ public class NovoUsuarioActivity extends AppCompatActivity {
 
                 if(confirme.equals(senha)){
 
-
                     if(nome.isEmpty() || cpf.isEmpty() || telefone01.isEmpty() || email.isEmpty() || rua.isEmpty() || bairro.isEmpty() || numero.isEmpty() || cidade.isEmpty()){
-                        Toast.makeText(NovoUsuarioActivity.this,"Todos os campos são obrigatorios" , Toast.LENGTH_LONG ).show();
+                        Toast.makeText(NovoUsuarioActivity.this,"Todos os campos são obrigatorios!" , Toast.LENGTH_LONG ).show();
                     }else {
                         Ion.with(NovoUsuarioActivity.this)
                                 .load(URL)
@@ -98,42 +91,28 @@ public class NovoUsuarioActivity extends AppCompatActivity {
                                             String RETORNO = result.get("CADASTRO").getAsString();
 
                                             if(RETORNO.equals("EMAIL_ERRO")){
-                                                Toast.makeText(NovoUsuarioActivity.this, "Ops! esse e-mail ja esta cadastrado" , Toast.LENGTH_LONG).show();
+                                                Toast.makeText(NovoUsuarioActivity.this, "Ops! esse e-mail ja esta cadastrado." , Toast.LENGTH_LONG).show();
                                             }else if(RETORNO.equals("SUCESSO")){
-                                                Toast.makeText(NovoUsuarioActivity.this, "Cadastrado com sucesso" , Toast.LENGTH_LONG).show();
+                                                Toast.makeText(NovoUsuarioActivity.this, "Cadastrado com sucesso!" , Toast.LENGTH_LONG).show();
 
                                             }else{
-                                                Toast.makeText(NovoUsuarioActivity.this, "Ops! Ocorreu um erro", Toast.LENGTH_LONG).show();
+                                                Toast.makeText(NovoUsuarioActivity.this, "Ops! Ocorreu um erro.", Toast.LENGTH_LONG).show();
                                             }
 
                                         } catch (Exception erro) {
-                                            Toast.makeText(NovoUsuarioActivity.this, "Ops! Ocorreu um erro," + erro, Toast.LENGTH_LONG).show();
+                                            Toast.makeText(NovoUsuarioActivity.this, "Ops! Ocorreu um erro." + erro, Toast.LENGTH_LONG).show();
                                         }
-
                                     }
                                 });
                     }
 
-
                 }else{
-                    Toast.makeText(NovoUsuarioActivity.this,"As senhas não conferem:" , Toast.LENGTH_LONG ).show();
+                    Toast.makeText(NovoUsuarioActivity.this,"As senhas não conferem." , Toast.LENGTH_LONG ).show();
                 }
-
 
             }
         });
     }
-
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        finish();
-    }
-
-
-
 
     // Metodo responsavel por chegar as opções de melhor horario para entrega e inserir no banco.
     public void verificaCheck() {
@@ -177,10 +156,6 @@ public class NovoUsuarioActivity extends AppCompatActivity {
         } else if(etConfirmeSenha.getText().toString().length() == 0) {
             etConfirmeSenha.setError(getString(R.string.txt_erro_senha));
         } else {
-
-
-
-
 
             verificaCheck();
             Intent irTelaInicial = new Intent(getApplicationContext(), MainActivity.class);
